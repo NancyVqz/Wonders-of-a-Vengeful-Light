@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da971b354aba5040b9f256aa852a7f9, type: 3}
+  m_Name: Habilidad_Shield
+  m_EditorClassIdentifier: Assembly-CSharp::HabilidadData
+  nombreHabilidad: Shield
+  spritesIcono:
+  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
+  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
+  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
+  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
+  animatorIcono:
+  - {fileID: 9100000, guid: ace1621a2f638c341a74d0a0481ff609, type: 2}
+  - {fileID: 9100000, guid: 4d9c28bbdf6a12f48a440f7da59515c5, type: 2}
+  - {fileID: 9100000, guid: bd4a608ca2a010d43bd8801e468424c6, type: 2}
+  - {fileID: 9100000, guid: da54615761222b545bc772b8b1e0b192, type: 2}
+  spritesPrecio:
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  animatorPrecio:
+  - {fileID: 9100000, guid: f353b8e9a0e25994dbe6d7a0c317b134, type: 2}
+  - {fileID: 9100000, guid: 7fe34a082b0536a4196d5917d2d3eefd, type: 2}
+  - {fileID: 9100000, guid: e97f0d0053dba7e4199810539c8d5ab5, type: 2}
+  - {fileID: 9100000, guid: accfd223e39c71748876c3b0ce9d2cef, type: 2}
+  spritesDescripcion:
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  animatorDescripcion:
+  - {fileID: 9100000, guid: 5c6eb6f1aedc2f744ad6d7de15a3bc7d, type: 2}
+  - {fileID: 9100000, guid: 9400d321e9a667447ba56ea8e9eda3b6, type: 2}
+  - {fileID: 9100000, guid: 4675b695609a8b64dbef3f09ec19bee8, type: 2}
+  - {fileID: 9100000, guid: 8114566c75adced4e9109515601e651d, type: 2}

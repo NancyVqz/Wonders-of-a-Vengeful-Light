@@ -1,0 +1,61 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class UIPlayerHealth : MonoBehaviour
+{
+    [SerializeField] private List<GameObject> healthIcons = new List<GameObject>();
+
+    [SerializeField] private bool hideExtraIcons = true;
+
+    private void Start()
+    {
+        InitializeHealthIcons();
+        
+        //Esteblecer la vida inicial del nivel
+        UpdateHealthDisplay(HeartCount());
+    }
+
+    private int HeartCount()
+    {
+        switch (GameManager.instance.shieldLvl)
+        {
+            case 1:
+                GameManager.instance.playerHealth = 3;
+                break;
+            case 2:
+                GameManager.instance.playerHealth = 4;
+                break;
+            case 3:
+                GameManager.instance.playerHealth = 6;
+                break;
+            case 4:
+                GameManager.instance.playerHealth = 8;
+                break;
+        }
+        return GameManager.instance.playerHealth;
+    }
+
+    private void InitializeHealthIcons()
+    {
+        foreach (GameObject icon in healthIcons)
+        {
+            icon.SetActive(false);
+        }
+    }
+
+    public void UpdateHealthDisplay(int newHealth)
+    {
+        // Activar / desactivar los iconos de vida
+        for (int i = 0; i < healthIcons.Count; i++)
+        {
+            if (i < newHealth)
+            {
+                healthIcons[i].SetActive(true);
+            }
+            else if (hideExtraIcons)
+            {
+                healthIcons[i].SetActive(false);
+            }
+        }
+    }
+}

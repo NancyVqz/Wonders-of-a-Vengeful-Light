@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da971b354aba5040b9f256aa852a7f9, type: 3}
+  m_Name: Habilidad_Shoot
+  m_EditorClassIdentifier: Assembly-CSharp::HabilidadData
+  nombreHabilidad: Shoot
+  spritesIcono:
+  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
+  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
+  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
+  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
+  animatorIcono:
+  - {fileID: 9100000, guid: 2be5899607d84154bbb838b5471b4aef, type: 2}
+  - {fileID: 9100000, guid: db0635f7f5265a544a246c5d00383acd, type: 2}
+  - {fileID: 9100000, guid: a2fc5cba963c43e4c8954ad7535720a3, type: 2}
+  - {fileID: 9100000, guid: b2c17dd54029bdd49afac6184177d1ad, type: 2}
+  spritesPrecio:
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  animatorPrecio:
+  - {fileID: 9100000, guid: 11f2c917eee21934c8b2347396ccf7b3, type: 2}
+  - {fileID: 9100000, guid: 6ade59f5c211a794db01613d914e68a8, type: 2}
+  - {fileID: 9100000, guid: 319caf21ba46f8145a98663891a6fe12, type: 2}
+  - {fileID: 9100000, guid: 965198c127e8e8940aa81c8e9a112dfd, type: 2}
+  spritesDescripcion:
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
+  animatorDescripcion:
+  - {fileID: 9100000, guid: 480c15af82ce05440b318d348627a064, type: 2}
+  - {fileID: 9100000, guid: 35e1091feb7d49149aacaecb4a9c3ea9, type: 2}
+  - {fileID: 9100000, guid: 8b67a46bee119764d97690adbaa13981, type: 2}
+  - {fileID: 9100000, guid: b3b8dd003944bd04c9d486f6ecc798bb, type: 2}
