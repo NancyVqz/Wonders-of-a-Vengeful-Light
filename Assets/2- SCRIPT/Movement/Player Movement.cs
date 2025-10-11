@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private float dashTimeLeft;
     private float dashCooldownTimeLeft;
     private Vector2 dashDirection;
+    private Animator animator;
 
     private void Awake()
     {
@@ -26,12 +27,15 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
         movement = new Vector2(joy.Horizontal, joy.Vertical);
+
+        UpdateMovementAnimation();
 
         if (Keyboard.current.leftShiftKey.wasPressedThisFrame && canDash && movement.magnitude > 0.1f)
         {
@@ -68,6 +72,30 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 newPosition = rb.position + movement * speed * Time.fixedDeltaTime;
             rb.MovePosition(newPosition);
+        }
+    }
+
+    private void UpdateMovementAnimation()
+    {
+        if (animator == null) return;
+
+        // Si no se está moviendo, idle
+        if (movement.magnitude < 0.1f)
+        {
+            animator.SetBool("isMovingRight", false);
+            animator.SetBool("isMovingLeft", false);
+        }
+        // Si se mueve a la derecha
+        else if (movement.x > 0.1f)
+        {
+            animator.SetBool("isMovingRight", true);
+            animator.SetBool("isMovingLeft", false);
+        }
+        // Si se mueve a la izquierda
+        else if (movement.x < -0.1f)
+        {
+            animator.SetBool("isMovingRight", false);
+            animator.SetBool("isMovingLeft", true);
         }
     }
 

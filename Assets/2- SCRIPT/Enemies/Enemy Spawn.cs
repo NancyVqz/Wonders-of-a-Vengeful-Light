@@ -15,8 +15,6 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] private int enemiesInScene = 0;  //cuantos hay en escena
     [SerializeField] private int maxEnemiesCountInScene = 4; //Maximo de personajes ACTIVOS en la escena
 
-
-
     private void Start()
     {
         StartPool();

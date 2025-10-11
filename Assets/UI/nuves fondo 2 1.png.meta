@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ae19b3faa711aa54c9842ea39a3665d5
+guid: 72faf6b8297cff2429aa38d4e846e2bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2131802084616798285
-    second: cielo 2_0
+      213: -513938982460261292
+    second: nuves fondo 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cielo 2_0
+      name: nuves fondo 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 576
-        height: 1024
+        height: 1199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bf7afe7c415a62e0800000000000000
-      internalID: -2131802084616798285
+      spriteID: 45cfa3ae73f1ed8f0800000000000000
+      internalID: -513938982460261292
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cielo 2_0: -2131802084616798285
+      nuves fondo 2_0: -513938982460261292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

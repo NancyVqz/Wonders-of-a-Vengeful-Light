@@ -22,12 +22,14 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform puntoDisparo2;
     [SerializeField] private Transform puntoDisparo3;
 
+    private Animator animator;
     private float machineCont = 0;
     private Queue<GameObject> bulletQueue;
     private List<GameObject> activeBullets; // Para trackear las balas activas
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         InitializeBulletPool();
     }
 
@@ -52,6 +54,7 @@ public class Shoot : MonoBehaviour
             //AudioManager.instance.Play("Shoot");
 
             StartCoroutine(ShootLvl());
+            animator.SetTrigger("shoot");
             machineCont = fireRate;
         }
         machineCont -= Time.deltaTime;

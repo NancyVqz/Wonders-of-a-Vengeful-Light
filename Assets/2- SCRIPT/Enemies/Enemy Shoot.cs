@@ -1,75 +1,72 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
     [Header("Bullet Settings")]
-    [SerializeField] private float velocidadBala = 500;
-    [SerializeField] private GameObject balaPrefab;
-    [SerializeField] private float bulletLifetime = 2f;
+    [SerializeField] private float velocidadBala = 500f;
 
     [Header("Shooting Settings")]
-    [SerializeField] private float fireRate = 1f; // Tiempo entre disparos
+    [SerializeField] private float fireRate = 1f;
 
-    [Header("Pooling Settings")]
-    [SerializeField] private int maxBulletsInPool = 20; // Máximo de balas en el pool
-
-    private Queue<GameObject> bulletQueue;
-    private List<GameObject> activeBullets; // Para trackear las balas activas
-
-    private float shootTimer = 0;
-    private EnemyMove1 enemyMove;
+    private float shootTimer = 0f;
+    private MonoBehaviour enemyMove;
     private bool canShoot = false;
-    private bool poolInitialized = false;
+    private Transform shootPoint;
 
     private void Awake()
     {
-        if (!poolInitialized)
-        {
-            InitializeBulletPool();
-            poolInitialized = true;
-        }
         enemyMove = GetComponent<EnemyMove1>();
+        if (enemyMove == null)
+        {
+            enemyMove = GetComponent<EnemyMove2>();
+        }
+
+        if (transform.childCount > 0)
+        {
+            shootPoint = transform.GetChild(0);
+        }
+        else
+        {
+            Debug.LogWarning("No hay punto de disparo en " + gameObject.name);
+            shootPoint = transform;
+        }
     }
 
     private void OnEnable()
     {
-        // Resetear valores cada vez que el enemigo se activa
         canShoot = false;
-        shootTimer = 0;
+        shootTimer = 0f;
     }
 
-    private void InitializeBulletPool()
+    private void Update()
     {
-        bulletQueue = new Queue<GameObject>();
-        activeBullets = new List<GameObject>();
-
-        // Crear el pool inicial de balas
-        for (int i = 0; i < maxBulletsInPool; i++)
+        // Verificar si puede empezar a disparar
+        if (!canShoot && enemyMove != null)
         {
-            GameObject bullet = Instantiate(balaPrefab);
-            bullet.SetActive(false);
-            bulletQueue.Enqueue(bullet);
-        }
-    }
+            bool targetReached = false;
 
-    void Update()
-    {
-        if (enemyMove != null && !canShoot)
-        {
-            if (enemyMove.HasReachedTarget())
+            if (enemyMove is EnemyMove1 move1)
+            {
+                targetReached = move1.HasReachedTarget();
+            }
+            else if (enemyMove is EnemyMove2 move2)
+            {
+                targetReached = move2.HasReachedTarget();
+            }
+
+            if (targetReached)
             {
                 canShoot = true;
                 shootTimer = fireRate;
             }
         }
 
+        // Si no puede disparar, salir
         if (!canShoot) return;
 
+        // Fire rate
         shootTimer -= Time.deltaTime;
-
-        if (shootTimer <= 0)
+        if (shootTimer <= 0f)
         {
             Disparar();
             shootTimer = fireRate;
@@ -78,66 +75,23 @@ public class EnemyShoot : MonoBehaviour
 
     private void Disparar()
     {
-        // Si no hay balas disponibles en el pool, no disparar
-        if (bulletQueue.Count == 0)
+        if (EnemyBulletPool.instance == null)
         {
-            Debug.LogWarning("No hay balas disponibles en el pool!");
+            Debug.LogError("No hay un pool para las balas de los enemigos");
             return;
         }
 
-        // Obtener una bala del pool
-        GameObject bala = bulletQueue.Dequeue();
-        //posicionarla
-        Transform puntoDisparo = transform.GetChild(0);
-        bala.transform.position = puntoDisparo.position;
-        bala.transform.rotation = balaPrefab.transform.rotation;
+        Vector2 force = Vector2.down * velocidadBala;
+        GameObject bala = EnemyBulletPool.instance.GetBullet(shootPoint.position, Quaternion.identity, force);
 
-        bala.SetActive(true);
-
-        // Aplicar fuerza
-        Rigidbody2D rb = bala.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = Vector3.zero; // Resetear velocidad anterior
-        rb.AddForce(Vector2.down * velocidadBala);
-
-        // Agregar a la lista de balas activas
-        activeBullets.Add(bala);
-
-        // Iniciar corrutina para devolver la bala al pool después del tiempo de vida
-        StartCoroutine(ReturnBulletToPool(bala));
-    }
-
-    private IEnumerator ReturnBulletToPool(GameObject bullet)
-    {
-        yield return new WaitForSeconds(bulletLifetime);
-
-        if (bullet.activeInHierarchy)
+        if (bala == null)
         {
-            ReturnBullet(bullet);
+            return;
         }
     }
 
-    public void ReturnBullet(GameObject bullet)
+    private void OnDisable()
     {
-        if (bullet != null && bullet.activeInHierarchy)
-        {
-            // Resetear la física
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.linearVelocity = Vector3.zero;
-                rb.angularVelocity = 0f;
-            }
-
-            // Desactivar y devolver al pool
-            bullet.SetActive(false);
-            bulletQueue.Enqueue(bullet);
-
-            // Remover de la lista de balas activas
-            activeBullets.Remove(bullet);
-        }
-    }
-    public void OnBulletHit(GameObject bullet)
-    {
-        ReturnBullet(bullet);
+        canShoot = false;
     }
 }

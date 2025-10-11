@@ -48,11 +48,14 @@ TagManager:
   - name: Nubes
     uniqueID: 1000302837
     locked: 0
-  - name: Player
-    uniqueID: 3818009375
+  - name: Frente
+    uniqueID: 392528465
     locked: 0
   - name: Enemigos
     uniqueID: 649278123
+    locked: 0
+  - name: Player
+    uniqueID: 3818009375
     locked: 0
   m_RenderingLayers:
   - Default
