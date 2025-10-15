@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 1a72988afaa1d974cb2420445953724e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1865267620227896619
+    second: En2_0
+  - first:
+      213: -503429100456215663
+    second: En2_1
+  - first:
+      213: -5963352164632744415
+    second: En2_2
+  - first:
+      213: -4377280462914590321
+    second: En2_3
+  - first:
+      213: 3845479622955940522
+    second: En2_4
+  - first:
+      213: -8643551384654779051
+    second: En2_5
+  - first:
+      213: -4236502218178422710
+    second: En2_6
+  - first:
+      213: -6288092863179451299
+    second: En2_7
+  - first:
+      213: 1932772953948979497
+    second: En2_8
+  - first:
+      213: 4454524673664404732
+    second: En2_9
+  - first:
+      213: 6994644496149730147
+    second: En2_10
+  - first:
+      213: -8332226873670997116
+    second: En2_11
+  - first:
+      213: -2197315106529146936
+    second: En2_12
+  - first:
+      213: -2731023009211498896
+    second: En2_13
+  - first:
+      213: 1388009005266208116
+    second: En2_14
+  - first:
+      213: -1853994760540760761
+    second: En2_15
+  - first:
+      213: -3396535769709621330
+    second: En2_16
+  - first:
+      213: 2229317004171853314
+    second: En2_17
+  - first:
+      213: -5525719198561688099
+    second: En2_18
+  - first:
+      213: 2647037802379589521
+    second: En2_19
+  - first:
+      213: -2749741053898588397
+    second: En2_20
+  - first:
+      213: -2038023179676792453
+    second: En2_21
+  - first:
+      213: -4914026909478530984
+    second: En2_22
+  - first:
+      213: 4378890314727711254
+    second: En2_23
+  - first:
+      213: -3830958765700369247
+    second: En2_24
+  - first:
+      213: -5629673274744550973
+    second: En2_25
+  - first:
+      213: 6432348719404057027
+    second: En2_26
+  - first:
+      213: -6171893016163080684
+    second: En2_27
+  - first:
+      213: -7268435367504518060
+    second: En2_28
+  - first:
+      213: 1418416538166870216
+    second: En2_29
+  - first:
+      213: 1051727157380459820
+    second: En2_30
+  - first:
+      213: -3949712800008498441
+    second: En2_31
+  - first:
+      213: -9021892231447151503
+    second: En2_32
+  - first:
+      213: 5209457058594639878
+    second: En2_33
+  - first:
+      213: -8717706194702994025
+    second: En2_34
+  - first:
+      213: -5460402928036187365
+    second: En2_35
+  - first:
+      213: 4683597087662312569
+    second: En2_36
+  - first:
+      213: 5821156611113273709
+    second: En2_37
+  - first:
+      213: 3996649649194992209
+    second: En2_38
+  - first:
+      213: 7533407279867030068
+    second: En2_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: En2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da27456bfc3d16e0800000000000000
+      internalID: -1865267620227896619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b76b186e57309f0800000000000000
+      internalID: -503429100456215663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e228c2dcaed3da0800000000000000
+      internalID: -5963352164632744415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e7bd5c96c043c0800000000000000
+      internalID: -4377280462914590321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaba45c753ed5530800000000000000
+      internalID: 3845479622955940522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55de0d7afcfeb0880800000000000000
+      internalID: -8643551384654779051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a481253bdabe435c0800000000000000
+      internalID: -4236502218178422710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: En2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54158f4bd43cb8a0800000000000000
+      internalID: -6288092863179451299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 36de0341d08c8fd4d86888d903ea79c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":112.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      En2_0: -1865267620227896619
+      En2_1: -503429100456215663
+      En2_2: -5963352164632744415
+      En2_3: -4377280462914590321
+      En2_4: 3845479622955940522
+      En2_5: -8643551384654779051
+      En2_6: -4236502218178422710
+      En2_7: -6288092863179451299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

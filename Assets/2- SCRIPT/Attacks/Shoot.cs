@@ -21,15 +21,15 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform puntoDisparo;
     [SerializeField] private Transform puntoDisparo2;
     [SerializeField] private Transform puntoDisparo3;
+    private PlayerMovement playerMov;
 
-    private Animator animator;
     private float machineCont = 0;
     private Queue<GameObject> bulletQueue;
     private List<GameObject> activeBullets; // Para trackear las balas activas
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        playerMov = GetComponent<PlayerMovement>();
         InitializeBulletPool();
     }
 
@@ -52,9 +52,9 @@ public class Shoot : MonoBehaviour
         if (Keyboard.current.spaceKey.isPressed && machineCont <= 0 && !isShooting)
         {
             //AudioManager.instance.Play("Shoot");
+            playerMov.ShootAnim();
 
-            StartCoroutine(ShootLvl());
-            animator.SetTrigger("shoot");
+            StartCoroutine(ShootLvl());        
             machineCont = fireRate;
         }
         machineCont -= Time.deltaTime;
@@ -65,6 +65,7 @@ public class Shoot : MonoBehaviour
         if (machineCont <= 0 && !isShooting)
         {
             //AudioManager.instance.Play("Shoot");
+            playerMov.ShootAnim();
 
             StartCoroutine(ShootLvl());
             machineCont = fireRate;

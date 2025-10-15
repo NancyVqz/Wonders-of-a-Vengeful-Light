@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HabilidadData
   nombreHabilidad: Shoot
   spritesIcono:
-  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
-  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
-  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
-  - {fileID: -3120834394579940525, guid: 09b653575adfb4a41928a3b6c5b9847e, type: 3}
+  - {fileID: 992707651329487952, guid: d6ab5c033c3c5a349b41d51aac9cb4a2, type: 3}
+  - {fileID: 992707651329487952, guid: d6ab5c033c3c5a349b41d51aac9cb4a2, type: 3}
+  - {fileID: 992707651329487952, guid: d6ab5c033c3c5a349b41d51aac9cb4a2, type: 3}
+  - {fileID: 992707651329487952, guid: d6ab5c033c3c5a349b41d51aac9cb4a2, type: 3}
   animatorIcono:
   - {fileID: 9100000, guid: 2be5899607d84154bbb838b5471b4aef, type: 2}
   - {fileID: 9100000, guid: db0635f7f5265a544a246c5d00383acd, type: 2}

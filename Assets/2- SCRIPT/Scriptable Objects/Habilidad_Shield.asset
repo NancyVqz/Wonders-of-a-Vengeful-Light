@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HabilidadData
   nombreHabilidad: Shield
   spritesIcono:
-  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
-  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
-  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
-  - {fileID: -1881910243677112468, guid: 039ba0e87923dee44a2652449212417b, type: 3}
+  - {fileID: 1162028350827261550, guid: f60da66d6b0dc9f4fa6daa0d8eed6f58, type: 3}
+  - {fileID: 1162028350827261550, guid: f60da66d6b0dc9f4fa6daa0d8eed6f58, type: 3}
+  - {fileID: 1162028350827261550, guid: f60da66d6b0dc9f4fa6daa0d8eed6f58, type: 3}
+  - {fileID: 1162028350827261550, guid: f60da66d6b0dc9f4fa6daa0d8eed6f58, type: 3}
   animatorIcono:
   - {fileID: 9100000, guid: ace1621a2f638c341a74d0a0481ff609, type: 2}
   - {fileID: 9100000, guid: 4d9c28bbdf6a12f48a440f7da59515c5, type: 2}

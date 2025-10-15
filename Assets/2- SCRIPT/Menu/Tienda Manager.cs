@@ -15,8 +15,6 @@ public class TiendaManager : MonoBehaviour
     [SerializeField] private Animator animIcono;
     [SerializeField] private Animator animDescripcion;
 
-    [SerializeField] private GameObject bloqueado;
-
     void Start()
     {
         ActualizarTienda();
@@ -35,7 +33,12 @@ public class TiendaManager : MonoBehaviour
         if (nivel >= 4)
         {
             Debug.Log("Nivel maximo: " + habilidad.name);
-            //bloqueado.gameObject.SetActive(true);
+            precio.raycastTarget = false;
+        }
+
+        if (nivel > 4)
+        {
+            return;
         }
         else
         {

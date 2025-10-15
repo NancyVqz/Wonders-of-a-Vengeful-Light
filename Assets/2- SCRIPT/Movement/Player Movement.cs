@@ -99,6 +99,24 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void ShootAnim()
+    {
+        if (movement.magnitude < 0.1f)
+        {
+            animator.SetTrigger("shoot");
+        }
+        // Si se mueve a la derecha
+        else if (movement.x > 0.1f)
+        {
+            animator.SetTrigger("shootRight");
+        }
+        // Si se mueve a la izquierda
+        else if (movement.x < -0.1f)
+        {
+            animator.SetTrigger("shootLeft");
+        }
+    }
+
     private void StartDash()
     {
         isDashing = true;
