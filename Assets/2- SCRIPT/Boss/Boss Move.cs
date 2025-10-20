@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class BossMove : MonoBehaviour
 {
@@ -8,18 +8,24 @@ public class BossMove : MonoBehaviour
     [SerializeField] private float stopPoint = -2f;
     [SerializeField] private float startDelay = 2f;
     [SerializeField] private float shootCooldown = 3f;
+    [SerializeField] private float laserCooldown = 6f;
 
+    [Header("Attacks Settings")]
     [SerializeField][Range(0f, 1f)] private float prob = 0.7f;
+    [SerializeField] private bool canLaserAttack = false;
 
+    private bool allowAttack = true;
     private BossAttacks bossAttacks;
     private bool hasReachedTarget = false;
     private bool isMoving = false;
     private LaserAttack laserScript;
+    private BoxCollider2D colBoss;
 
     private void Start()
     {
         bossAttacks = GetComponent<BossAttacks>();
         laserScript = GetComponent<LaserAttack>();
+        colBoss = GetComponent<BoxCollider2D>();
     }
 
     private void OnEnable()
@@ -36,6 +42,7 @@ public class BossMove : MonoBehaviour
         isMoving = true;
     }
 
+    //BOSS ATAQUES RUTINAS
     private void Update()
     {
         if (!hasReachedTarget && isMoving)
@@ -44,10 +51,15 @@ public class BossMove : MonoBehaviour
 
             if (transform.position.y <= stopPoint)
             {
+                colBoss.enabled = true;
                 transform.position = new Vector3(transform.position.x, stopPoint, transform.position.z);
                 hasReachedTarget = true;
                 isMoving = false;
-                StartCoroutine(Attack());
+                StartCoroutine(BulletAttack());
+                if (canLaserAttack && allowAttack)
+                {
+                    StartCoroutine(LaserAttack());
+                }
             }
         }
     }
@@ -57,23 +69,69 @@ public class BossMove : MonoBehaviour
         return hasReachedTarget;
     }
 
-    private IEnumerator Attack()
+    private IEnumerator BulletAttack()
     {
-        float randomValue = Random.value; 
+        float randomValue = Random.value;
 
         if (randomValue < prob)
         {
-            bossAttacks.StartRandomBulletAttack(); 
+            bossAttacks.StartRandomBulletAttack();
         }
         else
         {
-            bossAttacks.ShootAtPlayerWithDisappear(); 
+            bossAttacks.ShootAtPlayerWithDisappear();
         }
 
         yield return new WaitForSeconds(shootCooldown);
-        //con un metodo asyncrono para hacer el laser
-        laserScript.LaserBeamAttack();
 
-        StartCoroutine(Attack());
+        if (allowAttack)
+        {
+            StartCoroutine(BulletAttack());
+        }
+    }
+
+    private IEnumerator LaserAttack()
+    {
+        if (allowAttack)
+        {
+            laserScript.LaserBeamAttack();
+
+            yield return new WaitForSeconds(laserCooldown);
+
+
+            StartCoroutine(BulletAttack());
+            StartCoroutine(LaserAttack());
+        }
+    }
+
+    public void MoveUp()
+    {
+        if (!isMoving)
+        {
+            StartCoroutine(MoveUpward());
+        }
+    }
+
+    private IEnumerator MoveUpward()
+    {
+        yield return new WaitForSeconds(3);
+        isMoving = true;
+        hasReachedTarget = false;
+
+        while (transform.position.y < 14.38f)
+        {
+            transform.Translate(Vector3.up * speed * Time.deltaTime);
+            yield return null;
+        }
+
+        transform.position = new Vector3(transform.position.x, 14.38f, transform.position.z);
+
+        isMoving = false;
+        hasReachedTarget = true;
+    }
+
+    public void StopCoroutine()
+    {
+        allowAttack = false;
     }
 }

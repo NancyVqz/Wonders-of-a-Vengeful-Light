@@ -40,6 +40,6 @@ MonoBehaviour:
   - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
   animatorDescripcion:
   - {fileID: 9100000, guid: 5c6eb6f1aedc2f744ad6d7de15a3bc7d, type: 2}
-  - {fileID: 9100000, guid: 9400d321e9a667447ba56ea8e9eda3b6, type: 2}
-  - {fileID: 9100000, guid: 4675b695609a8b64dbef3f09ec19bee8, type: 2}
-  - {fileID: 9100000, guid: 8114566c75adced4e9109515601e651d, type: 2}
+  - {fileID: 9100000, guid: 5c6eb6f1aedc2f744ad6d7de15a3bc7d, type: 2}
+  - {fileID: 9100000, guid: 5c6eb6f1aedc2f744ad6d7de15a3bc7d, type: 2}
+  - {fileID: 9100000, guid: 5c6eb6f1aedc2f744ad6d7de15a3bc7d, type: 2}

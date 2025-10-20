@@ -118,4 +118,12 @@ public class BossBulletPool : MonoBehaviour
         bulletPool.Enqueue(bullet);
         activeBullets.Remove(bullet);
     }
+
+    public void DeactivateAllMissiles()
+    {
+        foreach (GameObject missile in bulletPool)
+        {
+                missile.SetActive(false);
+        }
+    }
 }

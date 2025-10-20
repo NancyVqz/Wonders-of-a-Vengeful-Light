@@ -39,18 +39,38 @@ public class EnemySpawn : MonoBehaviour
 
         for (int i = enemiesInScene; i < maxEnemiesCountInScene; i++)
         {
-            yield return new WaitForSeconds(Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns));
-            GameObject enemy = enemyQueue.Dequeue();
+            if (LevelManager.instance.enemiesAppeared >= LevelManager.instance.enemiesToContinue)
+            {
+                LevelManager.instance.StopCoroutinesCheck(); 
+                yield break; 
+            }
 
-            Vector3 randomSpawn = GetRandomSpawn(); //donde spawnea
+            yield return new WaitForSeconds(Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns));
+
+            if (LevelManager.instance.enemiesAppeared >= LevelManager.instance.enemiesToContinue)
+            {
+                LevelManager.instance.StopCoroutinesCheck();
+                yield break;
+            }
+
+            GameObject enemy = enemyQueue.Dequeue();
+            Vector3 randomSpawn = GetRandomSpawn();
             enemy.transform.position = randomSpawn;
             enemy.transform.rotation = Quaternion.identity;
-
             enemy.SetActive(true);
 
-            enemiesInScene++;
+            enemiesInScene++;        
+            LevelManager.instance.enemiesAppeared++;
+            LevelManager.instance.allEnemiesInScene++;
         }
-        StartCoroutine(SpawnEnemy());
+        if (LevelManager.instance.enemiesAppeared < LevelManager.instance.enemiesToContinue)
+        {
+            StartCoroutine(SpawnEnemy()); 
+        }
+        else
+        {
+            LevelManager.instance.StopCoroutinesCheck(); 
+        }
     }
 
     private Vector3 GetRandomSpawn()
@@ -69,5 +89,10 @@ public class EnemySpawn : MonoBehaviour
         killedEnemy.SetActive(false);
         enemyQueue.Enqueue(killedEnemy);
         enemiesInScene--;
+        LevelManager.instance.allEnemiesInScene--;
+        if (LevelManager.instance.allEnemiesInScene <= 0)
+        {
+            LevelManager.instance.BossCheck();
+        }
     }
 }

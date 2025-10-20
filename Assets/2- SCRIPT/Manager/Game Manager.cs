@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     public int energy;
 
+    public string nivelSiguiente;
+
     void Awake()
     {
         if (instance == null)

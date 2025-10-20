@@ -16,8 +16,7 @@ public class Menu : MonoBehaviour
 
     public void QuitGame()
     {
-        SceneManager.LoadScene("TIENDA");
-        //Application.Quit();
+        Application.Quit();
     }
 
     public void RegresarMenu()
@@ -29,6 +28,6 @@ public class Menu : MonoBehaviour
 
     public void Continuar()
     {
-        SceneManager.LoadScene("NIVEL 1");
+        SceneManager.LoadScene(GameManager.instance.nivelSiguiente);
     }
 }

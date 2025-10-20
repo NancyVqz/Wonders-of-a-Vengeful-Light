@@ -53,4 +53,9 @@ public class LaserBeam : MonoBehaviour
             col.enabled = false;
         }
     }
+
+    public void SetAnimator(RuntimeAnimatorController animator)
+    {
+        GetComponent<Animator>().runtimeAnimatorController = animator;
+    }
 }

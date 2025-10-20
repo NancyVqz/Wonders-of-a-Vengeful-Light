@@ -20,15 +20,21 @@ public class LaserAttack : MonoBehaviour
     [SerializeField] private float activeLaserTime = 1f;
     [SerializeField] private float laserReload = 5f;
 
+    [Header("Sprites")]
+    [SerializeField] private RuntimeAnimatorController laserBlinking;
+    [SerializeField] private RuntimeAnimatorController laserActive;
+    [SerializeField] private RuntimeAnimatorController laserShootActive;
+
+
     private Queue<GameObject> laserPool = new Queue<GameObject>();
     private List<GameObject> activeLasers = new List<GameObject>();
 
     private bool isAttacking = false;
+    
 
     void Start()
     {
         InitializePool();
-
     }
 
     // Crear el pool al inicio
@@ -43,7 +49,7 @@ public class LaserAttack : MonoBehaviour
     private void CreateLaserForPool()
     {
         // Instanciar el prefab padre
-        GameObject laserObj = Instantiate(laserPrefab, transform);
+        GameObject laserObj = Instantiate(laserPrefab);
         laserObj.SetActive(false);
 
         // Verificar que el hijo exista
@@ -66,7 +72,7 @@ public class LaserAttack : MonoBehaviour
         laserPool.Enqueue(laserObj);
     }
 
-    private GameObject GetLaserFromPool()
+    public GameObject GetLaserFromPool()
     {
         if (laserPool.Count == 0)
         {
@@ -78,7 +84,7 @@ public class LaserAttack : MonoBehaviour
         return laserObj;
     }
 
-    private void ReturnToPool(GameObject laserObj)
+    public void ReturnToPool(GameObject laserObj)
     {
         laserObj.SetActive(false);
 
@@ -91,8 +97,34 @@ public class LaserAttack : MonoBehaviour
 
         laserPool.Enqueue(laserObj);
     }
+    public void SpawnBeamAtPosition(Vector3 position, float duration)
+    {
+        StartCoroutine(SpawnBeamCoroutine(position, duration));
+    }
 
-    private IEnumerator AttackRoutine()
+    private IEnumerator SpawnBeamCoroutine(Vector3 position, float duration)
+    {
+        GameObject beamObj = GetLaserFromPool();
+
+        if (beamObj != null)
+        {
+            beamObj.transform.position = new Vector3(-8.3f, position.y, 0);
+            beamObj.transform.rotation = Quaternion.Euler(0, 0, 90);
+
+            LaserBeam beam = beamObj.transform.GetChild(0).GetComponent<LaserBeam>();
+            beam.SetAnimator(laserShootActive);
+            if (beam != null)
+            {
+                beam.Activate(true);
+            }
+
+            yield return new WaitForSeconds(duration);
+            beam.SetAnimator(laserBlinking);
+            ReturnToPool(beamObj);
+        }
+    }
+
+    public IEnumerator AttackRoutine()
     {
         while (true)
         {
@@ -165,9 +197,11 @@ public class LaserAttack : MonoBehaviour
 
         while (elapsed < warningTime)
         {
+            
             // Parpadear todos los activos (accediendo al hijo)
             foreach (GameObject laserObj in activeLasers)
             {
+
                 LaserBeam beam = laserObj.transform.GetChild(0).GetComponent<LaserBeam>();
                 if (beam != null)
                 {
@@ -212,24 +246,47 @@ public class LaserAttack : MonoBehaviour
             {
                 if (realIndices.Contains(i))
                 {
-                    // Este es real, activar daño
+                    beam.SetAnimator(laserActive);
                     beam.Activate(true);
                 }
                 else
                 {
-                    // Este es falso, apagarlo
+                    beam.SetAnimator(laserBlinking);
                     beam.Deactivate();
                 }
             }
         }
     }
 
-    private void ReturnAllToPool()
+    public void ReturnAllToPool()
     {
         foreach (GameObject laserObj in activeLasers)
         {
+            LaserBeam beam = laserObj.transform.GetChild(0).GetComponent<LaserBeam>();
+            if (beam != null)
+            {
+                beam.SetAnimator(laserBlinking);
+            }
+
             ReturnToPool(laserObj);
         }
         activeLasers.Clear();
+    }
+
+    public void DesactiveAllLasers()
+    {
+        foreach (GameObject laserObj in activeLasers)
+        {
+            laserObj.SetActive(false);  
+            ReturnToPool(laserObj);
+        }
+        activeLasers.Clear();
+    }
+
+    public void ForceStopAllLasers()
+    {
+        isAttacking = false;
+        StopAllCoroutines();
+        isAttacking = false;
     }
 }

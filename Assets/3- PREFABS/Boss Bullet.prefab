@@ -171,4 +171,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MissileBoss
   speed: 5
   distanceBeforeExplosion: 0.5
+  beamDuration: 2
   canExplode: 0

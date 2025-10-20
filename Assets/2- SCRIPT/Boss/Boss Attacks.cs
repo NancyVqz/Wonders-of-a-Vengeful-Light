@@ -16,7 +16,6 @@ public class BossAttacks : MonoBehaviour
 
     [Header("Direct Shot Settings")]
     [SerializeField] private Transform directShootPoint;
-    [SerializeField] private float disappearTime = 1.5f;
 
     public void StartRandomBulletAttack()
     {

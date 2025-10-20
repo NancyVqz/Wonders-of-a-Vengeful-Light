@@ -5,25 +5,28 @@ public class MissileBoss : MonoBehaviour
     [Header("Missile Settings")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float distanceBeforeExplosion = 3f;
+    [SerializeField] private float beamDuration = 2f;
 
     private Vector2 direction;
-    private Vector3 startPosition;
     private SpriteRenderer spriteRenderer;
     public bool canExplode = false;
     private Transform player;
     private Vector3 posPlayer;
-
+    private LaserAttack laserAttack;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
+    private void Start()
+    {
+        laserAttack = FindAnyObjectByType<LaserAttack>();
+    }
 
     private void OnEnable()
     {
-        startPosition = transform.position;
-        canExplode = false;        
+        canExplode = false;
         direction = Vector2.zero;
         posPlayer = player.position;
     }
@@ -52,7 +55,8 @@ public class MissileBoss : MonoBehaviour
 
     private void Explotar()
     {
-        //aparecer el rayo
+        laserAttack.SpawnBeamAtPosition(posPlayer, beamDuration);
+
         BossBulletPool.instance.ReturnBullet(gameObject);
     }
 
