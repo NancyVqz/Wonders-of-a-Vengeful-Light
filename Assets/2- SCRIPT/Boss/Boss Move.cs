@@ -5,6 +5,7 @@ public class BossMove : MonoBehaviour
 {
     [Header("Movement Settings")]
     [SerializeField] private float speed = 2f;
+    [SerializeField] private float runSpeed = 4f;
     [SerializeField] private float stopPoint = -2f;
     [SerializeField] private float startDelay = 2f;
     [SerializeField] private float shootCooldown = 3f;
@@ -20,6 +21,7 @@ public class BossMove : MonoBehaviour
     private bool isMoving = false;
     private LaserAttack laserScript;
     private BoxCollider2D colBoss;
+    private bool startRutine = true;
 
     private void Start()
     {
@@ -55,10 +57,14 @@ public class BossMove : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, stopPoint, transform.position.z);
                 hasReachedTarget = true;
                 isMoving = false;
-                StartCoroutine(BulletAttack());
-                if (canLaserAttack && allowAttack)
+                if (!isMoving && startRutine)
                 {
-                    StartCoroutine(LaserAttack());
+                    StartCoroutine(BulletAttack());
+                    if (canLaserAttack)
+                    {
+                        StartCoroutine(LaserAttack());
+                    }
+                    startRutine = false;
                 }
             }
         }
@@ -98,8 +104,6 @@ public class BossMove : MonoBehaviour
 
             yield return new WaitForSeconds(laserCooldown);
 
-
-            StartCoroutine(BulletAttack());
             StartCoroutine(LaserAttack());
         }
     }
@@ -114,13 +118,13 @@ public class BossMove : MonoBehaviour
 
     private IEnumerator MoveUpward()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1.5f);
         isMoving = true;
         hasReachedTarget = false;
 
         while (transform.position.y < 14.38f)
         {
-            transform.Translate(Vector3.up * speed * Time.deltaTime);
+            transform.Translate(Vector3.up * runSpeed * Time.deltaTime);
             yield return null;
         }
 

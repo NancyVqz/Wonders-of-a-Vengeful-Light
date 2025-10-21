@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 43884ce2518a5e145a9563bfcf3d33ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1836270054329723323
+    second: Boss_fase_1_0
+  - first:
+      213: -3669349153448112080
+    second: Boss_fase_1_1
+  - first:
+      213: -4086606630578128229
+    second: Boss_fase_1_2
+  - first:
+      213: -4831263141494448710
+    second: Boss_fase_1_3
+  - first:
+      213: -1272893567815467951
+    second: Boss_fase_1_4
+  - first:
+      213: -1953484345636832004
+    second: Boss_fase_1_5
+  - first:
+      213: 5517652977659397050
+    second: Boss_fase_1_6
+  - first:
+      213: -4263746842330018437
+    second: Boss_fase_1_7
+  - first:
+      213: 2007199647384090556
+    second: Boss_fase_1_8
+  - first:
+      213: -6413393146787830805
+    second: Boss_fase_1_9
+  - first:
+      213: 5753855826981652465
+    second: Boss_fase_1_10
+  - first:
+      213: 8700867848629889417
+    second: Boss_fase_1_11
+  - first:
+      213: 1003324144707858895
+    second: Boss_fase_1_12
+  - first:
+      213: -7725450925773745884
+    second: Boss_fase_1_13
+  - first:
+      213: 5660325531401808566
+    second: Boss_fase_1_14
+  - first:
+      213: 8441088340050032607
+    second: Boss_fase_1_15
+  - first:
+      213: 8234158833200934250
+    second: Boss_fase_1_16
+  - first:
+      213: -1778906706517238272
+    second: Boss_fase_1_17
+  - first:
+      213: -1703179201725470541
+    second: Boss_fase_1_18
+  - first:
+      213: -7524908237094507189
+    second: Boss_fase_1_19
+  - first:
+      213: 2702120699094922626
+    second: Boss_fase_1_20
+  - first:
+      213: 3878804472292825215
+    second: Boss_fase_1_21
+  - first:
+      213: 5849294952073424988
+    second: Boss_fase_1_22
+  - first:
+      213: -5930509710872405155
+    second: Boss_fase_1_23
+  - first:
+      213: 1851223517108430516
+    second: Boss_fase_1_24
+  - first:
+      213: 832120586160081490
+    second: Boss_fase_1_25
+  - first:
+      213: -4421523217285449433
+    second: Boss_fase_1_26
+  - first:
+      213: 3490014841141503273
+    second: Boss_fase_1_27
+  - first:
+      213: 4946547808700162797
+    second: Boss_fase_1_28
+  - first:
+      213: 9083552090853563830
+    second: Boss_fase_1_29
+  - first:
+      213: 7710464924111408865
+    second: Boss_fase_1_30
+  - first:
+      213: -8710623399276099799
+    second: Boss_fase_1_31
+  - first:
+      213: -35809854005822922
+    second: Boss_fase_1_32
+  - first:
+      213: 5964354890679308116
+    second: Boss_fase_1_33
+  - first:
+      213: -1357064625057715108
+    second: Boss_fase_1_34
+  - first:
+      213: -656884493425485595
+    second: Boss_fase_1_35
+  - first:
+      213: -1645021660772181009
+    second: Boss_fase_1_36
+  - first:
+      213: -8775257306533377552
+    second: Boss_fase_1_37
+  - first:
+      213: -3204646765033930084
+    second: Boss_fase_1_38
+  - first:
+      213: 1869040416123873833
+    second: Boss_fase_1_39
+  - first:
+      213: 2817158439867337978
+    second: Boss_fase_1_40
+  - first:
+      213: -1789376401629449126
+    second: Boss_fase_1_41
+  - first:
+      213: -4758310458624388801
+    second: Boss_fase_1_42
+  - first:
+      213: 4532914195531128208
+    second: Boss_fase_1_43
+  - first:
+      213: 639714871560431430
+    second: Boss_fase_1_44
+  - first:
+      213: -2170713950173044161
+    second: Boss_fase_1_45
+  - first:
+      213: -4763850080579636152
+    second: Boss_fase_1_46
+  - first:
+      213: -2409737670426242418
+    second: Boss_fase_1_47
+  - first:
+      213: 2260238191084951716
+    second: Boss_fase_1_48
+  - first:
+      213: -5466063445824326071
+    second: Boss_fase_1_49
+  - first:
+      213: 3828769374521178231
+    second: Boss_fase_1_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_fase_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a20ca2edbb7910800000000000000
+      internalID: 1836270054329723323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03058dfc26ad31dc0800000000000000
+      internalID: -3669349153448112080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a72a7dbe47947c0800000000000000
+      internalID: -4086606630578128229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd19ca15c7e3fcb0800000000000000
+      internalID: -4831263141494448710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cba7d4b06c55ee0800000000000000
+      internalID: -1272893567815467951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcb7007654d3e4e0800000000000000
+      internalID: -1953484345636832004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3c34f3624a29c40800000000000000
+      internalID: 5517652977659397050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dc9b256d024d4c0800000000000000
+      internalID: -4263746842330018437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dbde33f1d3f73a24a81160fd3ec48dcc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Boss_fase_1_0: 1836270054329723323
+      Boss_fase_1_1: -3669349153448112080
+      Boss_fase_1_2: -4086606630578128229
+      Boss_fase_1_3: -4831263141494448710
+      Boss_fase_1_4: -1272893567815467951
+      Boss_fase_1_5: -1953484345636832004
+      Boss_fase_1_6: 5517652977659397050
+      Boss_fase_1_7: -4263746842330018437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

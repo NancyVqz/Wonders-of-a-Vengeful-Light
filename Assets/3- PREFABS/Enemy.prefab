@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot
   velocidadBala: 450
-  fireRate: 3.5
+  fireRate: 2.5
 --- !u!95 &4739400794853406389
 Animator:
   serializedVersion: 7
