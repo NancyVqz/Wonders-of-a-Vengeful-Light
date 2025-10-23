@@ -90,7 +90,7 @@ public class EnemySpawn : MonoBehaviour
         enemyQueue.Enqueue(killedEnemy);
         enemiesInScene--;
         LevelManager.instance.allEnemiesInScene--;
-        if (LevelManager.instance.allEnemiesInScene <= 0)
+        if (LevelManager.instance.allEnemiesInScene <= 0 && LevelManager.instance.enemiesAppeared == LevelManager.instance.enemiesToContinue)
         {
             LevelManager.instance.BossCheck();
         }
