@@ -24,10 +24,19 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("MENU");
         //AudioManager.instance.Play("menu");
         //AudioManager.instance.Stop("lvl 1");
+        //AudioManager.instance.Stop("lvl 2");
+        //AudioManager.instance.Stop("lvl 3");
     }
 
     public void Continuar()
     {
         SceneManager.LoadScene(GameManager.instance.nivelSiguiente);
+    }
+
+    public void ContinuarMenuFinal()
+    {
+        SceneManager.LoadScene("MENU");
+        //AudioManager.instance.Play("menu");
+        //AudioManager.instance.Play("final");
     }
 }

@@ -207,8 +207,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMove2
   downSpeed: 1.2
   horizontalSpeed: 3
-  minX: -3.7
-  maxX: 3.7
+  minX: -4.96
+  maxX: 4.96
   despawnDistance: -11.5
 --- !u!114 &2356232201570331307
 MonoBehaviour:

@@ -7,6 +7,8 @@ public class UIPlayerHealth : MonoBehaviour
 
     [SerializeField] private bool hideExtraIcons = true;
 
+    [SerializeField] private GameObject deadPanel;
+
     private void Start()
     {
         InitializeHealthIcons();
@@ -56,6 +58,18 @@ public class UIPlayerHealth : MonoBehaviour
             {
                 healthIcons[i].SetActive(false);
             }
+        }
+
+        IsPlayerDead();
+    }
+
+    public void IsPlayerDead()
+    {
+        if (GameManager.instance.playerHealth <= 0)
+        {
+            deadPanel.SetActive(true);
+            Time.timeScale = 0f;
+            Debug.Log("Player Muerto");
         }
     }
 }

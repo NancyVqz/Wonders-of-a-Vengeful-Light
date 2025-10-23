@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: ee6db1c104307a94f82f4e5d5c1b126a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1212572072474891166
+    second: Menu_de_Pausa_0
+  - first:
+      213: 7221259282063303633
+    second: Menu_de_Pausa_1
+  - first:
+      213: -1550717255284608600
+    second: Menu_de_Pausa_2
+  - first:
+      213: 751917058478860555
+    second: Menu_de_Pausa_3
+  - first:
+      213: -2808816070704327566
+    second: Menu_de_Pausa_4
+  - first:
+      213: -858578921879981595
+    second: Menu_de_Pausa_5
+  - first:
+      213: -6349147564830629845
+    second: Menu_de_Pausa_6
+  - first:
+      213: -2959737433386186047
+    second: Menu_de_Pausa_7
+  - first:
+      213: 2695488863802526770
+    second: Menu_de_Pausa_8
+  - first:
+      213: -7902607478343490003
+    second: Menu_de_Pausa_9
+  - first:
+      213: 1037510076313085678
+    second: Menu_de_Pausa_10
+  - first:
+      213: -3561958097318071280
+    second: Menu_de_Pausa_11
+  - first:
+      213: -7055487627621417398
+    second: Menu_de_Pausa_12
+  - first:
+      213: -6691727924900980326
+    second: Menu_de_Pausa_13
+  - first:
+      213: 2329327196950883785
+    second: Menu_de_Pausa_14
+  - first:
+      213: -5081503072231045361
+    second: Menu_de_Pausa_15
+  - first:
+      213: 7693826143775525851
+    second: Menu_de_Pausa_16
+  - first:
+      213: 7943273191464907939
+    second: Menu_de_Pausa_17
+  - first:
+      213: -5805143756236695
+    second: Menu_de_Pausa_18
+  - first:
+      213: -1246440177865868125
+    second: Menu_de_Pausa_19
+  - first:
+      213: 6726135852717203556
+    second: Menu_de_Pausa_20
+  - first:
+      213: -7536750862834633504
+    second: Menu_de_Pausa_21
+  - first:
+      213: 3322116815044596646
+    second: Menu_de_Pausa_22
+  - first:
+      213: -3592562107906250604
+    second: Menu_de_Pausa_23
+  - first:
+      213: -2101627895875257681
+    second: Menu_de_Pausa_24
+  - first:
+      213: 1665282745123490106
+    second: Menu_de_Pausa_25
+  - first:
+      213: 8667618378834018169
+    second: Menu_de_Pausa_26
+  - first:
+      213: 5394034177203457241
+    second: Menu_de_Pausa_27
+  - first:
+      213: 7872899290187196172
+    second: Menu_de_Pausa_28
+  - first:
+      213: 3924881604144481723
+    second: Menu_de_Pausa_29
+  - first:
+      213: -5478912396568711621
+    second: Menu_de_Pausa_30
+  - first:
+      213: 7753416698419843578
+    second: Menu_de_Pausa_31
+  - first:
+      213: -7541287087125099798
+    second: Menu_de_Pausa_32
+  - first:
+      213: -3703551998959027172
+    second: Menu_de_Pausa_33
+  - first:
+      213: -178835971621219635
+    second: Menu_de_Pausa_34
+  - first:
+      213: -3885099765543591629
+    second: Menu_de_Pausa_35
+  - first:
+      213: -8304506694735840395
+    second: Menu_de_Pausa_36
+  - first:
+      213: 5208009712771188440
+    second: Menu_de_Pausa_37
+  - first:
+      213: -638886185105310649
+    second: Menu_de_Pausa_38
+  - first:
+      213: -5060163232376910006
+    second: Menu_de_Pausa_39
+  - first:
+      213: -6046241734726586518
+    second: Menu_de_Pausa_40
+  - first:
+      213: -1072667785969410060
+    second: Menu_de_Pausa_41
+  - first:
+      213: 5005096076814257778
+    second: Menu_de_Pausa_42
+  - first:
+      213: -3850428955754153647
+    second: Menu_de_Pausa_43
+  - first:
+      213: 2569776994912897154
+    second: Menu_de_Pausa_44
+  - first:
+      213: 8477599248814755033
+    second: Menu_de_Pausa_45
+  - first:
+      213: 5610906445657795296
+    second: Menu_de_Pausa_46
+  - first:
+      213: -2070682354819391098
+    second: Menu_de_Pausa_47
+  - first:
+      213: 1973031714121774808
+    second: Menu_de_Pausa_48
+  - first:
+      213: 7270240455039597334
+    second: Menu_de_Pausa_49
+  - first:
+      213: -7203259528225201581
+    second: Menu_de_Pausa_50
+  - first:
+      213: 4402967856604326766
+    second: Menu_de_Pausa_51
+  - first:
+      213: 3828511925627432333
+    second: Menu_de_Pausa_52
+  - first:
+      213: 5374851221011216119
+    second: Menu_de_Pausa_53
+  - first:
+      213: 443898879251852579
+    second: Menu_de_Pausa_54
+  - first:
+      213: -6559680181309373103
+    second: Menu_de_Pausa_55
+  - first:
+      213: -5412539522001532961
+    second: Menu_de_Pausa_56
+  - first:
+      213: -3302705406476524946
+    second: Menu_de_Pausa_57
+  - first:
+      213: -2779251769105941433
+    second: Menu_de_Pausa_58
+  - first:
+      213: 5780168024655659348
+    second: Menu_de_Pausa_59
+  - first:
+      213: 6612720986518841994
+    second: Menu_de_Pausa_60
+  - first:
+      213: -3959037968132197078
+    second: Menu_de_Pausa_61
+  - first:
+      213: 7574681197509648513
+    second: Menu_de_Pausa_62
+  - first:
+      213: -7456351171919555408
+    second: Menu_de_Pausa_63
+  - first:
+      213: -1975757337249986211
+    second: Menu_de_Pausa_64
+  - first:
+      213: -4444778206244259918
+    second: Menu_de_Pausa_65
+  - first:
+      213: -1960394411771871622
+    second: Menu_de_Pausa_66
+  - first:
+      213: -4122059700584263706
+    second: Menu_de_Pausa_67
+  - first:
+      213: -8679991216057620845
+    second: Menu_de_Pausa_68
+  - first:
+      213: 8397231888956649268
+    second: Menu_de_Pausa_69
+  - first:
+      213: 572247131514671924
+    second: Menu_de_Pausa_70
+  - first:
+      213: 1508015074034140034
+    second: Menu_de_Pausa_71
+  - first:
+      213: -717114466364056849
+    second: Menu_de_Pausa_72
+  - first:
+      213: 2096616923522623393
+    second: Menu_de_Pausa_73
+  - first:
+      213: 8085397249302152074
+    second: Menu_de_Pausa_74
+  - first:
+      213: 6999441321272886380
+    second: Menu_de_Pausa_75
+  - first:
+      213: 775947658456058923
+    second: Menu_de_Pausa_76
+  - first:
+      213: -8106365502618700883
+    second: Menu_de_Pausa_77
+  - first:
+      213: 4422807157816223219
+    second: Menu_de_Pausa_78
+  - first:
+      213: 989285754410008824
+    second: Menu_de_Pausa_79
+  - first:
+      213: 1490317026363773240
+    second: Menu_de_Pausa_80
+  - first:
+      213: 1363052512303626283
+    second: Menu_de_Pausa_81
+  - first:
+      213: 7987091393544990202
+    second: Menu_de_Pausa_82
+  - first:
+      213: -2455789934796645146
+    second: Menu_de_Pausa_83
+  - first:
+      213: -7353472254875689242
+    second: Menu_de_Pausa_84
+  - first:
+      213: -4644314520942217486
+    second: Menu_de_Pausa_85
+  - first:
+      213: 6547673669393863263
+    second: Menu_de_Pausa_86
+  - first:
+      213: -2424858962246424572
+    second: Menu_de_Pausa_87
+  - first:
+      213: 293414587589493569
+    second: Menu_de_Pausa_88
+  - first:
+      213: -6263883173275503659
+    second: Menu_de_Pausa_89
+  - first:
+      213: 7521456055975373323
+    second: Menu_de_Pausa_90
+  - first:
+      213: -5111492584191134960
+    second: Menu_de_Pausa_91
+  - first:
+      213: -3727515420541467636
+    second: Menu_de_Pausa_92
+  - first:
+      213: -162095735699136111
+    second: Menu_de_Pausa_93
+  - first:
+      213: 6219022539332216664
+    second: Menu_de_Pausa_94
+  - first:
+      213: -310444002249995541
+    second: Menu_de_Pausa_95
+  - first:
+      213: 7171543316159440553
+    second: Menu_de_Pausa_96
+  - first:
+      213: 3339314951489972119
+    second: Menu_de_Pausa_97
+  - first:
+      213: 7405367657736192601
+    second: Menu_de_Pausa_98
+  - first:
+      213: -9009118054881095568
+    second: Menu_de_Pausa_99
+  - first:
+      213: 2765757684309904161
+    second: Menu_de_Pausa_100
+  - first:
+      213: -8847368603243927051
+    second: Menu_de_Pausa_101
+  - first:
+      213: 9187517516916834825
+    second: Menu_de_Pausa_102
+  - first:
+      213: 77971057773322522
+    second: Menu_de_Pausa_103
+  - first:
+      213: 8857947446889763249
+    second: Menu_de_Pausa_104
+  - first:
+      213: -8324789809865898136
+    second: Menu_de_Pausa_105
+  - first:
+      213: 6913910955130363078
+    second: Menu_de_Pausa_106
+  - first:
+      213: -8971602454008048462
+    second: Menu_de_Pausa_107
+  - first:
+      213: 6548989885595125667
+    second: Menu_de_Pausa_108
+  - first:
+      213: -5022337131789730026
+    second: Menu_de_Pausa_109
+  - first:
+      213: 4293622048550494146
+    second: Menu_de_Pausa_110
+  - first:
+      213: 4808985777189438080
+    second: Menu_de_Pausa_111
+  - first:
+      213: -7073553128931106972
+    second: Menu_de_Pausa_112
+  - first:
+      213: -2952588702983583776
+    second: Menu_de_Pausa_113
+  - first:
+      213: -2975183256658637792
+    second: Menu_de_Pausa_114
+  - first:
+      213: 5917307992885849254
+    second: Menu_de_Pausa_115
+  - first:
+      213: 7430414624586200790
+    second: Menu_de_Pausa_116
+  - first:
+      213: -4706261611885974483
+    second: Menu_de_Pausa_117
+  - first:
+      213: 144680996465161327
+    second: Menu_de_Pausa_118
+  - first:
+      213: 4662036213586921528
+    second: Menu_de_Pausa_119
+  - first:
+      213: 7117900412935596056
+    second: Menu_de_Pausa_120
+  - first:
+      213: 8388453973815434710
+    second: Menu_de_Pausa_121
+  - first:
+      213: -603994270761769833
+    second: Menu_de_Pausa_122
+  - first:
+      213: 862160441881695382
+    second: Menu_de_Pausa_123
+  - first:
+      213: -1357594376919658991
+    second: Menu_de_Pausa_124
+  - first:
+      213: -4095208704792045683
+    second: Menu_de_Pausa_125
+  - first:
+      213: -9179343524699829471
+    second: Menu_de_Pausa_126
+  - first:
+      213: 1770663105036685909
+    second: Menu_de_Pausa_127
+  - first:
+      213: -5410324682953192596
+    second: Menu_de_Pausa_128
+  - first:
+      213: 8982425958113844141
+    second: Menu_de_Pausa_129
+  - first:
+      213: -6700515797662896793
+    second: Menu_de_Pausa_130
+  - first:
+      213: -5772806499199349432
+    second: Menu_de_Pausa_131
+  - first:
+      213: -9208204178863293437
+    second: Menu_de_Pausa_132
+  - first:
+      213: 6252809291737725675
+    second: Menu_de_Pausa_133
+  - first:
+      213: 487260986338260643
+    second: Menu_de_Pausa_134
+  - first:
+      213: 1143043195548950466
+    second: Menu_de_Pausa_135
+  - first:
+      213: 2069307310557548530
+    second: Menu_de_Pausa_136
+  - first:
+      213: -8031844907656896139
+    second: Menu_de_Pausa_137
+  - first:
+      213: -5882289029671252467
+    second: Menu_de_Pausa_138
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu_de_Pausa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93dc6c10ebe3d010800000000000000
+      internalID: 1212572072474891166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d32062ae01173460800000000000000
+      internalID: 7221259282063303633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a131b35fdeba7ae0800000000000000
+      internalID: -1550717255284608600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b096033b4985f6a00800000000000000
+      internalID: 751917058478860555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274924a5aa41509d0800000000000000
+      internalID: -2808816070704327566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_5
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1b4bdf407b514f0800000000000000
+      internalID: -858578921879981595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_6
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20ebb3ddeb43e7a0800000000000000
+      internalID: -6349147564830629845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_7
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca07965c76ece6d0800000000000000
+      internalID: -2959737433386186047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_8
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c88fe17dc486520800000000000000
+      internalID: 2695488863802526770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_9
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26adf54e5c445290800000000000000
+      internalID: -7902607478343490003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_10
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6a78ddae9f56e00800000000000000
+      internalID: 1037510076313085678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_11
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014b7888bf1619ec0800000000000000
+      internalID: -3561958097318071280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_12
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e367e526fd51e90800000000000000
+      internalID: -7055487627621417398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_de_Pausa_13
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 0
+        width: 283
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9917b618e43223a0800000000000000
+      internalID: -6691727924900980326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bd033e27cbd0f004182dbc400914140f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":14.0,"y":1.0},"gridSpriteSize":{"x":283.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Menu_de_Pausa_0: 1212572072474891166
+      Menu_de_Pausa_1: 7221259282063303633
+      Menu_de_Pausa_10: 1037510076313085678
+      Menu_de_Pausa_11: -3561958097318071280
+      Menu_de_Pausa_12: -7055487627621417398
+      Menu_de_Pausa_13: -6691727924900980326
+      Menu_de_Pausa_2: -1550717255284608600
+      Menu_de_Pausa_3: 751917058478860555
+      Menu_de_Pausa_4: -2808816070704327566
+      Menu_de_Pausa_5: -858578921879981595
+      Menu_de_Pausa_6: -6349147564830629845
+      Menu_de_Pausa_7: -2959737433386186047
+      Menu_de_Pausa_8: 2695488863802526770
+      Menu_de_Pausa_9: -7902607478343490003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

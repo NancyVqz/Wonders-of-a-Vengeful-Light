@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 3e0df6ad9e44a9f468305b5aeb6d5411
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5300243115508379421
+    second: Tienda_Sprite_0
+  - first:
+      213: 8317248254552858134
+    second: Tienda_Sprite_1
+  - first:
+      213: 7488611437520649086
+    second: Tienda_Sprite_2
+  - first:
+      213: -1290887478106988961
+    second: Tienda_Sprite_3
+  - first:
+      213: -3109995598461373902
+    second: Tienda_Sprite_4
+  - first:
+      213: 1102447714975118895
+    second: Tienda_Sprite_5
+  - first:
+      213: -1533137361729626315
+    second: Tienda_Sprite_6
+  - first:
+      213: 3340965518524701294
+    second: Tienda_Sprite_7
+  - first:
+      213: 2852858937117453615
+    second: Tienda_Sprite_8
+  - first:
+      213: -5538446522744386712
+    second: Tienda_Sprite_9
+  - first:
+      213: 2162599143535622365
+    second: Tienda_Sprite_10
+  - first:
+      213: -6567576227962534621
+    second: Tienda_Sprite_11
+  - first:
+      213: 2906271273338252870
+    second: Tienda_Sprite_12
+  - first:
+      213: 2011239955045522648
+    second: Tienda_Sprite_13
+  - first:
+      213: 3125364062303144845
+    second: Tienda_Sprite_14
+  - first:
+      213: -3105266738324854864
+    second: Tienda_Sprite_15
+  - first:
+      213: 4386370681263431398
+    second: Tienda_Sprite_16
+  - first:
+      213: 3530024975732347308
+    second: Tienda_Sprite_17
+  - first:
+      213: -413429028582350738
+    second: Tienda_Sprite_18
+  - first:
+      213: -492897487605330632
+    second: Tienda_Sprite_19
+  - first:
+      213: 1652090394558822155
+    second: Tienda_Sprite_20
+  - first:
+      213: 1767856189162238181
+    second: Tienda_Sprite_21
+  - first:
+      213: 4387340211865783815
+    second: Tienda_Sprite_22
+  - first:
+      213: -3965044557182507259
+    second: Tienda_Sprite_23
+  - first:
+      213: 7874586418992428025
+    second: Tienda_Sprite_24
+  - first:
+      213: -7966289882848730484
+    second: Tienda_Sprite_25
+  - first:
+      213: 3199282052120417731
+    second: Tienda_Sprite_26
+  - first:
+      213: 3882947004194926518
+    second: Tienda_Sprite_27
+  - first:
+      213: 7202336785965021406
+    second: Tienda_Sprite_28
+  - first:
+      213: 2839811407986924889
+    second: Tienda_Sprite_29
+  - first:
+      213: -4899601355975226751
+    second: Tienda_Sprite_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tienda_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0d9e4e7f0c176b0800000000000000
+      internalID: -5300243115508379421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e5c59883dcc6370800000000000000
+      internalID: 8317248254552858134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b78521d64ece760800000000000000
+      internalID: 7488611437520649086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ede669da8d51ee0800000000000000
+      internalID: -1290887478106988961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2327eac0b7317d4d0800000000000000
+      internalID: -3109995598461373902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2678821b5eac4f00800000000000000
+      internalID: 1102447714975118895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fd93241b339bae0800000000000000
+      internalID: -1533137361729626315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tienda_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 154
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a5e7a107e7d5e20800000000000000
+      internalID: 3340965518524701294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dfb33506c4e158a478c7f0d11f35812a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":154.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tienda_Sprite_0: -5300243115508379421
+      Tienda_Sprite_1: 8317248254552858134
+      Tienda_Sprite_2: 7488611437520649086
+      Tienda_Sprite_3: -1290887478106988961
+      Tienda_Sprite_4: -3109995598461373902
+      Tienda_Sprite_5: 1102447714975118895
+      Tienda_Sprite_6: -1533137361729626315
+      Tienda_Sprite_7: 3340965518524701294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

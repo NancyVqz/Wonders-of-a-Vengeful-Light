@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ae19b3faa711aa54c9842ea39a3665d5
+guid: bec7826487b84dc45a62124e1d3c63c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2131802084616798285
-    second: cielo 2_0
+      213: -4327252080213444998
+    second: marco_boton_regresar 1_0
+  - first:
+      213: -3979579425285962507
+    second: marco_boton_regresar 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,13 +43,13 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cielo 2_0
+      name: marco_boton_regresar 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 576
-        height: 1024
+        x: 6
+        y: 9
+        width: 89
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bf7afe7c415a62e0800000000000000
-      internalID: -2131802084616798285
+      spriteID: a76be49e82382f3c0800000000000000
+      internalID: -4327252080213444998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marco_boton_regresar 1_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 9
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f48060f891b5c8c0800000000000000
+      internalID: -3979579425285962507
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cielo 2_0: -2131802084616798285
+      marco_boton_regresar 1_0: -4327252080213444998
+      marco_boton_regresar 1_1: -3979579425285962507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

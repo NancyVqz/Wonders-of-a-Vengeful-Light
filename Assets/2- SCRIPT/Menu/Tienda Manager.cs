@@ -94,20 +94,22 @@ public class TiendaManager : MonoBehaviour
 
     private int ObtenerPrecio(string nombre)
     {
+        int nivelActual = ObtenerNivelDeHabilidad(nombre) - 1;
+
         switch (nombre)
         {
             case "Shoot":
-                int precio1 = GameManager.instance.shootLvl + 1;
-                return precio1;
+                int[] preciosShoot = { 10, 20, 40 };
+                return (nivelActual >= 0 && nivelActual < preciosShoot.Length) ? preciosShoot[nivelActual] : 0;
             case "Shield":
-                int precio2 = GameManager.instance.shieldLvl + 2;
-                return precio2;
+                int[] preciosShield = { 11, 22, 44 };
+                return (nivelActual >= 0 && nivelActual < preciosShield.Length) ? preciosShield[nivelActual] : 0;
             case "Dash":
-                int precio3 = GameManager.instance.dashLvl + 3;
-                return precio3;
+                int[] preciosDash = { 9, 18, 36 };
+                return (nivelActual >= 0 && nivelActual < preciosDash.Length) ? preciosDash[nivelActual] : 0;
             default:
                 Debug.LogWarning("Esa habilidad no existe");
-                return 1;
+                return 0;
         }
     }
 
