@@ -4338,7 +4338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda546c2efef4f048a709402990519f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 4
+  speed: 4.5
   joy: {fileID: 604416132}
   dashSpeed: 20
   dashDuration: 0.2

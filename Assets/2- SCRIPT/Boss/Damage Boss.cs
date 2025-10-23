@@ -42,7 +42,7 @@ public class DamageBoss : MonoBehaviour
     {
         vidaBoss -= damageBoss;
 
-        if (vidaBoss == 0)
+        if (vidaBoss <= 0)
         {
             onBossDead.Invoke();
             StartCoroutine(WaitFadeOutTime());
