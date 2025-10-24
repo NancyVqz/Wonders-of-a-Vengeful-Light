@@ -2280,9 +2280,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -476957921
-  m_SortingLayer: 5
-  m_SortingOrder: 3
+  m_SortingLayerID: 649278123
+  m_SortingLayer: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: -1962866664087908080, guid: d81bf4e72d55fa24b8194d1af845c1a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2376,7 +2376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossMove
   speed: 2
-  runSpeed: 6
+  runSpeed: 7
   stopPoint: 5.6
   startDelay: 2
   shootCooldown: 4
@@ -3323,6 +3323,7 @@ GameObject:
   - component: {fileID: 1863402003}
   - component: {fileID: 1863402002}
   - component: {fileID: 1863402001}
+  - component: {fileID: 1863402004}
   m_Layer: 5
   m_Name: Shoot Button
   m_TagString: Untagged
@@ -3392,19 +3393,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1863402002}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2089877355}
-        m_TargetAssemblyTypeName: Shoot, Assembly-CSharp
-        m_MethodName: ShootButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1863402002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3443,6 +3432,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863401999}
   m_CullTransparentMesh: 1
+--- !u!114 &1863402004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863401999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6866e9f864bead544adbd60849aafce1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShootButton
 --- !u!1 &1876924329
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,10 +4339,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda546c2efef4f048a709402990519f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 4.5
+  speed: 5.7
   joy: {fileID: 604416132}
-  dashSpeed: 20
-  dashDuration: 0.2
+  dashSpeed: 21
+  dashDuration: 0.18
   dashCooldown: 7
 --- !u!61 &2089877354
 BoxCollider2D:
@@ -4404,7 +4405,7 @@ MonoBehaviour:
   velocidadBala: 500
   balaPrefab: {fileID: 3893669974260166470, guid: 24f628c6e42367b4a8456935fac52356, type: 3}
   bulletLifetime: 2
-  fireRate: 1
+  fireRate: 0.7
   burstDelay: 0.05
   maxBulletsInPool: 10
   puntoDisparo: {fileID: 809263895}
@@ -4691,7 +4692,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2755532810594998586}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: LoadMainMenu
+        m_MethodName: Nivel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5359,7 +5360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
       propertyPath: energy
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

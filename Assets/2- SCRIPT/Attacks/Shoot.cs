@@ -1,6 +1,7 @@
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class Shoot : MonoBehaviour
@@ -14,6 +15,8 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float fireRate = 1f; // Tiempo entre disparos
     [SerializeField] private float burstDelay = 0.3f; // Tiempo entre balas
     private bool isShooting = false;
+    private float machineCont = 0;
+    private bool isButtonPressed = false;
 
     [Header("Pooling Settings")]
     [SerializeField] private int maxBulletsInPool = 20; // Máximo de balas en el pool
@@ -23,7 +26,6 @@ public class Shoot : MonoBehaviour
     [SerializeField] private Transform puntoDisparo3;
     private PlayerMovement playerMov;
 
-    private float machineCont = 0;
     private Queue<GameObject> bulletQueue;
     private List<GameObject> activeBullets; // Para trackear las balas activas
 
@@ -54,10 +56,26 @@ public class Shoot : MonoBehaviour
             //AudioManager.instance.Play("Shoot");
             playerMov.ShootAnim();
 
-            StartCoroutine(ShootLvl());        
+            StartCoroutine(ShootLvl());
             machineCont = fireRate;
         }
+
+        if (isButtonPressed)
+        {
+            ShootButton();
+        }
+
         machineCont -= Time.deltaTime;
+    }
+
+    public void StartButtonHold()
+    {
+        isButtonPressed = true;
+    }
+
+    public void StopButtonHold()
+    {
+        isButtonPressed = false;
     }
 
     public void ShootButton()
@@ -70,7 +88,6 @@ public class Shoot : MonoBehaviour
             StartCoroutine(ShootLvl());
             machineCont = fireRate;
         }
-        machineCont -= Time.deltaTime;
     }
 
     private void Disparar1()

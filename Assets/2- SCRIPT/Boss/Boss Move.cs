@@ -118,7 +118,7 @@ public class BossMove : MonoBehaviour
 
     private IEnumerator MoveUpward()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(0.3f);
         isMoving = true;
         hasReachedTarget = false;
 
