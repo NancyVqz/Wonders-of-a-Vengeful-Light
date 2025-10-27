@@ -220,6 +220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageEnemy
   damage: 50
+  normalPoints: 20
+  comboPoints: 30
 --- !u!114 &-7739935525684618984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot
   velocidadBala: 450
-  fireRate: 2.5
+  fireRate: 2
 --- !u!95 &4739400794853406389
 Animator:
   serializedVersion: 7

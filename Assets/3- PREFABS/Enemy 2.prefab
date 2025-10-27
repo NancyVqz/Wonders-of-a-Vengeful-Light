@@ -223,6 +223,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageEnemy
   damage: 34
+  normalPoints: 40
+  comboPoints: 60
 --- !u!114 &6399468183202585581
 MonoBehaviour:
   m_ObjectHideFlags: 0

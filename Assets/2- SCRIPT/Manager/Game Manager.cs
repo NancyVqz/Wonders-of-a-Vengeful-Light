@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
     public int playerHealth;
 
     [Header("Power - up")]
-    [Range(1, 3)]
-    public int powerUp;
+    //[Range(1, 3)]
+    //public int powerUp;
     [Range(1, 4)]
     public int shootLvl = 1;
     [Range(1, 4)]
@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     [Range(1, 4)]
     public int dashLvl = 1;
 
+    [Header("Scores")]
+    public int score;
     public int energy;
 
     public string nivelSiguiente;

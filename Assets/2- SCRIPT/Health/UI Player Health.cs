@@ -9,6 +9,8 @@ public class UIPlayerHealth : MonoBehaviour
 
     [SerializeField] private GameObject deadPanel;
 
+    private int totalDamage;
+
     private void Start()
     {
         InitializeHealthIcons();
@@ -32,6 +34,35 @@ public class UIPlayerHealth : MonoBehaviour
                 break;
             case 4:
                 GameManager.instance.playerHealth = 8;
+                break;
+        }
+        return GameManager.instance.playerHealth;
+    }
+    public void HeartCountShop()
+    {
+        UpdateHealthDisplay(LivesCountUpdate());
+    }
+    public void GetActualHealth()
+    {
+        int actualHealth = GameManager.instance.playerHealth;
+        totalDamage = HeartCount() - actualHealth;
+    }
+    public int LivesCountUpdate()
+    {
+
+        switch (GameManager.instance.shieldLvl)
+        {
+            case 1:
+                GameManager.instance.playerHealth = 3 - totalDamage;
+                break;
+            case 2:
+                GameManager.instance.playerHealth = 4 - totalDamage;
+                break;
+            case 3:
+                GameManager.instance.playerHealth = 6 - totalDamage;
+                break;
+            case 4:
+                GameManager.instance.playerHealth = 8 - totalDamage;
                 break;
         }
         return GameManager.instance.playerHealth;

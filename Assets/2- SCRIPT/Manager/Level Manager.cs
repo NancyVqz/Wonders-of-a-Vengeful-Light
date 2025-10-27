@@ -12,6 +12,11 @@ public class LevelManager : MonoBehaviour
     private bool hasTriggeredEvent = false;
     public string nivel;
 
+    [Header("Tienda Pop-Up")]
+    [SerializeField] private GameObject tiendaButton;
+    [SerializeField] private int enemiesForShop;
+    public int allEnemiesKilled;
+
     [SerializeField] UnityEvent onEnemiesAppearedToContinue;
     [SerializeField] UnityEvent onEnemiesKilled;
 
@@ -43,5 +48,14 @@ public class LevelManager : MonoBehaviour
     public void BossCheck()
     {
         onEnemiesKilled.Invoke();
+    }
+
+    public void AparecerTiendaCheck()
+    {
+        if (allEnemiesKilled >= enemiesForShop)
+        {
+            enemiesForShop += enemiesForShop;
+            tiendaButton.SetActive(true);
+        }
     }
 }

@@ -3,6 +3,11 @@ using UnityEngine;
 public class DamageEnemy : MonoBehaviour
 {
     [SerializeField] private int damage;
+
+    [Header("Score points")]
+    [SerializeField] private int normalPoints;
+    [SerializeField] private int comboPoints;
+
     private int health;
 
     private EnemySpawn enemySpawnScript;
@@ -23,6 +28,19 @@ public class DamageEnemy : MonoBehaviour
 
         if (health <= 0)
         {
+
+            LevelManager.instance.allEnemiesKilled++;
+            //particula de score
+            if(ScoreCount.instance.timeElapsed > ScoreCount.instance.comboTime)
+            {
+                GameManager.instance.score += normalPoints;
+            }
+            else
+            {
+                GameManager.instance.score += comboPoints;
+            }
+            LevelManager.instance.AparecerTiendaCheck();
+            ScoreCount.instance.ResetTimer();
             enemySpawnScript.OnEnemyKilled(this.gameObject);
         }
     }

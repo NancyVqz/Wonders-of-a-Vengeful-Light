@@ -22,6 +22,16 @@ public class Tienda : MonoBehaviour
 
     private void Start()
     {
+        ActualizarAnimators();
+    }
+
+    private void OnEnable()
+    {
+        ActualizarAnimators();
+    }
+
+    public void ActualizarAnimators()
+    {
         shootBuyAnim = GetComponent<Animator>();
         shootIconAnim = transform.GetChild(0).GetComponent<Animator>();
         shootDescripcionAnim = transform.GetChild(1).GetComponent<Animator>();
@@ -37,7 +47,26 @@ public class Tienda : MonoBehaviour
         dashDescripcionAnim = dash.transform.GetChild(1).GetComponent<Animator>();
         dashButton = dash.GetComponent<Button>();
 
+        SetAnimatorUnscaled(shootBuyAnim);
+        SetAnimatorUnscaled(shootIconAnim);
+        SetAnimatorUnscaled(shootDescripcionAnim);
+
+        SetAnimatorUnscaled(shieldBuyAnim);
+        SetAnimatorUnscaled(shieldIconAnim);
+        SetAnimatorUnscaled(shieldDescripcionAnim);
+
+        SetAnimatorUnscaled(dashBuyAnim);
+        SetAnimatorUnscaled(dashIconAnim);
+        SetAnimatorUnscaled(dashDescripcionAnim);
+
         ShootIconButton();
+    }
+    private void SetAnimatorUnscaled(Animator anim)
+    {
+        if (anim != null)
+        {
+            anim.updateMode = AnimatorUpdateMode.UnscaledTime;
+        }
     }
 
     public void ShootIconButton()
