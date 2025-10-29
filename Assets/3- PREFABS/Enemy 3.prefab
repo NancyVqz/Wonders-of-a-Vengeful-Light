@@ -132,8 +132,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.14}
-  m_Size: {x: 1.15, y: 0.86}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.69, y: 1.85}
   m_Direction: 0
 --- !u!50 &881683403467361042
 Rigidbody2D:
@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageEnemy
   damage: 34
+  deadVfx: {fileID: 2686075577645646414, guid: 1aad77b939f611c44a655ed12c970d47, type: 3}
   normalPoints: 80
   comboPoints: 100
 --- !u!114 &571510733504331023

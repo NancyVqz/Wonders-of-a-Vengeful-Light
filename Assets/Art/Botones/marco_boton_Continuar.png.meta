@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 42dfcb6fa6e910742863d2ea9e043f91
+guid: f69cf75b781a65c47b98e24d048fca03
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5608839070649224742
-    second: marco_boton_Inicio-sheet (1)_0
+      213: -6560418683505317258
+    second: marco_boton_Continuar_0
   - first:
-      213: -4214421996443394935
-    second: marco_boton_Inicio-sheet (1)_1
+      213: 5660854679801059295
+    second: marco_boton_Continuar_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: marco_boton_Inicio-sheet (1)_0
+      name: marco_boton_Continuar_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 218
-        height: 99
+        x: 0
+        y: 0
+        width: 99
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1fe9705966922b0800000000000000
-      internalID: -5608839070649224742
+      spriteID: 67a64d747f5b4f4a0800000000000000
+      internalID: -6560418683505317258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: marco_boton_Inicio-sheet (1)_1
+      name: marco_boton_Continuar_1
       rect:
         serializedVersion: 2
-        x: 253
-        y: 1
-        width: 197
-        height: 91
+        x: 99
+        y: 0
+        width: 99
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98c1660f58d5385c0800000000000000
-      internalID: -4214421996443394935
+      spriteID: fd756aab6556f8e40800000000000000
+      internalID: 5660854679801059295
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ed2e3b0352c1b514e955ba07e453d290
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +158,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":99.0,"y":50.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      marco_boton_Inicio-sheet (1)_0: -5608839070649224742
-      marco_boton_Inicio-sheet (1)_1: -4214421996443394935
+      marco_boton_Continuar_0: -6560418683505317258
+      marco_boton_Continuar_1: 5660854679801059295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
