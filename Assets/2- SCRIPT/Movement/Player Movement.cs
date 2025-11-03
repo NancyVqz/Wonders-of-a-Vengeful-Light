@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Keyboard.current.leftShiftKey.wasPressedThisFrame && canDash && movement.magnitude > 0.1f)
         {
+            AudioManager.instance.Play("dash");
             StartDash();
         }
 

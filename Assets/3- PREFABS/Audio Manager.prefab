@@ -45,13 +45,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sounds:
-  - name: menu
+  - name: shoot
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: prota damage
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: dash
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: energy
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: enemy death
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: game over
+    clip: {fileID: 8300000, guid: 4163dce9c1e5d804b8117904a9f387cf, type: 3}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: victory
     clip: {fileID: 0}
     loop: 1
     volume: 1
     source: {fileID: 0}
+  - name: menu
+    clip: {fileID: 8300000, guid: ce6a00e4a1a7187418886a4a94acdad7, type: 3}
+    loop: 1
+    volume: 0.5
+    source: {fileID: 0}
   - name: lvl 1
+    clip: {fileID: 8300000, guid: e4ddca8148183704888a13cba6d37959, type: 3}
+    loop: 1
+    volume: 0.5
+    source: {fileID: 0}
+  - name: lvl 2
     clip: {fileID: 0}
     loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: lvl 3
+    clip: {fileID: 0}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: tienda
+    clip: {fileID: 0}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: boss
+    clip: {fileID: 0}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: disparo boss
+    clip: {fileID: 0}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: laser
+    clip: {fileID: 0}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: laser warning
+    clip: {fileID: 0}
+    loop: 0
     volume: 1
     source: {fileID: 0}

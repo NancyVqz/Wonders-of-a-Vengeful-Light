@@ -3,15 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    private void Start()
-    {
-        //AudioManager.instance.Play("menu");
-    }
     public void PlayGame()
     {
+        AudioManager.instance.Stop("menu");
+        AudioManager.instance.Play("lvl 1");
         SceneManager.LoadScene("NIVEL 1");
-        //AudioManager.instance.Stop("menu");
-        //AudioManager.instance.Play("lvl 1");
     }
 
     public void QuitGame()
@@ -21,22 +17,19 @@ public class Menu : MonoBehaviour
 
     public void RegresarMenu()
     {
+        AudioManager.instance.StopAll();
         SceneManager.LoadScene("MENU");
-        //AudioManager.instance.Play("menu");
-        //AudioManager.instance.Stop("lvl 1");
-        //AudioManager.instance.Stop("lvl 2");
-        //AudioManager.instance.Stop("lvl 3");
     }
 
     public void Continuar()
     {
+        AudioManager.instance.StopAll();
         SceneManager.LoadScene(GameManager.instance.nivelSiguiente);
     }
 
     public void ContinuarMenuFinal()
     {
+        AudioManager.instance.StopAll();
         SceneManager.LoadScene("MENU");
-        //AudioManager.instance.Play("menu");
-        //AudioManager.instance.Play("final");
     }
 }

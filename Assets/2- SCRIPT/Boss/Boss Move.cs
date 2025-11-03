@@ -82,10 +82,12 @@ public class BossMove : MonoBehaviour
         if (randomValue < prob)
         {
             bossAttacks.StartRandomBulletAttack();
+            AudioManager.instance.Play("disparo boss");
         }
         else
         {
             bossAttacks.ShootAtPlayerWithDisappear();
+            AudioManager.instance.Play("disparo boss");
         }
 
         yield return new WaitForSeconds(shootCooldown);

@@ -98,8 +98,11 @@ public class UIPlayerHealth : MonoBehaviour
     {
         if (GameManager.instance.playerHealth <= 0)
         {
-            deadPanel.SetActive(true);
+            AudioManager.instance.StopAll();
+            AudioManager.instance.Play("game over");
             Time.timeScale = 0f;
+            deadPanel.SetActive(true);
+
             Debug.Log("Player Muerto");
         }
     }

@@ -9,6 +9,7 @@ public class LaserDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Se daño al jugador");
+            AudioManager.instance.Play("prota damage");
             GameManager.instance.playerHealth -= 1;
             UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
             uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);

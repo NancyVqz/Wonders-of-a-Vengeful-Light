@@ -197,7 +197,6 @@ public class LaserAttack : MonoBehaviour
 
         while (elapsed < warningTime)
         {
-            
             // Parpadear todos los activos (accediendo al hijo)
             foreach (GameObject laserObj in activeLasers)
             {
@@ -207,6 +206,11 @@ public class LaserAttack : MonoBehaviour
                 {
                     beam.SetVisible(visible);
                 }
+            }
+
+            if (visible)
+            {
+                AudioManager.instance.Play("laser warning");
             }
 
             visible = !visible;
@@ -238,6 +242,8 @@ public class LaserAttack : MonoBehaviour
             }
         }
 
+        AudioManager.instance.Play("laser");
+
         // Activar solo los reales, apagar los demás
         for (int i = 0; i < activeLasers.Count; i++)
         {
@@ -260,6 +266,8 @@ public class LaserAttack : MonoBehaviour
 
     public void ReturnAllToPool()
     {
+        AudioManager.instance.Stop("laser");
+
         foreach (GameObject laserObj in activeLasers)
         {
             LaserBeam beam = laserObj.transform.GetChild(0).GetComponent<LaserBeam>();
@@ -275,6 +283,8 @@ public class LaserAttack : MonoBehaviour
 
     public void DesactiveAllLasers()
     {
+        AudioManager.instance.Stop("laser");
+
         foreach (GameObject laserObj in activeLasers)
         {
             laserObj.SetActive(false);  
@@ -285,6 +295,8 @@ public class LaserAttack : MonoBehaviour
 
     public void ForceStopAllLasers()
     {
+        AudioManager.instance.Stop("laser");
+
         isAttacking = false;
         StopAllCoroutines();
         isAttacking = false;

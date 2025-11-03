@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class Shoot : MonoBehaviour
@@ -12,14 +11,14 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float bulletLifetime = 2f;
 
     [Header("Shooting Settings")]
-    [SerializeField] private float fireRate = 1f; // Tiempo entre disparos
-    [SerializeField] private float burstDelay = 0.3f; // Tiempo entre balas
+    [SerializeField] private float fireRate = 1f; 
+    [SerializeField] private float burstDelay = 0.3f; 
     private bool isShooting = false;
     private float machineCont = 0;
     private bool isButtonPressed = false;
 
     [Header("Pooling Settings")]
-    [SerializeField] private int maxBulletsInPool = 20; // Máximo de balas en el pool
+    [SerializeField] private int maxBulletsInPool = 20; 
 
     [SerializeField] private Transform puntoDisparo;
     [SerializeField] private Transform puntoDisparo2;
@@ -27,7 +26,7 @@ public class Shoot : MonoBehaviour
     private PlayerMovement playerMov;
 
     private Queue<GameObject> bulletQueue;
-    private List<GameObject> activeBullets; // Para trackear las balas activas
+    private List<GameObject> activeBullets; 
 
     private void Start()
     {
@@ -53,7 +52,7 @@ public class Shoot : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed && machineCont <= 0 && !isShooting)
         {
-            //AudioManager.instance.Play("Shoot");
+            AudioManager.instance.Play("shoot");
             playerMov.ShootAnim();
 
             StartCoroutine(ShootLvl());
@@ -82,7 +81,7 @@ public class Shoot : MonoBehaviour
     {
         if (machineCont <= 0 && !isShooting)
         {
-            //AudioManager.instance.Play("Shoot");
+            AudioManager.instance.Play("shoot");
             playerMov.ShootAnim();
 
             StartCoroutine(ShootLvl());

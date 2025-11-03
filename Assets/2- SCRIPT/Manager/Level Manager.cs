@@ -47,6 +47,8 @@ public class LevelManager : MonoBehaviour
 
     public void BossCheck()
     {
+        AudioManager.instance.StopAll();
+        AudioManager.instance.Play("boss");
         onEnemiesKilled.Invoke();
     }
 

@@ -315,6 +315,7 @@ GameObject:
   - component: {fileID: 714693561}
   - component: {fileID: 714693564}
   - component: {fileID: 714693565}
+  - component: {fileID: 714693566}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -452,6 +453,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a224db458fa12614ca6cce78de865736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Menu
+--- !u!114 &714693566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714693560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b050fead1e2e04bbb73a76e43ba9ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioFinal
+--- !u!1001 &983974525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 211.33734
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 418.53445
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146168369952721569, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1382268523696866775, guid: 44f2626958b073141974f262553e62d6, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44f2626958b073141974f262553e62d6, type: 3}
 --- !u!1 &1026545040
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +817,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 714693565}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: ContinuarMenuFinal
+        m_MethodName: RegresarMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -800,5 +870,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 714693563}
+  - {fileID: 983974525}
   - {fileID: 537076370}
   - {fileID: 176845705}

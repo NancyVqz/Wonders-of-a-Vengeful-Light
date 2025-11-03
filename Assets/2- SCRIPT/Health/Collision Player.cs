@@ -6,6 +6,7 @@ public class CollisionPlayer : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.instance.Play("prota damage");
             GameManager.instance.playerHealth -= 1;
 
             UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();

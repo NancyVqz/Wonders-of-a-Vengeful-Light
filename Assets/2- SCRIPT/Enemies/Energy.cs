@@ -13,6 +13,7 @@ public class Energy : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.instance.Play("energy");
             GameManager.instance.energy += 1;
             dropEnergyScript.ReturnDrop(gameObject);
         }

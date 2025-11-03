@@ -109,12 +109,12 @@ TextureImporter:
       name: marco_icono-sheetFN3_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 135
-        height: 162
+        x: 0
+        y: 0
+        width: 142
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: marco_icono-sheetFN3_1
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1
-        width: 132
-        height: 158
+        x: 142
+        y: 0
+        width: 142
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6e1fe24173a525a0800000000000000
+      spriteID: a2cbd880d4e387047968aa230bd59612
       internalID: -6546646776463548822
       vertices: []
       indices: 
@@ -153,19 +153,19 @@ TextureImporter:
       name: marco_icono-sheetFN3_2
       rect:
         serializedVersion: 2
-        x: 296
-        y: 1
-        width: 128
-        height: 152
+        x: 284
+        y: 0
+        width: 142
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6eedfdd0aa502010800000000000000
+      spriteID: 57c2d5b177d87c344a8fd114f0884a22
       internalID: 1162028350827261550
       vertices: []
       indices: 
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9462ecc2f47dbf4788226e3bf0a7fbf
     internalID: 0
     vertices: []
     indices: 
@@ -183,7 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":142.0,"y":173.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       marco_icono-sheetFN3_0: 2733425155435400163
       marco_icono-sheetFN3_1: -6546646776463548822

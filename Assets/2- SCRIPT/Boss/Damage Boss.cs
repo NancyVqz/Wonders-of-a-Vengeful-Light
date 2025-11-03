@@ -51,9 +51,9 @@ public class DamageBoss : MonoBehaviour
 
     private IEnumerator WaitFadeOutTime()
     {
-        //Fade out effect
+        PixelTransition.instance.StartLowResEffect();
         yield return new WaitForSeconds(waitFadeTime);
-        //parar musica de lvl 1 o boss
+        AudioManager.instance.Stop("boss");
         SceneManager.LoadScene(escena);
 
     }

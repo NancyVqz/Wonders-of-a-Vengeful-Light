@@ -42,6 +42,7 @@ public class DamageEnemy : MonoBehaviour
             }
             LevelManager.instance.AparecerTiendaCheck();
             ScoreCount.instance.ResetTimer();
+            AudioManager.instance.Play("enemy death");
             Instantiate(deadVfx, transform.position, Quaternion.identity);
             enemySpawnScript.OnEnemyKilled(this.gameObject);
         }
