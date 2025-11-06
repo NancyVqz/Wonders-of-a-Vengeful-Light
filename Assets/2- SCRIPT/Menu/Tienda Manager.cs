@@ -7,6 +7,7 @@ public class TiendaManager : MonoBehaviour
     public HabilidadData habilidad;
 
     [Header("Elementos de UI")]
+    [SerializeField] private Animator mensaje;
     [SerializeField] private Image precio;
     [SerializeField] private Image icono;
     [SerializeField] private Image descripcion;
@@ -17,6 +18,7 @@ public class TiendaManager : MonoBehaviour
 
     void Start()
     {
+        mensaje.updateMode = AnimatorUpdateMode.UnscaledTime;
         ActualizarTienda();
     }
 
@@ -61,6 +63,7 @@ public class TiendaManager : MonoBehaviour
 
         if (GameManager.instance.energy < precio)
         {
+            mensaje.SetTrigger("mensaje");
             Debug.Log("No tienes suficiente energía para comprar esta habilidad.");
             return;
         }

@@ -87,6 +87,7 @@ public class LaserAttack : MonoBehaviour
     public void ReturnToPool(GameObject laserObj)
     {
         laserObj.SetActive(false);
+        AudioManager.instance.Stop("laser");
 
         // Resetear el hijo que tiene el script LaserBeam
         LaserBeam beam = laserObj.transform.GetChild(0).GetComponent<LaserBeam>();
@@ -108,6 +109,7 @@ public class LaserAttack : MonoBehaviour
 
         if (beamObj != null)
         {
+            AudioManager.instance.Play("laser");
             beamObj.transform.position = new Vector3(-8.3f, position.y, 0);
             beamObj.transform.rotation = Quaternion.Euler(0, 0, 90);
 
@@ -121,6 +123,7 @@ public class LaserAttack : MonoBehaviour
             yield return new WaitForSeconds(duration);
             beam.SetAnimator(laserBlinking);
             ReturnToPool(beamObj);
+
         }
     }
 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class MissileBoss : MonoBehaviour
 {
@@ -55,6 +56,7 @@ public class MissileBoss : MonoBehaviour
 
     private void Explotar()
     {
+        
         laserAttack.SpawnBeamAtPosition(posPlayer, beamDuration);
 
         BossBulletPool.instance.ReturnBullet(gameObject);
@@ -73,13 +75,20 @@ public class MissileBoss : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
-            GameManager.instance.playerHealth -= 1;
-            UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-            uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
-
-            BossBulletPool.instance.ReturnBullet(gameObject);
-            return;
+            StartCoroutine(SoundTime());
 
         }
+    }
+
+    private IEnumerator SoundTime()
+    {
+        yield return new WaitForSeconds(0f);
+
+        CameraShake.instance.Shake();
+        GameManager.instance.playerHealth -= 1;
+        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
+        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
+
+        BossBulletPool.instance.ReturnBullet(gameObject);
     }
 }

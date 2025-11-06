@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class CollisionPlayer : MonoBehaviour
 {
@@ -7,10 +8,19 @@ public class CollisionPlayer : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
-            GameManager.instance.playerHealth -= 1;
+            StartCoroutine(SoundTime());
 
-            UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-            uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
         }
+    }
+
+    private IEnumerator SoundTime()
+    {
+        yield return new WaitForSeconds(0f);
+
+        CameraShake.instance.Shake();
+        GameManager.instance.playerHealth -= 1;
+
+        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
+        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
     }
 }

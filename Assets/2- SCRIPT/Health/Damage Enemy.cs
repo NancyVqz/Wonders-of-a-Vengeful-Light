@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class DamageEnemy : MonoBehaviour
@@ -9,6 +10,7 @@ public class DamageEnemy : MonoBehaviour
     [SerializeField] private int normalPoints;
     [SerializeField] private int comboPoints;
 
+    private Animator anim;
     private int health;
 
     private EnemySpawn enemySpawnScript;
@@ -16,6 +18,7 @@ public class DamageEnemy : MonoBehaviour
     private void Start()
     {
         enemySpawnScript = FindAnyObjectByType<EnemySpawn>();
+        anim = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -26,25 +29,37 @@ public class DamageEnemy : MonoBehaviour
     public void TakeDamage()
     {
         health -= damage;
+        anim.SetBool("damage", true);
 
         if (health <= 0)
         {
-
-            LevelManager.instance.allEnemiesKilled++;
-            //particula de score
-            if (ScoreCount.instance.timeElapsed > ScoreCount.instance.comboTime)
-            {
-                GameManager.instance.score += normalPoints;
-            }
-            else
-            {
-                GameManager.instance.score += comboPoints;
-            }
-            LevelManager.instance.AparecerTiendaCheck();
-            ScoreCount.instance.ResetTimer();
             AudioManager.instance.Play("enemy death");
-            Instantiate(deadVfx, transform.position, Quaternion.identity);
-            enemySpawnScript.OnEnemyKilled(this.gameObject);
+            StartCoroutine(SoundTime());
         }
+    }
+
+    public void EndDamage()
+    {
+        anim.SetBool("damage", false);
+    }
+
+    private IEnumerator SoundTime()
+    {
+        yield return new WaitForSeconds(0f);
+
+        LevelManager.instance.allEnemiesKilled++;
+        //particula de score
+        if (ScoreCount.instance.timeElapsed > ScoreCount.instance.comboTime)
+        {
+            GameManager.instance.score += normalPoints;
+        }
+        else
+        {
+            GameManager.instance.score += comboPoints;
+        }
+        LevelManager.instance.AparecerTiendaCheck();
+        ScoreCount.instance.ResetTimer();
+        Instantiate(deadVfx, transform.position, Quaternion.identity);
+        enemySpawnScript.OnEnemyKilled(this.gameObject);
     }
 }

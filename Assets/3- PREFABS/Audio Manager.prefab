@@ -46,27 +46,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sounds:
   - name: shoot
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8589868f277680e4f96877b0a1734e93, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
   - name: prota damage
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5544c4b982857c34295a763bdf1ba77a, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
   - name: dash
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 2cda17ef6d26ea2488129bc5afeed5f0, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
   - name: energy
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: e30e282c063522345b689579dcf4c9ab, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
   - name: enemy death
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1f0255a6c33a04c48b386a96a56dcca1, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
@@ -76,29 +76,29 @@ MonoBehaviour:
     volume: 1
     source: {fileID: 0}
   - name: victory
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: bceb9f66ba5a8f641ac4a0974fa73db4, type: 3}
     loop: 1
     volume: 1
     source: {fileID: 0}
   - name: menu
-    clip: {fileID: 8300000, guid: ce6a00e4a1a7187418886a4a94acdad7, type: 3}
+    clip: {fileID: 8300000, guid: bc585d0d96d47534ca5175464eb3bef3, type: 3}
     loop: 1
     volume: 0.5
     source: {fileID: 0}
   - name: lvl 1
-    clip: {fileID: 8300000, guid: e4ddca8148183704888a13cba6d37959, type: 3}
+    clip: {fileID: 8300000, guid: 65c0806dc41f07e45b089fa4679c6ea9, type: 3}
     loop: 1
     volume: 0.5
     source: {fileID: 0}
   - name: lvl 2
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: e4ddca8148183704888a13cba6d37959, type: 3}
     loop: 1
-    volume: 1
+    volume: 0.5
     source: {fileID: 0}
   - name: lvl 3
     clip: {fileID: 0}
     loop: 1
-    volume: 1
+    volume: 0.5
     source: {fileID: 0}
   - name: tienda
     clip: {fileID: 0}
@@ -111,17 +111,17 @@ MonoBehaviour:
     volume: 1
     source: {fileID: 0}
   - name: disparo boss
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 299a9f23c5be43b4bb55b2e6ae7e0dff, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}
   - name: laser
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: fcfc5357b45985e48920e3b69be85900, type: 3}
     loop: 1
     volume: 1
     source: {fileID: 0}
   - name: laser warning
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 82a0192c902426147862ce57c08a158c, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}

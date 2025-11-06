@@ -52,7 +52,9 @@ public class Shoot : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed && machineCont <= 0 && !isShooting)
         {
+
             AudioManager.instance.Play("shoot");
+            StartCoroutine(SoundTime());
             playerMov.ShootAnim();
 
             StartCoroutine(ShootLvl());
@@ -65,6 +67,11 @@ public class Shoot : MonoBehaviour
         }
 
         machineCont -= Time.deltaTime;
+    }
+
+    private IEnumerator SoundTime()
+    {
+        yield return new WaitForSeconds(1f);
     }
 
     public void StartButtonHold()
@@ -82,6 +89,7 @@ public class Shoot : MonoBehaviour
         if (machineCont <= 0 && !isShooting)
         {
             AudioManager.instance.Play("shoot");
+            StartCoroutine(SoundTime());
             playerMov.ShootAnim();
 
             StartCoroutine(ShootLvl());
@@ -251,4 +259,6 @@ public class Shoot : MonoBehaviour
         // Limpiar todas las balas cuando se desactiva el objeto
         ClearAllBullets();
     }
+
+
 }

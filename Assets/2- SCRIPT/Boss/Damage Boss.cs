@@ -53,7 +53,7 @@ public class DamageBoss : MonoBehaviour
     {
         PixelTransition.instance.StartLowResEffect();
         yield return new WaitForSeconds(waitFadeTime);
-        AudioManager.instance.Stop("boss");
+        //AudioManager.instance.Stop("boss");
         SceneManager.LoadScene(escena);
 
     }
