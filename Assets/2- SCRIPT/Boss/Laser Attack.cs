@@ -30,11 +30,15 @@ public class LaserAttack : MonoBehaviour
     private List<GameObject> activeLasers = new List<GameObject>();
 
     private bool isAttacking = false;
+    public bool ocupado = false;
+    private Animator anim;
     
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         InitializePool();
+
     }
 
     // Crear el pool al inicio
@@ -87,7 +91,11 @@ public class LaserAttack : MonoBehaviour
     public void ReturnToPool(GameObject laserObj)
     {
         laserObj.SetActive(false);
-        AudioManager.instance.Stop("laser");
+
+        if (!ocupado)
+        {
+            AudioManager.instance.Stop("laser");
+        }
 
         // Resetear el hijo que tiene el script LaserBeam
         LaserBeam beam = laserObj.transform.GetChild(0).GetComponent<LaserBeam>();
@@ -109,7 +117,12 @@ public class LaserAttack : MonoBehaviour
 
         if (beamObj != null)
         {
-            AudioManager.instance.Play("laser");
+            if (!ocupado)
+            {
+                AudioManager.instance.Play("laser");
+            }
+
+
             beamObj.transform.position = new Vector3(-8.3f, position.y, 0);
             beamObj.transform.rotation = Quaternion.Euler(0, 0, 90);
 
@@ -245,7 +258,12 @@ public class LaserAttack : MonoBehaviour
             }
         }
 
-        AudioManager.instance.Play("laser");
+        if (!ocupado)
+        {
+            AudioManager.instance.Play("laser");
+        }
+
+        anim.SetTrigger("laser");
 
         // Activar solo los reales, apagar los demás
         for (int i = 0; i < activeLasers.Count; i++)
@@ -269,7 +287,10 @@ public class LaserAttack : MonoBehaviour
 
     public void ReturnAllToPool()
     {
-        AudioManager.instance.Stop("laser");
+        if (!ocupado)
+        {
+            AudioManager.instance.Stop("laser");
+        }
 
         foreach (GameObject laserObj in activeLasers)
         {
@@ -286,7 +307,10 @@ public class LaserAttack : MonoBehaviour
 
     public void DesactiveAllLasers()
     {
-        AudioManager.instance.Stop("laser");
+        if (!ocupado)
+        {
+            AudioManager.instance.Stop("laser");
+        }
 
         foreach (GameObject laserObj in activeLasers)
         {
@@ -298,10 +322,23 @@ public class LaserAttack : MonoBehaviour
 
     public void ForceStopAllLasers()
     {
-        AudioManager.instance.Stop("laser");
+        if (!ocupado)
+        {
+            AudioManager.instance.Stop("laser");
+        }
 
         isAttacking = false;
         StopAllCoroutines();
         isAttacking = false;
+    }
+
+    public void Ocupado()
+    {
+        ocupado = true;
+    }
+
+    public void NoOcupado()
+    {
+        ocupado = false;
     }
 }

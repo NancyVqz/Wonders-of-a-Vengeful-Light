@@ -921,7 +921,7 @@ SpriteRenderer:
   m_SortingLayerID: 1000302837
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1266273146704310147, guid: 1a8f288fe682d1141ac433295defeff5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a87d5ca3ede106468accbce64d0af2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -941,7 +941,7 @@ Transform:
   m_GameObject: {fileID: 708633821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1898,7 +1898,7 @@ SpriteRenderer:
   m_SortingLayerID: -1765598969
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3765833389573285806, guid: 265d98defb85b0a49a24794fef393b1f, type: 3}
+  m_Sprite: {fileID: -1426638201129843454, guid: b299f446967e5bc4fa921a29d5d735b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1918,7 +1918,7 @@ Transform:
   m_GameObject: {fileID: 1184364682}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24, y: 0.20154929, z: 0}
+  m_LocalPosition: {x: 0, y: 85.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1936,7 +1936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 152d8887dfd22974c9687370364f2a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  velocidadMovimiento: {x: 0, y: 0.05}
+  velocidadMovimiento: {x: 0, y: 0.02}
 --- !u!1 &1185234925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2225,7 +2225,7 @@ Animator:
   m_GameObject: {fileID: 1202660694}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 35d8eb475c07ba548afc36bc0012089b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 96456490f7970db43b9377fb6b9ddaf1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2262,6 +2262,7 @@ MonoBehaviour:
   laserBlinking: {fileID: 9100000, guid: 7ff0db11314242341813cbff2314d7c7, type: 2}
   laserActive: {fileID: 9100000, guid: cddbccd0b1af58f4fa5482079aea8c37, type: 2}
   laserShootActive: {fileID: 9100000, guid: 2bd97c86a21767a40b5b28b8f0446e90, type: 2}
+  ocupado: 0
 --- !u!114 &1202660699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4042,7 +4043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2084379354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4103,7 +4104,7 @@ SpriteRenderer:
   m_SortingLayerID: 392528465
   m_SortingLayer: 3
   m_SortingOrder: 3
-  m_Sprite: {fileID: -4351995248984332829, guid: 7ee766cc006833146a5cdb3155b6ff12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8968b307ec4ca449ac9b4763744f909, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4111,7 +4112,7 @@ SpriteRenderer:
   m_Size: {x: 11.52, y: 23.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2084379356
@@ -4225,7 +4226,7 @@ SpriteRenderer:
   m_SortingLayerID: -476957921
   m_SortingLayer: 5
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1596599008621946191, guid: e615ea7c646cd5e42aab2e595f11c06b, type: 3}
+  m_Sprite: {fileID: 1641861339, guid: 21d4ee9816eb1c04780561d5f39e8571, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4309,7 +4310,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.24, y: 2.24}
+    oldSize: {x: 1.28, y: 2.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4377,7 +4378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2112246354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4438,7 +4439,7 @@ SpriteRenderer:
   m_SortingLayerID: 392528465
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 3476141291343834282, guid: 041737cee6917de46b8e74b1d9bceca3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8968b307ec4ca449ac9b4763744f909, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4446,7 +4447,7 @@ SpriteRenderer:
   m_Size: {x: 11.52, y: 23.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2112246356
@@ -6049,7 +6050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 574e6b455fcbdb546b71238c57502bc4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7802,7 +7803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f57084b3008836429758c17d9ba32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
-  shakeDuration: 0.2
+  shakeDuration: 0.06
   shakeMagnitude: 0.3
   dampingSpeed: 1
 --- !u!114 &7204287035236437314

@@ -2180,7 +2180,7 @@ Animator:
   m_GameObject: {fileID: 1202660694}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 393f9fa1c06648340b8fa0362a91ec51, type: 2}
+  m_Controller: {fileID: 9100000, guid: e86c3391ab130d14786be7e713e78d8e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2217,6 +2217,7 @@ MonoBehaviour:
   laserBlinking: {fileID: 9100000, guid: 7ff0db11314242341813cbff2314d7c7, type: 2}
   laserActive: {fileID: 9100000, guid: ad1b0d3714a19f9429a77f296ed27b05, type: 2}
   laserShootActive: {fileID: 9100000, guid: 8e978cd61af5f8e43910f8cfa47bf693, type: 2}
+  ocupado: 0
 --- !u!114 &1202660699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4156,7 +4157,7 @@ SpriteRenderer:
   m_SortingLayerID: -476957921
   m_SortingLayer: 5
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1596599008621946191, guid: e615ea7c646cd5e42aab2e595f11c06b, type: 3}
+  m_Sprite: {fileID: 1641861339, guid: 21d4ee9816eb1c04780561d5f39e8571, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4240,7 +4241,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.24, y: 2.24}
+    oldSize: {x: 1.28, y: 2.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6505,7 +6506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 574e6b455fcbdb546b71238c57502bc4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8050,7 +8051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f57084b3008836429758c17d9ba32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
-  shakeDuration: 0.2
+  shakeDuration: 0.06
   shakeMagnitude: 0.3
   dampingSpeed: 1
 --- !u!1 &7217621818153604546

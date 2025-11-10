@@ -986,7 +986,7 @@ SpriteRenderer:
   m_SortingLayerID: 1000302837
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 74540c6120980ee479cb457082438928, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c1233956ee3c1541a64c6eab2ce9aca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2256,10 +2256,11 @@ MonoBehaviour:
   warningTime: 2
   blinkInterval: 0.2
   activeLaserTime: 3
-  laserReload: 6
+  laserReload: 10
   laserBlinking: {fileID: 9100000, guid: 7ff0db11314242341813cbff2314d7c7, type: 2}
   laserActive: {fileID: 9100000, guid: cddbccd0b1af58f4fa5482079aea8c37, type: 2}
   laserShootActive: {fileID: 9100000, guid: 2bd97c86a21767a40b5b28b8f0446e90, type: 2}
+  ocupado: 0
 --- !u!114 &1202660699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,7 +2278,7 @@ MonoBehaviour:
   stopPoint: 5.6
   startDelay: 2
   shootCooldown: 4
-  laserCooldown: 6
+  laserCooldown: 10
   prob: 0.8
   canLaserAttack: 0
 --- !u!114 &1202660700
@@ -2732,7 +2733,7 @@ SpriteRenderer:
   m_SortingLayerID: -1765598969
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2053766732499986565, guid: aafe16721efd6464f85db4263fbe6888, type: 3}
+  m_Sprite: {fileID: 4846004560389648050, guid: 41d7d4993417812479ef3fc0570064d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4099,7 +4100,7 @@ SpriteRenderer:
   m_SortingLayerID: -476957921
   m_SortingLayer: 5
   m_SortingOrder: 4
-  m_Sprite: {fileID: 1596599008621946191, guid: e615ea7c646cd5e42aab2e595f11c06b, type: 3}
+  m_Sprite: {fileID: 1641861339, guid: 21d4ee9816eb1c04780561d5f39e8571, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4183,7 +4184,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.24, y: 2.24}
+    oldSize: {x: 1.28, y: 2.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4312,7 +4313,7 @@ SpriteRenderer:
   m_SortingLayerID: 392528465
   m_SortingLayer: 3
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f893e1ce8b0980e45bb0a77e43ffdb9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f5f29a534892f0468bce59220bed69b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6683,7 +6684,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 574e6b455fcbdb546b71238c57502bc4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7869,7 +7870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f57084b3008836429758c17d9ba32a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
-  shakeDuration: 0.2
+  shakeDuration: 0.06
   shakeMagnitude: 0.3
   dampingSpeed: 1
 --- !u!224 &7133930230474819551

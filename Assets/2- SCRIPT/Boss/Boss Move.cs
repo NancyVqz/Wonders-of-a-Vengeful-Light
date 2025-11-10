@@ -22,12 +22,14 @@ public class BossMove : MonoBehaviour
     private LaserAttack laserScript;
     private BoxCollider2D colBoss;
     private bool startRutine = true;
+    private Animator anim;
 
     private void Start()
     {
         bossAttacks = GetComponent<BossAttacks>();
         laserScript = GetComponent<LaserAttack>();
         colBoss = GetComponent<BoxCollider2D>();
+        anim = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -77,17 +79,26 @@ public class BossMove : MonoBehaviour
 
     private IEnumerator BulletAttack()
     {
+
         float randomValue = Random.value;
 
         if (randomValue < prob)
         {
             bossAttacks.StartRandomBulletAttack();
             AudioManager.instance.Play("disparo boss");
+            if (!laserScript.ocupado)
+            {
+                anim.SetTrigger("shoots");
+            }
         }
         else
         {
             bossAttacks.ShootAtPlayerWithDisappear();
             AudioManager.instance.Play("disparo boss");
+            if (!laserScript.ocupado)
+            {
+                anim.SetTrigger("shoots");
+            }
         }
 
         yield return new WaitForSeconds(shootCooldown);

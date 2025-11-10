@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: aafe16721efd6464f85db4263fbe6888
+guid: 1193d9b8e8f37da449342f28f7b49199
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2053766732499986565
-    second: fondo_cielo_atardecer_0
+      213: 3706446365401101003
+    second: "En3 da\xF1o_0"
+  - first:
+      213: -2181299415264572258
+    second: "En3 da\xF1o_1"
+  - first:
+      213: -1365136121129902638
+    second: "En3 da\xF1o_2"
+  - first:
+      213: -3309338905475380801
+    second: "En3 da\xF1o_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +81,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondo_cielo_atardecer_0
+      name: "En3 da\xF1o_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 648
-        height: 6036
+        width: 160
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5882d2e36f1708c10800000000000000
-      internalID: 2053766732499986565
+      spriteID: bc235cce451ff6330800000000000000
+      internalID: 3706446365401101003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En3 da\xF1o_1"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c43642db77ab1e0800000000000000
+      internalID: -2181299415264572258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En3 da\xF1o_2"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd5ffd3eef0e0de0800000000000000
+      internalID: -1365136121129902638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En3 da\xF1o_3"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb982c19ccdd212d0800000000000000
+      internalID: -3309338905475380801
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e03c706b42e23c843b819b34f42ae2d9
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":114.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      fondo_cielo_atardecer_0: 2053766732499986565
+      "En3 da\xF1o_0": 3706446365401101003
+      "En3 da\xF1o_1": -2181299415264572258
+      "En3 da\xF1o_2": -1365136121129902638
+      "En3 da\xF1o_3": -3309338905475380801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

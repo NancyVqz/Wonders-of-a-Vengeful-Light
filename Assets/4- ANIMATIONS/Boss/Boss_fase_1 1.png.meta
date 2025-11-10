@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: d10c50b37fd3fdf4692f5fea0803abcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3616065521735883074
+    second: Boss_fase_1 1_0
+  - first:
+      213: -582860464861662863
+    second: Boss_fase_1 1_1
+  - first:
+      213: 8893046876717115351
+    second: Boss_fase_1 1_2
+  - first:
+      213: -5695879881342033896
+    second: Boss_fase_1 1_3
+  - first:
+      213: -6472971419674912587
+    second: Boss_fase_1 1_4
+  - first:
+      213: 6838118005679606618
+    second: Boss_fase_1 1_5
+  - first:
+      213: -6864985559525237962
+    second: Boss_fase_1 1_6
+  - first:
+      213: 6778149974681078223
+    second: Boss_fase_1 1_7
+  - first:
+      213: 6568206425499676263
+    second: Boss_fase_1 1_8
+  - first:
+      213: 7463484910800141218
+    second: Boss_fase_1 1_9
+  - first:
+      213: -3317245785865795318
+    second: Boss_fase_1 1_10
+  - first:
+      213: 5576702504662479080
+    second: Boss_fase_1 1_11
+  - first:
+      213: -8403258712887231315
+    second: Boss_fase_1 1_12
+  - first:
+      213: 1502447146269144816
+    second: Boss_fase_1 1_13
+  - first:
+      213: -4393087465480800705
+    second: Boss_fase_1 1_14
+  - first:
+      213: -9038816737915252235
+    second: Boss_fase_1 1_15
+  - first:
+      213: -8459934698148627902
+    second: Boss_fase_1 1_16
+  - first:
+      213: 1917532404492571083
+    second: Boss_fase_1 1_17
+  - first:
+      213: -4969992231511136144
+    second: Boss_fase_1 1_18
+  - first:
+      213: -9051704058174612234
+    second: Boss_fase_1 1_19
+  - first:
+      213: -3181956534674606
+    second: Boss_fase_1 1_20
+  - first:
+      213: 3129193475070991002
+    second: Boss_fase_1 1_21
+  - first:
+      213: -6451166613087484962
+    second: Boss_fase_1 1_22
+  - first:
+      213: -7060011487693584296
+    second: Boss_fase_1 1_23
+  - first:
+      213: 8091215005509638851
+    second: Boss_fase_1 1_24
+  - first:
+      213: -4980978313085375603
+    second: Boss_fase_1 1_25
+  - first:
+      213: -5829910383324391207
+    second: Boss_fase_1 1_26
+  - first:
+      213: 6253154418079406518
+    second: Boss_fase_1 1_27
+  - first:
+      213: -6865032733156684992
+    second: Boss_fase_1 1_28
+  - first:
+      213: 9049415492218131582
+    second: Boss_fase_1 1_29
+  - first:
+      213: 5465684247488895063
+    second: Boss_fase_1 1_30
+  - first:
+      213: 1488109902454110508
+    second: Boss_fase_1 1_31
+  - first:
+      213: -2701986231258685034
+    second: Boss_fase_1 1_32
+  - first:
+      213: 8724294595319244128
+    second: Boss_fase_1 1_33
+  - first:
+      213: -5474161302597892346
+    second: Boss_fase_1 1_34
+  - first:
+      213: -3457803239261781446
+    second: Boss_fase_1 1_35
+  - first:
+      213: -4915155466690355911
+    second: Boss_fase_1 1_36
+  - first:
+      213: -7041843813557799759
+    second: Boss_fase_1 1_37
+  - first:
+      213: 2730449916646588838
+    second: Boss_fase_1 1_38
+  - first:
+      213: -6860195009944363161
+    second: Boss_fase_1 1_39
+  - first:
+      213: -4915131475374305170
+    second: Boss_fase_1 1_40
+  - first:
+      213: 4165226506239658987
+    second: Boss_fase_1 1_41
+  - first:
+      213: -7079845397940994198
+    second: Boss_fase_1 1_42
+  - first:
+      213: -5665365633341202726
+    second: Boss_fase_1 1_43
+  - first:
+      213: -9043716860679868596
+    second: Boss_fase_1 1_44
+  - first:
+      213: -4272320052471726182
+    second: Boss_fase_1 1_45
+  - first:
+      213: 8892831716868062705
+    second: Boss_fase_1 1_46
+  - first:
+      213: -3042132374259276819
+    second: Boss_fase_1 1_47
+  - first:
+      213: 258614426948743790
+    second: Boss_fase_1 1_48
+  - first:
+      213: 5129195126671807132
+    second: Boss_fase_1 1_49
+  - first:
+      213: 1712067971806018222
+    second: Boss_fase_1 1_50
+  - first:
+      213: 9151667221538239330
+    second: Boss_fase_1 1_51
+  - first:
+      213: 7708639044129610287
+    second: Boss_fase_1 1_52
+  - first:
+      213: -8845165049980918195
+    second: Boss_fase_1 1_53
+  - first:
+      213: -76906514084410831
+    second: Boss_fase_1 1_54
+  - first:
+      213: 6953714886525463236
+    second: Boss_fase_1 1_55
+  - first:
+      213: 5979509304577421658
+    second: Boss_fase_1 1_56
+  - first:
+      213: -3652675236462026683
+    second: Boss_fase_1 1_57
+  - first:
+      213: -5916562454089561664
+    second: Boss_fase_1 1_58
+  - first:
+      213: 6053897269656707569
+    second: Boss_fase_1 1_59
+  - first:
+      213: 6396010581982144731
+    second: Boss_fase_1 1_60
+  - first:
+      213: -8099570602691280441
+    second: Boss_fase_1 1_61
+  - first:
+      213: -3354114098645681949
+    second: Boss_fase_1 1_62
+  - first:
+      213: 8230281389117407853
+    second: Boss_fase_1 1_63
+  - first:
+      213: -1895836532738788788
+    second: Boss_fase_1 1_64
+  - first:
+      213: -5739700222366807412
+    second: Boss_fase_1 1_65
+  - first:
+      213: 342490391075533620
+    second: Boss_fase_1 1_66
+  - first:
+      213: 4530223454833508198
+    second: Boss_fase_1 1_67
+  - first:
+      213: -8912022063709018500
+    second: Boss_fase_1 1_68
+  - first:
+      213: -4329168333846604264
+    second: Boss_fase_1 1_69
+  - first:
+      213: -1090025713217268667
+    second: Boss_fase_1 1_70
+  - first:
+      213: -8549317270108762322
+    second: Boss_fase_1 1_71
+  - first:
+      213: 7647335496975964437
+    second: Boss_fase_1 1_72
+  - first:
+      213: -6729096286098827277
+    second: Boss_fase_1 1_73
+  - first:
+      213: -6856994634530238770
+    second: Boss_fase_1 1_74
+  - first:
+      213: 4738582771991819549
+    second: Boss_fase_1 1_75
+  - first:
+      213: -7139901449153885038
+    second: Boss_fase_1 1_76
+  - first:
+      213: 443189190379977645
+    second: Boss_fase_1 1_77
+  - first:
+      213: -4943232501056834306
+    second: Boss_fase_1 1_78
+  - first:
+      213: 337870509711223545
+    second: Boss_fase_1 1_79
+  - first:
+      213: 2622660904036311497
+    second: Boss_fase_1 1_80
+  - first:
+      213: 1070067645871726141
+    second: Boss_fase_1 1_81
+  - first:
+      213: 6672422546574506812
+    second: Boss_fase_1 1_82
+  - first:
+      213: 3784152273999547364
+    second: Boss_fase_1 1_83
+  - first:
+      213: -8633449806663218261
+    second: Boss_fase_1 1_84
+  - first:
+      213: 917296368849196942
+    second: Boss_fase_1 1_85
+  - first:
+      213: 2126259707327904518
+    second: Boss_fase_1 1_86
+  - first:
+      213: 7686700732035342510
+    second: Boss_fase_1 1_87
+  - first:
+      213: 9149915824324629306
+    second: Boss_fase_1 1_88
+  - first:
+      213: 5270631632359111439
+    second: Boss_fase_1 1_89
+  - first:
+      213: 3209845800244146021
+    second: Boss_fase_1 1_90
+  - first:
+      213: 3672928256661367276
+    second: Boss_fase_1 1_91
+  - first:
+      213: 1249294370414362706
+    second: Boss_fase_1 1_92
+  - first:
+      213: 2689281623713989822
+    second: Boss_fase_1 1_93
+  - first:
+      213: -5141482421810116007
+    second: Boss_fase_1 1_94
+  - first:
+      213: 3024269735159192961
+    second: Boss_fase_1 1_95
+  - first:
+      213: -6247168737299807888
+    second: Boss_fase_1 1_96
+  - first:
+      213: 6346034699106866771
+    second: Boss_fase_1 1_97
+  - first:
+      213: -6920629622596297294
+    second: Boss_fase_1 1_98
+  - first:
+      213: -7292265065285359060
+    second: Boss_fase_1 1_99
+  - first:
+      213: -2591888857269861476
+    second: Boss_fase_1 1_100
+  - first:
+      213: -5312111324186460049
+    second: Boss_fase_1 1_101
+  - first:
+      213: 6683754103091592222
+    second: Boss_fase_1 1_102
+  - first:
+      213: 2436556695099502953
+    second: Boss_fase_1 1_103
+  - first:
+      213: 2892936736905496709
+    second: Boss_fase_1 1_104
+  - first:
+      213: 3660781235139958719
+    second: Boss_fase_1 1_105
+  - first:
+      213: -3666449552880945081
+    second: Boss_fase_1 1_106
+  - first:
+      213: -8548338569208570821
+    second: Boss_fase_1 1_107
+  - first:
+      213: -1298159350171707934
+    second: Boss_fase_1 1_108
+  - first:
+      213: 1423428075874013648
+    second: Boss_fase_1 1_109
+  - first:
+      213: 5529574429287734542
+    second: Boss_fase_1 1_110
+  - first:
+      213: -1952318579463986197
+    second: Boss_fase_1 1_111
+  - first:
+      213: 7734401762946694177
+    second: Boss_fase_1 1_112
+  - first:
+      213: 5860409666286414475
+    second: Boss_fase_1 1_113
+  - first:
+      213: 6794882809039525496
+    second: Boss_fase_1 1_114
+  - first:
+      213: 5400948074273797634
+    second: Boss_fase_1 1_115
+  - first:
+      213: 2085758035780104134
+    second: Boss_fase_1 1_116
+  - first:
+      213: 5187172737725641789
+    second: Boss_fase_1 1_117
+  - first:
+      213: 5944565238274622996
+    second: Boss_fase_1 1_118
+  - first:
+      213: 9120301983323757865
+    second: Boss_fase_1 1_119
+  - first:
+      213: 7119919754452167920
+    second: Boss_fase_1 1_120
+  - first:
+      213: 735521019941190153
+    second: Boss_fase_1 1_121
+  - first:
+      213: -4879298419253474402
+    second: Boss_fase_1 1_122
+  - first:
+      213: -126798019010947478
+    second: Boss_fase_1 1_123
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_fase_1 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249da9bee68de2230800000000000000
+      internalID: 3616065521735883074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1713d4ece7349e7f0800000000000000
+      internalID: -582860464861662863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7ee9954037a6b70800000000000000
+      internalID: 8893046876717115351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810605d0d6b24f0b0800000000000000
+      internalID: -5695879881342033896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b855010ac26b26a0800000000000000
+      internalID: -6472971419674912587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b4cb4a810e5ee50800000000000000
+      internalID: 6838118005679606618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bdf40810caab0a0800000000000000
+      internalID: -6864985559525237962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc940336d73d01e50800000000000000
+      internalID: 6778149974681078223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_8
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ea853b1f4f62b50800000000000000
+      internalID: 6568206425499676263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_9
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abfabeabff939760800000000000000
+      internalID: 7463484910800141218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09cec48886c6f1d0800000000000000
+      internalID: -3317245785865795318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_11
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e03070a16d646d40800000000000000
+      internalID: 5576702504662479080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_12
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac76a619b0a16b80800000000000000
+      internalID: -8403258712887231315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_13
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6fb2f18b3c9d410800000000000000
+      internalID: 1502447146269144816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36bbc8c93e9803c0800000000000000
+      internalID: -4393087465480800705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_15
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1d4ba011caf8280800000000000000
+      internalID: -9038816737915252235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_16
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a79d5f636489a80800000000000000
+      internalID: -8459934698148627902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_17
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc19417ff817c9a10800000000000000
+      internalID: 1917532404492571083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_fase_1 1_18
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078e358c56a070bb0800000000000000
+      internalID: -4969992231511136144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: be667b30ef52e1b4b90e0b3fd2bb78cf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":19.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":397.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Boss_fase_1 1_0: 3616065521735883074
+      Boss_fase_1 1_1: -582860464861662863
+      Boss_fase_1 1_10: -3317245785865795318
+      Boss_fase_1 1_11: 5576702504662479080
+      Boss_fase_1 1_12: -8403258712887231315
+      Boss_fase_1 1_13: 1502447146269144816
+      Boss_fase_1 1_14: -4393087465480800705
+      Boss_fase_1 1_15: -9038816737915252235
+      Boss_fase_1 1_16: -8459934698148627902
+      Boss_fase_1 1_17: 1917532404492571083
+      Boss_fase_1 1_18: -4969992231511136144
+      Boss_fase_1 1_2: 8893046876717115351
+      Boss_fase_1 1_3: -5695879881342033896
+      Boss_fase_1 1_4: -6472971419674912587
+      Boss_fase_1 1_5: 6838118005679606618
+      Boss_fase_1 1_6: -6864985559525237962
+      Boss_fase_1 1_7: 6778149974681078223
+      Boss_fase_1 1_8: 6568206425499676263
+      Boss_fase_1 1_9: 7463484910800141218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

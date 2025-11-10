@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sounds:
   - name: shoot
-    clip: {fileID: 8300000, guid: 8589868f277680e4f96877b0a1734e93, type: 3}
+    clip: {fileID: 8300000, guid: c4dc3bbf3e612914ab67e5bf04926d63, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}

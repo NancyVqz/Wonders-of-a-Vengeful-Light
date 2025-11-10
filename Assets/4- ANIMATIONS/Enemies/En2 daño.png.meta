@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7ee766cc006833146a5cdb3155b6ff12
+guid: 8428ae23080fb844180cd7e11034e296
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4351995248984332829
-    second: fondo_galaxia_nebulosa_3 1_0
+      213: -7357656369775136849
+    second: "En2 da\xF1o_0"
+  - first:
+      213: -1865154458656918990
+    second: "En2 da\xF1o_1"
+  - first:
+      213: 2012542712497621215
+    second: "En2 da\xF1o_2"
+  - first:
+      213: -5131250171132396360
+    second: "En2 da\xF1o_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +49,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondo_galaxia_nebulosa_3 1_0
+      name: "En2 da\xF1o_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 853
-        height: 1199
+        width: 160
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e5e910016b9a93c0800000000000000
-      internalID: -4351995248984332829
+      spriteID: fafa924a38a54e990800000000000000
+      internalID: -7357656369775136849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En2 da\xF1o_1"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232b480e6e3ad16e0800000000000000
+      internalID: -1865154458656918990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En2 da\xF1o_2"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8c8b12fecfdeb10800000000000000
+      internalID: 2012542712497621215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "En2 da\xF1o_3"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcbdf7e7232ac8b0800000000000000
+      internalID: -5131250171132396360
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fa4482f6fb45dfa46aca67a5f13a22d0
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +208,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":112.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      fondo_galaxia_nebulosa_3 1_0: -4351995248984332829
+      "En2 da\xF1o_0": -7357656369775136849
+      "En2 da\xF1o_1": -1865154458656918990
+      "En2 da\xF1o_2": 2012542712497621215
+      "En2 da\xF1o_3": -5131250171132396360
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

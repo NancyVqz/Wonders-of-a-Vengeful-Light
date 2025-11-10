@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1a8f288fe682d1141ac433295defeff5
+guid: b299f446967e5bc4fa921a29d5d735b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1266273146704310147
-    second: fondo_galaxia_nebulosa 1_0
+      213: -1426638201129843454
+    second: fondo_galaxia_1 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondo_galaxia_nebulosa 1_0
+      name: fondo_galaxia_1 (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 693
-        height: 1199
+        width: 636
+        height: 9711
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38f2de9c7b4b29110800000000000000
-      internalID: 1266273146704310147
+      spriteID: 20547ae5d10933ce0800000000000000
+      internalID: -1426638201129843454
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fondo_galaxia_nebulosa 1_0: 1266273146704310147
+      fondo_galaxia_1 (1)_0: -1426638201129843454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
