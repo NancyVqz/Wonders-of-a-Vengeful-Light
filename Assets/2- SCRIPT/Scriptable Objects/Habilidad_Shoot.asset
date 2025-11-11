@@ -24,10 +24,10 @@ MonoBehaviour:
   - {fileID: 9100000, guid: a2fc5cba963c43e4c8954ad7535720a3, type: 2}
   - {fileID: 9100000, guid: b2c17dd54029bdd49afac6184177d1ad, type: 2}
   spritesPrecio:
-  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
-  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
-  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
-  - {fileID: 7529207459981817841, guid: a5c8c1a07bffb364b9de75b1fcc7244e, type: 3}
+  - {fileID: -2716728994618439064, guid: 4c17ef10e4a3b6241a6e6f931c60c1b6, type: 3}
+  - {fileID: 1205554869609761296, guid: 6958f3ed6e24fe449923f90864ce525f, type: 3}
+  - {fileID: -5978774617283263585, guid: 8b3fd5ee9bb94664dafd46320e5fe5e4, type: 3}
+  - {fileID: -5222381786865689713, guid: fe95196bbd63ec946ae561b076933be2, type: 3}
   animatorPrecio:
   - {fileID: 9100000, guid: 11f2c917eee21934c8b2347396ccf7b3, type: 2}
   - {fileID: 9100000, guid: 6ade59f5c211a794db01613d914e68a8, type: 2}

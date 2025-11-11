@@ -125,3 +125,8 @@ MonoBehaviour:
     loop: 0
     volume: 1
     source: {fileID: 0}
+  - name: comprar
+    clip: {fileID: 8300000, guid: 34310a112ad9c2c4783dbf9362fd1a7b, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}

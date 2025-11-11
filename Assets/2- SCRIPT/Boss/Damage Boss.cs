@@ -17,11 +17,19 @@ public class DamageBoss : MonoBehaviour
     [Header("Change Scene")]
     [SerializeField] private string escena;
 
+    private LaserAttack laserScript;
     private Shoot scriptBulletPool;
+    private Animator anim;
+
+    private SpriteRenderer spriteRenderer;
+    private Coroutine damageFlashCoroutine;
 
     private void Start()
     {
         scriptBulletPool = FindAnyObjectByType<Shoot>();
+        laserScript = GetComponent<LaserAttack>();
+        anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -42,6 +50,15 @@ public class DamageBoss : MonoBehaviour
     {
         vidaBoss -= damageBoss;
 
+        if (!laserScript.ocupado)
+        {
+            anim.SetTrigger("damage");
+        }
+        else
+        {
+            damageFlashCoroutine = StartCoroutine(FlashRojo());
+        }
+
         if (vidaBoss <= 0)
         {
             onBossDead.Invoke();
@@ -56,6 +73,32 @@ public class DamageBoss : MonoBehaviour
         //AudioManager.instance.Stop("boss");
         SceneManager.LoadScene(escena);
 
+    }
+
+    private IEnumerator FlashRojo()
+    {
+        float duracion = 0.2f;
+        float tiempo = 0;
+
+        // Ir a rojo
+        while (tiempo < duracion)
+        {
+            spriteRenderer.color = Color.Lerp(Color.white, Color.red, tiempo / duracion);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+
+        tiempo = 0;
+
+        // Volver a blanco
+        while (tiempo < duracion)
+        {
+            spriteRenderer.color = Color.Lerp(Color.red, Color.white, tiempo / duracion);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+
+        spriteRenderer.color = Color.white;
     }
 
 }

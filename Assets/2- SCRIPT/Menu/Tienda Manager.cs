@@ -68,6 +68,7 @@ public class TiendaManager : MonoBehaviour
             return;
         }
 
+        AudioManager.instance.Play("comprar");
         SubirNivel(habilidad.nombreHabilidad);
         GameManager.instance.energy -= precio;
 

@@ -169,3 +169,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b856133b650c794c8bcf8771db35671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Energy
+  energyVFX: {fileID: 1687531150598738265, guid: 171134bf9d78ee247a1213fafb50217b, type: 3}
