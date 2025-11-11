@@ -102,6 +102,7 @@ public class UIPlayerHealth : MonoBehaviour
             AudioManager.instance.Play("game over");
             Time.timeScale = 0f;
             deadPanel.SetActive(true);
+            ScoreManager.instance.SaveAndShowScore();
 
             Debug.Log("Player Muerto");
         }

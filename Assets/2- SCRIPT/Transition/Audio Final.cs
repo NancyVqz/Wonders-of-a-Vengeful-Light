@@ -6,5 +6,6 @@ public class AudioFinal : MonoBehaviour
     {
         AudioManager.instance.StopAll();
         AudioManager.instance.Play("victory");
+        ScoreManager.instance.SaveAndShowScore();
     }
 }
