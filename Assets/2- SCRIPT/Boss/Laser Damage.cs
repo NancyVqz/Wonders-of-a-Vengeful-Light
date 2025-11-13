@@ -4,12 +4,17 @@ using System.Collections;
 public class LaserDamage : MonoBehaviour
 {
     public int damage = 1;
+    private DamagePlayerVfx damageEffectScript;
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
+
         if (other.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 
         }

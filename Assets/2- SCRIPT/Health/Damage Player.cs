@@ -3,11 +3,19 @@ using System.Collections;
 
 public class DamagePlayer : MonoBehaviour
 {
+    private DamagePlayerVfx damageEffectScript;
+
+    private void Start()
+    {
+        damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 
         }

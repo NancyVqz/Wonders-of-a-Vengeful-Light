@@ -29,10 +29,10 @@ MonoBehaviour:
   - {fileID: -5978774617283263585, guid: 8b3fd5ee9bb94664dafd46320e5fe5e4, type: 3}
   - {fileID: -5222381786865689713, guid: fe95196bbd63ec946ae561b076933be2, type: 3}
   animatorPrecio:
-  - {fileID: 9100000, guid: 11f2c917eee21934c8b2347396ccf7b3, type: 2}
   - {fileID: 9100000, guid: 6ade59f5c211a794db01613d914e68a8, type: 2}
   - {fileID: 9100000, guid: 319caf21ba46f8145a98663891a6fe12, type: 2}
   - {fileID: 9100000, guid: 965198c127e8e8940aa81c8e9a112dfd, type: 2}
+  - {fileID: 9100000, guid: 11f2c917eee21934c8b2347396ccf7b3, type: 2}
   spritesDescripcion:
   - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}
   - {fileID: -3711984673591999835, guid: 52598d50415f3d14ea483abb5aee3e37, type: 3}

@@ -2203,8 +2203,8 @@ MonoBehaviour:
   - {fileID: 96804154}
   player: {fileID: 2089877352}
   delayBetweenShots: 0.2
-  normal: {fileID: 21300000, guid: ca0b3a6ddc2faad4bb0744ad84f0cbbb, type: 3}
-  explosive: {fileID: 21300000, guid: c4cbb9f2e8e528d49b1a6e7d38d896ec, type: 3}
+  normal: {fileID: 9100000, guid: a771ff576ed73d7408f214ddd8e6e1e4, type: 2}
+  explosive: {fileID: 9100000, guid: b7f944d3da17d3b49b194b3345a726f2, type: 2}
   bulletsPerRandomAttack: 4
   directShootPoint: {fileID: 737351582}
 --- !u!61 &1202660701
@@ -2655,6 +2655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1579373641}
   - component: {fileID: 1579373640}
+  - component: {fileID: 1579373642}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -2750,6 +2751,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1579373642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579373639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe5edcd0557319468366c8ca6a64fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
+  enemySpawnScript1: {fileID: 890070379}
+  newMinTimeBetweenSpawns1: 3
+  newMaxTimeBetweenSpawns1: 5
+  newMinTimeBetweenSpawns1_2: 2.5
+  newMaxTimeBetweenSpawns1_2: 4
+  enemySpawnScript2: {fileID: 341394560}
+  newMinTimeBetweenSpawns2: 4
+  newMaxTimeBetweenSpawns2: 4
+  newMinTimeBetweenSpawns2_2: 3
+  newMaxTimeBetweenSpawns2_2: 3.5
+  enemySpawnScript3: {fileID: 0}
+  newMinTimeBetweenSpawns3: 0
+  newMaxTimeBetweenSpawns3: 0
+  newMinTimeBetweenSpawns3_2: 0
+  newMaxTimeBetweenSpawns3_2: 0
+  newEnemiesContinue: 30
+  newEnemiesContinue2: 40
+  damageBossScript: {fileID: 1202660702}
+  newDamageBoss: 2.4
+  newDamageBoss2: 1.9
 --- !u!1 &1590964639
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,6 +3975,7 @@ GameObject:
   - component: {fileID: 2089877355}
   - component: {fileID: 2089877356}
   - component: {fileID: 2089877357}
+  - component: {fileID: 2089877358}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -4172,6 +4206,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnergyVfx
   energyVfx: {fileID: 3600612144409878986}
+--- !u!114 &2089877358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089877349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3676fb3023fbc54e8c2064e0ec18aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamagePlayerVfx
 --- !u!1 &2113518105
 GameObject:
   m_ObjectHideFlags: 0
@@ -21855,7 +21901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 943538596551611822, guid: 1a2ea41754be91e45b5ff9449750f3da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83ed382111f97194a9b6e1afe034c109, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21952,8 +21998,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 239, y: -522}
-  m_SizeDelta: {x: 185, y: 66}
+  m_AnchoredPosition: {x: 290.4, y: -527.9}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &6233681196740428398
 Transform:

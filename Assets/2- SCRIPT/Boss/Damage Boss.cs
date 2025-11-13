@@ -8,7 +8,7 @@ public class DamageBoss : MonoBehaviour
 {
     [Range(0f, 100f)]
     [SerializeField] private float vidaBoss = 100;
-    [SerializeField] private float damageBoss;
+    public float damageBoss;
     [SerializeField] Image vidaUi;
     [SerializeField] private float waitFadeTime;
 

@@ -21,6 +21,8 @@ public class Missile : MonoBehaviour
     private bool isExplosionBullet = false;
     private SpriteRenderer spriteRenderer;
 
+    private DamagePlayerVfx damageEffectScript;
+
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -28,6 +30,7 @@ public class Missile : MonoBehaviour
 
     private void OnEnable()
     {
+        damageEffectScript= FindAnyObjectByType<DamagePlayerVfx>();
         startPosition = transform.position;
         hasExploded = false;
         isExplosionBullet = false;
@@ -127,6 +130,7 @@ public class Missile : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
         }
     }

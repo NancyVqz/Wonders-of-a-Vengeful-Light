@@ -9,20 +9,22 @@ public class MissileBoss : MonoBehaviour
     [SerializeField] private float beamDuration = 2f;
 
     private Vector2 direction;
-    private SpriteRenderer spriteRenderer;
+    private Animator spriteAnim;
     public bool canExplode = false;
     private Transform player;
     private Vector3 posPlayer;
     private LaserAttack laserAttack;
+    private DamagePlayerVfx damageEffectScript;
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteAnim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
     private void Start()
     {
         laserAttack = FindAnyObjectByType<LaserAttack>();
+        damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
     }
 
     private void OnEnable()
@@ -62,11 +64,11 @@ public class MissileBoss : MonoBehaviour
         BossBulletPool.instance.ReturnBullet(gameObject);
     }
 
-    public void SetSprite(Sprite newSprite)
+    public void SetAnimatorController(RuntimeAnimatorController controller)
     {
-        if (spriteRenderer != null && newSprite != null)
+        if (spriteAnim != null && controller != null)
         {
-            spriteRenderer.sprite = newSprite;
+            spriteAnim.runtimeAnimatorController = controller;
         }
     }
 
@@ -74,7 +76,9 @@ public class MissileBoss : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+
             AudioManager.instance.Play("prota damage");
+            damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 
         }

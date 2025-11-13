@@ -8,8 +8,8 @@ public class BossAttacks : MonoBehaviour
     [SerializeField] private Transform[] shootPoints;
     [SerializeField] private Transform player;
     [SerializeField] private float delayBetweenShots = 0.2f;
-    [SerializeField] private Sprite normal;
-    [SerializeField] private Sprite explosive;
+    [SerializeField] private RuntimeAnimatorController normal;
+    [SerializeField] private RuntimeAnimatorController explosive;
 
     [Header("Random Shot Settings")]
     [SerializeField] private int bulletsPerRandomAttack = 5;
@@ -49,7 +49,7 @@ public class BossAttacks : MonoBehaviour
                 if (missileScript != null)
                 {
                     missileScript.SetDirection(direction);
-                    missileScript.SetSprite(normal);
+                    missileScript.SetAnimatorController(normal);
                 }
             }
 
@@ -74,7 +74,7 @@ public class BossAttacks : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.Euler(0, 0, angle - 90);
 
-        GameObject bullet = BossBulletPool.instance.GetBullet(directShootPoint.position, rotation, Vector2.zero);
+        GameObject bullet = BossBulletPool.instance.GetBullet(directShootPoint.position, directShootPoint.rotation, Vector2.zero);
 
         if (bullet != null)
         {
@@ -83,7 +83,7 @@ public class BossAttacks : MonoBehaviour
             {
                 missileScript.canExplode = true;
                 missileScript.SetDirection(direction);
-                missileScript.SetSprite(explosive);
+                missileScript.SetAnimatorController(explosive);
             }
         }
     }

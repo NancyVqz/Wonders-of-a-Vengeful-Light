@@ -58,6 +58,7 @@ public class LevelManager : MonoBehaviour
         {
             enemiesForShop += enemiesForShop;
             tiendaButton.SetActive(true);
+            AudioManager.instance.Play("comprar");
         }
     }
 }

@@ -8,8 +8,8 @@ public class EnemySpawn : MonoBehaviour
     [SerializeField] private List<GameObject> spawnpoints;
     [SerializeField] private GameObject prefabEnemigo;
     [SerializeField] private int maxEnemiesInstanceInQueue = 10; //Maximo de personajes DISPONIBLES en fila
-    [SerializeField] private float minTimeBetweenSpawns = 2f; 
-    [SerializeField] private float maxTimeBetweenSpawns = 5f;
+    public float minTimeBetweenSpawns = 2f; 
+    public float maxTimeBetweenSpawns = 5f;
     [SerializeField] private bool avoidOverlappingSpawns;
 
     [SerializeField] Queue<GameObject> enemyQueue;
