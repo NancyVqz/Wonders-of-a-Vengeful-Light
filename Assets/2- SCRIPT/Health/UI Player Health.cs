@@ -8,6 +8,7 @@ public class UIPlayerHealth : MonoBehaviour
     [SerializeField] private bool hideExtraIcons = true;
 
     [SerializeField] private GameObject deadPanel;
+    [SerializeField] private GameObject player;
 
     private int totalDamage;
 
@@ -104,6 +105,7 @@ public class UIPlayerHealth : MonoBehaviour
             deadPanel.SetActive(true);
             ScoreManager.instance.SaveAndShowScore();
 
+            player.gameObject.SetActive(false);
             Debug.Log("Player Muerto");
         }
     }

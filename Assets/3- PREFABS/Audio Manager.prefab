@@ -96,12 +96,12 @@ MonoBehaviour:
     volume: 0.5
     source: {fileID: 0}
   - name: lvl 3
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 433a03215d20e6249a2fa4c8b406f728, type: 3}
     loop: 1
     volume: 0.5
     source: {fileID: 0}
   - name: tienda
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5daeddb1761955a4990798f7b9d290f4, type: 3}
     loop: 1
     volume: 1
     source: {fileID: 0}
@@ -127,6 +127,11 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: comprar
     clip: {fileID: 8300000, guid: 34310a112ad9c2c4783dbf9362fd1a7b, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: comprar boton
+    clip: {fileID: 8300000, guid: 9ebed45e52e17854d8cb048b9dd69bb8, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}

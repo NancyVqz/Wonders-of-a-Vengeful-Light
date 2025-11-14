@@ -3591,6 +3591,7 @@ MonoBehaviour:
   - {fileID: 1701252604}
   hideExtraIcons: 1
   deadPanel: {fileID: 4458845829801632283}
+  player: {fileID: 2089877349}
 --- !u!1 &1886898918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4057,7 +4058,7 @@ SpriteRenderer:
   m_SortingLayerID: -476957921
   m_SortingLayer: 5
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1641861339, guid: 21d4ee9816eb1c04780561d5f39e8571, type: 3}
+  m_Sprite: {fileID: -1739056401314373270, guid: 790b4434100c43341ab07aec26471c79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5611,7 +5612,7 @@ Transform:
   m_GameObject: {fileID: 8534326439702680103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.93, y: 0.4327, z: 0}
+  m_LocalPosition: {x: 4.4, y: 0.4327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5984,13 +5985,13 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.45, g: 0.45, b: 0.45, a: 1}
+    m_PressedColor: {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
+    m_SelectedColor: {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
+    m_DisabledColor: {r: 0.45098042, g: 0.45098042, b: 0.45098042, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -22991,7 +22992,7 @@ Transform:
   m_GameObject: {fileID: 6355072308289961125}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.1, y: 0.4327, z: 0}
+  m_LocalPosition: {x: -7.6, y: 0.4327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
