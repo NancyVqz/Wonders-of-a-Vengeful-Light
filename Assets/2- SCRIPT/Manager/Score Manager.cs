@@ -24,11 +24,11 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", currentScore);
             PlayerPrefs.Save();
 
-            scoreText.text = "Nuevo High Score: " + currentScore;
+            scoreText.text = "Nuevo High Score:\n" + currentScore.ToString("000000");
         }
         else
         {
-            scoreText.text = "Score: " + currentScore + "                 High Score: " + savedHighScore;
+            scoreText.text = "Score:\n" + currentScore.ToString("000000") + "\n\nHigh Score:\n" + savedHighScore.ToString("000000"); ;
         }
     }
 }

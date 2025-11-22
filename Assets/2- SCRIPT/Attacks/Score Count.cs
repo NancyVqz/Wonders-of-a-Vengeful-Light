@@ -30,7 +30,7 @@ public class ScoreCount : MonoBehaviour
     {
         timeElapsed += Time.deltaTime;
 
-        contador.text = "Score: " + GameManager.instance.score;
+        contador.text = GameManager.instance.score.ToString("000000");
     }
 
     public void ResetTimer()

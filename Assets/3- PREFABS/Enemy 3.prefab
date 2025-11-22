@@ -86,7 +86,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 649278123
   m_SortingLayer: 4
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: -5706626340010316337, guid: 7af81979afc8c6946bfffbfc4e400057, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -174,10 +174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e04a2f4723868c14d9418cbe7adc93f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageEnemy
-  damage: 34
+  damage: 9
   deadVfx: {fileID: 2686075577645646414, guid: 1aad77b939f611c44a655ed12c970d47, type: 3}
-  normalPoints: 80
-  comboPoints: 100
+  normalPoints: 70
+  comboPoints: 90
 --- !u!114 &571510733504331023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 204383a29941a994c895aa06fe712b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShoot3
-  fireRate: 3.5
+  fireRate: 3
 --- !u!114 &955564594839272717
 MonoBehaviour:
   m_ObjectHideFlags: 0

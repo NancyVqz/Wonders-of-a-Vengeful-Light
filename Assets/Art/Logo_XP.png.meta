@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 0134a52340b544d40b2aa80714f56893
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8057700792270663740
+    second: Logo_XP_0
+  - first:
+      213: 8231582138421910251
+    second: Logo_XP_1
+  - first:
+      213: -1112598592045660646
+    second: Logo_XP_2
+  - first:
+      213: -7691950606038513647
+    second: Logo_XP_3
+  - first:
+      213: -1582267239357498734
+    second: Logo_XP_4
+  - first:
+      213: -4626897551555913633
+    second: Logo_XP_5
+  - first:
+      213: 7883520533319852019
+    second: Logo_XP_6
+  - first:
+      213: -8251528780164542987
+    second: Logo_XP_7
+  - first:
+      213: 6252194791625424638
+    second: Logo_XP_8
+  - first:
+      213: -5622208109912861865
+    second: Logo_XP_9
+  - first:
+      213: -3931125139900270506
+    second: Logo_XP_10
+  - first:
+      213: 8169342449745696624
+    second: Logo_XP_11
+  - first:
+      213: 4765084419192354377
+    second: Logo_XP_12
+  - first:
+      213: -7682452761935481115
+    second: Logo_XP_13
+  - first:
+      213: 6601751424717045328
+    second: Logo_XP_14
+  - first:
+      213: 1328795812329854445
+    second: Logo_XP_15
+  - first:
+      213: -1581418170296247732
+    second: Logo_XP_16
+  - first:
+      213: 6666992649889258867
+    second: Logo_XP_17
+  - first:
+      213: -3515688741951504669
+    second: Logo_XP_18
+  - first:
+      213: -8569180887946720862
+    second: Logo_XP_19
+  - first:
+      213: -5149524130254461758
+    second: Logo_XP_20
+  - first:
+      213: 4588687707440268812
+    second: Logo_XP_21
+  - first:
+      213: -2788045427663846618
+    second: Logo_XP_22
+  - first:
+      213: 8443765851078943950
+    second: Logo_XP_23
+  - first:
+      213: 1295491959551504295
+    second: Logo_XP_24
+  - first:
+      213: 5009924141213289675
+    second: Logo_XP_25
+  - first:
+      213: -4587961184104734144
+    second: Logo_XP_26
+  - first:
+      213: 822577986132471889
+    second: Logo_XP_27
+  - first:
+      213: -5188765151154721581
+    second: Logo_XP_28
+  - first:
+      213: 2424150003891307763
+    second: Logo_XP_29
+  - first:
+      213: -7242218656820143242
+    second: Logo_XP_30
+  - first:
+      213: 873341496991399162
+    second: Logo_XP_31
+  - first:
+      213: 6770117858799984320
+    second: Logo_XP_32
+  - first:
+      213: -2290150684563754458
+    second: Logo_XP_33
+  - first:
+      213: 314331132072992964
+    second: Logo_XP_34
+  - first:
+      213: 865447835385824308
+    second: Logo_XP_35
+  - first:
+      213: 8326393252313023351
+    second: Logo_XP_36
+  - first:
+      213: 5116089803334895915
+    second: Logo_XP_37
+  - first:
+      213: -7060201396583277580
+    second: Logo_XP_38
+  - first:
+      213: 2891371600392633969
+    second: Logo_XP_39
+  - first:
+      213: 6436152191281590581
+    second: Logo_XP_40
+  - first:
+      213: 438206052452112087
+    second: Logo_XP_41
+  - first:
+      213: -7862347243867254429
+    second: Logo_XP_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_XP_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 53
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfc25a22db4d2090800000000000000
+      internalID: -8057700792270663740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 33
+        width: 8
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea961497547c3270800000000000000
+      internalID: 8231582138421910251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 53
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16c48fa9714f80f0800000000000000
+      internalID: -1112598592045660646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11849317da3b04590800000000000000
+      internalID: -7691950606038513647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 106
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29abb5a3458aa0ae0800000000000000
+      internalID: -1582267239357498734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_5
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f589263f035f9cfb0800000000000000
+      internalID: -4626897551555913633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff17080824e76d60800000000000000
+      internalID: 7883520533319852019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 106
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd416cfa4eac7d80800000000000000
+      internalID: -8251528780164542987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe7165990244c650800000000000000
+      internalID: 6252194791625424638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 106
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753d2530387e9f1b0800000000000000
+      internalID: -5622208109912861865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 106
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658f2a46386d179c0800000000000000
+      internalID: -3931125139900270506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_11
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 106
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779c9dcca55f5170800000000000000
+      internalID: 8169342449745696624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94675b2680bf02240800000000000000
+      internalID: 4765084419192354377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 106
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6fd199ae1726590800000000000000
+      internalID: -7682452761935481115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_14
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 106
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e30b571f12e9b50800000000000000
+      internalID: 6601751424717045328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_15
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 106
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de592f440c4d07210800000000000000
+      internalID: 1328795812329854445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad4268d8cad0ae0800000000000000
+      internalID: -1581418170296247732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_17
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 106
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d1ac8ed7ae58c50800000000000000
+      internalID: 6666992649889258867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_18
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 106
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eef32357b3c53fc0800000000000000
+      internalID: -3515688741951504669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_19
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 106
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a98ed54267241980800000000000000
+      internalID: -8569180887946720862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c461ed36173988b0800000000000000
+      internalID: -5149524130254461758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_21
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 106
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06cd23782b4eaf30800000000000000
+      internalID: 4588687707440268812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_22
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 106
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623c17a847fde49d0800000000000000
+      internalID: -2788045427663846618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_23
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 106
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec46228fd484e2570800000000000000
+      internalID: 8443765851078943950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_24
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 70
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af217ac2138af110800000000000000
+      internalID: 1295491959551504295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 70
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc0ca47673d68540800000000000000
+      internalID: 5009924141213289675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 70
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04228227c994450c0800000000000000
+      internalID: -4587961184104734144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 70
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1507b77f1526a6b00800000000000000
+      internalID: 822577986132471889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_28
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 70
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc2f76169dcdf7b0800000000000000
+      internalID: -5188765151154721581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 70
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f40438b59f44a120800000000000000
+      internalID: 2424150003891307763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 70
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b5786a0887e7b90800000000000000
+      internalID: -7242218656820143242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_31
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 70
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb7cfd67bbe1c00800000000000000
+      internalID: 873341496991399162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_32
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 70
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce1d4da25a44fd50800000000000000
+      internalID: 6770117858799984320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_33
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 70
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622b57c0610c730e0800000000000000
+      internalID: -2290150684563754458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 70
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0ae0dcf7abc5400800000000000000
+      internalID: 314331132072992964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_35
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 70
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4348dcf8830b20c00800000000000000
+      internalID: 865447835385824308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 70
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773c3504c8a4d8370800000000000000
+      internalID: 8326393252313023351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_37
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 70
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2946c6e190000740800000000000000
+      internalID: 5116089803334895915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_38
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 70
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbdfe18c30250e90800000000000000
+      internalID: -7060201396583277580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_39
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 70
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e3e03c627302820800000000000000
+      internalID: 2891371600392633969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_40
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 70
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531f0b9515ec15950800000000000000
+      internalID: 6436152191281590581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_41
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 70
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d695de3512d41600800000000000000
+      internalID: 438206052452112087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_XP_42
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 70
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361558496d453e290800000000000000
+      internalID: -7862347243867254429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_XP_0: -8057700792270663740
+      Logo_XP_1: 8231582138421910251
+      Logo_XP_10: -3931125139900270506
+      Logo_XP_11: 8169342449745696624
+      Logo_XP_12: 4765084419192354377
+      Logo_XP_13: -7682452761935481115
+      Logo_XP_14: 6601751424717045328
+      Logo_XP_15: 1328795812329854445
+      Logo_XP_16: -1581418170296247732
+      Logo_XP_17: 6666992649889258867
+      Logo_XP_18: -3515688741951504669
+      Logo_XP_19: -8569180887946720862
+      Logo_XP_2: -1112598592045660646
+      Logo_XP_20: -5149524130254461758
+      Logo_XP_21: 4588687707440268812
+      Logo_XP_22: -2788045427663846618
+      Logo_XP_23: 8443765851078943950
+      Logo_XP_24: 1295491959551504295
+      Logo_XP_25: 5009924141213289675
+      Logo_XP_26: -4587961184104734144
+      Logo_XP_27: 822577986132471889
+      Logo_XP_28: -5188765151154721581
+      Logo_XP_29: 2424150003891307763
+      Logo_XP_3: -7691950606038513647
+      Logo_XP_30: -7242218656820143242
+      Logo_XP_31: 873341496991399162
+      Logo_XP_32: 6770117858799984320
+      Logo_XP_33: -2290150684563754458
+      Logo_XP_34: 314331132072992964
+      Logo_XP_35: 865447835385824308
+      Logo_XP_36: 8326393252313023351
+      Logo_XP_37: 5116089803334895915
+      Logo_XP_38: -7060201396583277580
+      Logo_XP_39: 2891371600392633969
+      Logo_XP_4: -1582267239357498734
+      Logo_XP_40: 6436152191281590581
+      Logo_XP_41: 438206052452112087
+      Logo_XP_42: -7862347243867254429
+      Logo_XP_5: -4626897551555913633
+      Logo_XP_6: 7883520533319852019
+      Logo_XP_7: -8251528780164542987
+      Logo_XP_8: 6252194791625424638
+      Logo_XP_9: -5622208109912861865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

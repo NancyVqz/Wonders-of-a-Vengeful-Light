@@ -27,6 +27,9 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         GameManager.instance.energy = 0;
         GameManager.instance.score = 0;
+        GameManager.instance.shootLvl = 1;
+        GameManager.instance.shieldLvl = 1;
+        GameManager.instance.dashLvl = 1;
         SceneManager.LoadScene("NIVEL 1");
         AudioManager.instance.StopAll();
         AudioManager.instance.Play("lvl 1");

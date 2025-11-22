@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 1c550005b94c30141bf640e5fa683314
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2334415120575276741
+    second: Boss2_golpeado_0
+  - first:
+      213: 363409125418161874
+    second: Boss2_golpeado_1
+  - first:
+      213: 7318912188276846032
+    second: Boss2_golpeado_2
+  - first:
+      213: -6652238803075627957
+    second: Boss2_golpeado_3
+  - first:
+      213: -8220657095499546482
+    second: Boss2_golpeado_4
+  - first:
+      213: 4991676558263326654
+    second: Boss2_golpeado_5
+  - first:
+      213: 4115246038383505090
+    second: Boss2_golpeado_6
+  - first:
+      213: 7572237608374648610
+    second: Boss2_golpeado_7
+  - first:
+      213: 4570322992451498239
+    second: Boss2_golpeado_8
+  - first:
+      213: 4999513840782505767
+    second: Boss2_golpeado_9
+  - first:
+      213: -7235899999438157448
+    second: Boss2_golpeado_10
+  - first:
+      213: 8318414716104904828
+    second: Boss2_golpeado_11
+  - first:
+      213: 3891483738036731116
+    second: Boss2_golpeado_12
+  - first:
+      213: -6866315791909831318
+    second: Boss2_golpeado_13
+  - first:
+      213: -6373940026961453805
+    second: Boss2_golpeado_14
+  - first:
+      213: 1094152054984103143
+    second: Boss2_golpeado_15
+  - first:
+      213: -2760409125453098136
+    second: Boss2_golpeado_16
+  - first:
+      213: -7514848848666464942
+    second: Boss2_golpeado_17
+  - first:
+      213: 7727053905618596586
+    second: Boss2_golpeado_18
+  - first:
+      213: 1737012555297209333
+    second: Boss2_golpeado_19
+  - first:
+      213: 4332212433316710250
+    second: Boss2_golpeado_20
+  - first:
+      213: -7990348370343597802
+    second: Boss2_golpeado_21
+  - first:
+      213: -250944762478263478
+    second: Boss2_golpeado_22
+  - first:
+      213: -4279053266446790335
+    second: Boss2_golpeado_23
+  - first:
+      213: -5701738353047654767
+    second: Boss2_golpeado_24
+  - first:
+      213: -2866604725870064761
+    second: Boss2_golpeado_25
+  - first:
+      213: 6548226113758019491
+    second: Boss2_golpeado_26
+  - first:
+      213: -45980154295841539
+    second: Boss2_golpeado_27
+  - first:
+      213: 8827365643655402756
+    second: Boss2_golpeado_28
+  - first:
+      213: 8757101578043905584
+    second: Boss2_golpeado_29
+  - first:
+      213: 7171624214323037009
+    second: Boss2_golpeado_30
+  - first:
+      213: -1685283881975479687
+    second: Boss2_golpeado_31
+  - first:
+      213: -5149595254357040442
+    second: Boss2_golpeado_32
+  - first:
+      213: 4911360896849912689
+    second: Boss2_golpeado_33
+  - first:
+      213: 9134463128625702500
+    second: Boss2_golpeado_34
+  - first:
+      213: 5050980192401027424
+    second: Boss2_golpeado_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss2_golpeado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6a0341f22856020800000000000000
+      internalID: 2334415120575276741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2_golpeado_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d65fa49ca61b0500800000000000000
+      internalID: 363409125418161874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2_golpeado_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda484abdff19560800000000000000
+      internalID: 7318912188276846032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2_golpeado_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b448b9dbd008ea3a0800000000000000
+      internalID: -6652238803075627957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5f6bde4e0272f4a46baca9ed59284420
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Boss2_golpeado_0: 2334415120575276741
+      Boss2_golpeado_1: 363409125418161874
+      Boss2_golpeado_2: 7318912188276846032
+      Boss2_golpeado_3: -6652238803075627957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

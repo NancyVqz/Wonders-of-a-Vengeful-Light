@@ -1,11 +1,12 @@
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class UIPlayerHealth : MonoBehaviour
 {
     [SerializeField] private List<GameObject> healthIcons = new List<GameObject>();
 
-    [SerializeField] private bool hideExtraIcons = true;
+    [SerializeField] private Sprite starInactiveSprite;
 
     [SerializeField] private GameObject deadPanel;
     [SerializeField] private GameObject player;
@@ -14,9 +15,6 @@ public class UIPlayerHealth : MonoBehaviour
 
     private void Start()
     {
-        InitializeHealthIcons();
-        
-        //Esteblecer la vida inicial del nivel
         UpdateHealthDisplay(HeartCount());
     }
 
@@ -39,18 +37,20 @@ public class UIPlayerHealth : MonoBehaviour
         }
         return GameManager.instance.playerHealth;
     }
+
     public void HeartCountShop()
     {
         UpdateHealthDisplay(LivesCountUpdate());
     }
+
     public void GetActualHealth()
     {
         int actualHealth = GameManager.instance.playerHealth;
         totalDamage = HeartCount() - actualHealth;
     }
+
     public int LivesCountUpdate()
     {
-
         switch (GameManager.instance.shieldLvl)
         {
             case 1:
@@ -69,26 +69,44 @@ public class UIPlayerHealth : MonoBehaviour
         return GameManager.instance.playerHealth;
     }
 
-    private void InitializeHealthIcons()
-    {
-        foreach (GameObject icon in healthIcons)
-        {
-            icon.SetActive(false);
-        }
-    }
-
     public void UpdateHealthDisplay(int newHealth)
     {
-        // Activar / desactivar los iconos de vida
         for (int i = 0; i < healthIcons.Count; i++)
         {
+            // TODAS las estrellas se mantienen activas
+            healthIcons[i].SetActive(true);
+
+            Animator animator = healthIcons[i].GetComponent<Animator>();
+
             if (i < newHealth)
             {
-                healthIcons[i].SetActive(true);
+                // Vida activa: activar animator
+                if (animator != null)
+                {
+                    animator.enabled = true;
+                }
             }
-            else if (hideExtraIcons)
+            else
             {
-                healthIcons[i].SetActive(false);
+                // Vida perdida o no disponible: desactivar animator y poner sprite gris
+                if (animator != null)
+                {
+                    animator.enabled = false;
+                }
+
+                Image imageComponent = healthIcons[i].GetComponent<Image>();
+                if (imageComponent != null)
+                {
+                    imageComponent.sprite = starInactiveSprite;
+                }
+                else
+                {
+                    SpriteRenderer spriteRenderer = healthIcons[i].GetComponent<SpriteRenderer>();
+                    if (spriteRenderer != null)
+                    {
+                        spriteRenderer.sprite = starInactiveSprite;
+                    }
+                }
             }
         }
 
@@ -104,7 +122,6 @@ public class UIPlayerHealth : MonoBehaviour
             Time.timeScale = 0f;
             deadPanel.SetActive(true);
             ScoreManager.instance.SaveAndShowScore();
-
             player.gameObject.SetActive(false);
             Debug.Log("Player Muerto");
         }

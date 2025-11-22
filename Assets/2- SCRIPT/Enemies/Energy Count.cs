@@ -11,6 +11,6 @@ public class EnergyCount : MonoBehaviour
     }
     void Update()
     {
-        contador.text = "" + GameManager.instance.energy;
+        contador.text = GameManager.instance.energy.ToString("000");
     }
 }

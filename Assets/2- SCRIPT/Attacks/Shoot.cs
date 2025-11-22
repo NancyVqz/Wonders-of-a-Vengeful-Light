@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
 
     [Header("Shooting Settings")]
     [SerializeField] private float fireRate = 1f; 
-    [SerializeField] private float burstDelay = 0.3f; 
+    [SerializeField] private float burstDelay = 0.3f;
     private bool isShooting = false;
     private float machineCont = 0;
     private bool isButtonPressed = false;
@@ -259,6 +259,4 @@ public class Shoot : MonoBehaviour
         // Limpiar todas las balas cuando se desactiva el objeto
         ClearAllBullets();
     }
-
-
 }

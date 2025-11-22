@@ -71,7 +71,7 @@ MonoBehaviour:
     volume: 1
     source: {fileID: 0}
   - name: game over
-    clip: {fileID: 8300000, guid: 4163dce9c1e5d804b8117904a9f387cf, type: 3}
+    clip: {fileID: 8300000, guid: 91636405b2c3f1d43bbd6946ee65991a, type: 3}
     loop: 1
     volume: 1
     source: {fileID: 0}
@@ -132,6 +132,21 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: comprar boton
     clip: {fileID: 8300000, guid: 9ebed45e52e17854d8cb048b9dd69bb8, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: alerta
+    clip: {fileID: 8300000, guid: 82a0192c902426147862ce57c08a158c, type: 3}
+    loop: 1
+    volume: 1
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 1f0255a6c33a04c48b386a96a56dcca1, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: botones
+    clip: {fileID: 8300000, guid: 106c7a7207955d343b516364b1cd4379, type: 3}
     loop: 0
     volume: 1
     source: {fileID: 0}

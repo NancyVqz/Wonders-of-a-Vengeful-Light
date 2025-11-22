@@ -103,13 +103,13 @@ public class TiendaManager : MonoBehaviour
         switch (nombre)
         {
             case "Shoot":
-                int[] preciosShoot = { 10, 20, 40 };
+                int[] preciosShoot = { 6, 12, 24 };
                 return (nivelActual >= 0 && nivelActual < preciosShoot.Length) ? preciosShoot[nivelActual] : 0;
             case "Shield":
-                int[] preciosShield = { 11, 22, 44 };
+                int[] preciosShield = { 4, 8, 16 };
                 return (nivelActual >= 0 && nivelActual < preciosShield.Length) ? preciosShield[nivelActual] : 0;
             case "Dash":
-                int[] preciosDash = { 9, 18, 36 };
+                int[] preciosDash = { 3, 6, 12 };
                 return (nivelActual >= 0 && nivelActual < preciosDash.Length) ? preciosDash[nivelActual] : 0;
             default:
                 Debug.LogWarning("Esa habilidad no existe");
