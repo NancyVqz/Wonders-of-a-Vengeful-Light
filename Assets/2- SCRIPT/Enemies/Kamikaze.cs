@@ -103,12 +103,14 @@ public class Kamikaze : MonoBehaviour
 
     IEnumerator Move()
     {
+        float distanciaObjetivo = 0.5f;
+        float distanciaObjetivoCuadrada = distanciaObjetivo * distanciaObjetivo;
+
         while (estaActivo)
         {
-            Vector3 direction = (posTarget - enemy.transform.position).normalized;
-            enemy.transform.position += direction * velocidad * Time.deltaTime;
+            float distanciaCuadrada = (enemy.transform.position - posTarget).sqrMagnitude;
 
-            if (Vector3.Distance(enemy.transform.position, posTarget) < 0.1f)
+            if (distanciaCuadrada < distanciaObjetivoCuadrada)
             {
                 Explotar();
                 yield break;

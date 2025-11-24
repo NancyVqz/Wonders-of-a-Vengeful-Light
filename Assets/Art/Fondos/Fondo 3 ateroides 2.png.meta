@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ddb09f482af25fa48ac486bdbdb34d85
+guid: 906c0b4739ad0b24cbcac7935160ed9e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 304218321825993050
-    second: Fondo_3_sprite_Background_plane_0
+      213: 1242638422650959603
+    second: Fondo 3 ateroides 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fondo_3_sprite_Background_plane_0
+      name: Fondo 3 ateroides 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a519a9ea3fcc83400800000000000000
-      internalID: 304218321825993050
+      spriteID: 3f6bc56cf0dbe3110800000000000000
+      internalID: 1242638422650959603
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fondo_3_sprite_Background_plane_0: 304218321825993050
+      Fondo 3 ateroides 2_0: 1242638422650959603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
