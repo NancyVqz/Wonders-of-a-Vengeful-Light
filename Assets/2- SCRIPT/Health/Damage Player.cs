@@ -15,6 +15,7 @@ public class DamagePlayer : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            Handheld.Vibrate();
             damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 

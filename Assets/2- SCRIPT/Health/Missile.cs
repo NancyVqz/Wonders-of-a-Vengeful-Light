@@ -130,6 +130,7 @@ public class Missile : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            Handheld.Vibrate();
             damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
         }

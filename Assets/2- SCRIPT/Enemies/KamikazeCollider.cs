@@ -11,6 +11,7 @@ public class KamikazeCollider : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            Handheld.Vibrate();
             damageEffectScript.TriggerDamageFlash();
             
             CameraShake.instance.Shake();

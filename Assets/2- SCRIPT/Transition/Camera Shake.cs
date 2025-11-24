@@ -6,10 +6,14 @@ public class CameraShake : MonoBehaviour
 
     public static CameraShake instance;
 
-    [Header("Shake Settings")]
+    [Header("Shake Damage Player")]
     [SerializeField] private float shakeDuration = 0.2f;
     [SerializeField] private float shakeMagnitude = 0.3f;
     [SerializeField] private float dampingSpeed = 1.0f;
+
+    [Header("Shake Explosion Kamikaze")]
+    [SerializeField] private float shakeDuration2 = 0.2f;
+    [SerializeField] private float shakeMagnitude2 = 0.3f;
 
     private Vector3 originalPosition;
     private bool isShaking = false;
@@ -33,7 +37,15 @@ public class CameraShake : MonoBehaviour
 
     public void Shake()
     {
-        StartCoroutine(ShakeCoroutine(shakeDuration, shakeMagnitude));
+        if (!isShaking)
+        {
+            StartCoroutine(ShakeCoroutine(shakeDuration, shakeMagnitude));
+        }
+    }
+
+    public void ShakeExplosion()
+    {
+        StartCoroutine(ShakeCoroutine(shakeDuration2, shakeMagnitude2));
     }
 
     public void Shake(float duration, float magnitude)

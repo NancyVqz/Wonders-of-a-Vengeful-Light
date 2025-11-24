@@ -9,6 +9,7 @@ public class Shoot : MonoBehaviour
     [SerializeField] private float velocidadBala = 970f;
     [SerializeField] private GameObject balaPrefab;
     [SerializeField] private float bulletLifetime = 2f;
+    [SerializeField] private GameObject shootVfx;
 
     [Header("Shooting Settings")]
     [SerializeField] private float fireRate = 1f; 
@@ -54,6 +55,7 @@ public class Shoot : MonoBehaviour
         {
 
             AudioManager.instance.Play("shoot");
+            StartCoroutine(ApagarShootVfx());
             StartCoroutine(SoundTime());
             playerMov.ShootAnim();
 
@@ -89,6 +91,7 @@ public class Shoot : MonoBehaviour
         if (machineCont <= 0 && !isShooting)
         {
             AudioManager.instance.Play("shoot");
+            StartCoroutine(ApagarShootVfx());
             StartCoroutine(SoundTime());
             playerMov.ShootAnim();
 
@@ -258,5 +261,13 @@ public class Shoot : MonoBehaviour
     {
         // Limpiar todas las balas cuando se desactiva el objeto
         ClearAllBullets();
+    }
+
+
+    private IEnumerator ApagarShootVfx()
+    {
+        shootVfx.SetActive(true);
+        yield return new WaitForSeconds(0.3f);
+        shootVfx.SetActive(false);
     }
 }

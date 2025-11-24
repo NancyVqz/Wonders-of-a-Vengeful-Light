@@ -14,6 +14,7 @@ public class LaserDamage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             AudioManager.instance.Play("prota damage");
+            Handheld.Vibrate();
             damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 

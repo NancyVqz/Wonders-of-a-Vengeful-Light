@@ -78,6 +78,7 @@ public class MissileBoss : MonoBehaviour
         {
 
             AudioManager.instance.Play("prota damage");
+            Handheld.Vibrate();
             damageEffectScript.TriggerDamageFlash();
             StartCoroutine(SoundTime());
 

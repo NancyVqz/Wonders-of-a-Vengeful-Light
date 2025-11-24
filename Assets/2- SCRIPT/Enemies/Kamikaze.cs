@@ -53,6 +53,7 @@ public class Kamikaze : MonoBehaviour
     {
         colliderDanio.transform.position = posTarget;
         explosionVfx.transform.position = posTarget;
+        CameraShake.instance.ShakeExplosion();
         explosionVfx.SetActive(true);
         Desactivar();
 

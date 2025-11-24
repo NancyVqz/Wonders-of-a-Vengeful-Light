@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7393291677808432876}
   - component: {fileID: 372938983137812752}
   - component: {fileID: 5405049393009545395}
+  - component: {fileID: -2643793999521166360}
   m_Layer: 0
   m_Name: EnemyMissile
   m_TagString: Enemy Bullet
@@ -82,8 +83,8 @@ SpriteRenderer:
   m_SortingLayerID: 649278123
   m_SortingLayer: 4
   m_SortingOrder: 2
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.3735848, g: 0, b: 0.011973799, a: 1}
+  m_Sprite: {fileID: 1297023011463693351, guid: 3d2a791fc8a55a24a874a6f060a2e5bc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -128,7 +129,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.74, y: 0.74}
   m_Direction: 0
 --- !u!50 &372938983137812752
 Rigidbody2D:
@@ -175,3 +176,25 @@ MonoBehaviour:
   explosionBulletSpeed: 300
   explosionBulletScale: 0.3
   explosionEffectPrefab: {fileID: 0}
+--- !u!95 &-2643793999521166360
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8476126148195756498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25bb3e9c70f952d4d998cd6126198c26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
