@@ -4615,7 +4615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda546c2efef4f048a709402990519f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5.7
+  speed: 6.3
   joy: {fileID: 604416132}
   dashSpeed: 21
   dashDuration: 0.18
@@ -21244,7 +21244,7 @@ Transform:
   m_GameObject: {fileID: 4791252893681559279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4, y: 0.4327, z: 0}
+  m_LocalPosition: {x: 3.5, y: 0.4327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22692,21 +22692,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4776895609265407268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7137440464909356530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f83d9044b05f8458c853d1b74580bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyMove1
-  speed: 2
-  minStopY: 8
-  maxStopY: 2.77
 --- !u!1 &4791252893681559279
 GameObject:
   m_ObjectHideFlags: 0
@@ -23332,7 +23317,7 @@ Transform:
   m_GameObject: {fileID: 2258618532502077629}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6677, y: -9.74, z: 0}
+  m_LocalPosition: {x: -1.6677, y: -9.69, z: 0}
   m_LocalScale: {x: 5.633166, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28852,7 +28837,7 @@ Transform:
   m_GameObject: {fileID: 7799169304985536621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.6, y: 0.4327, z: 0}
+  m_LocalPosition: {x: -6.65, y: 0.4327, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29086,7 +29071,6 @@ GameObject:
   - component: {fileID: 691679699998417139}
   - component: {fileID: 859444341782254528}
   - component: {fileID: 5273415063041744736}
-  - component: {fileID: 4776895609265407268}
   - component: {fileID: 2549500153626759155}
   - component: {fileID: 1479140023342488787}
   - component: {fileID: 6658162082331837898}

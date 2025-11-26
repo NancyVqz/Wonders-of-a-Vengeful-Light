@@ -27,7 +27,6 @@ public class Kamikaze : MonoBehaviour
 
     void Start()
     {
-        enemy.gameObject.SetActive(false);
         StartCoroutine(StartAttack());
     }
 
