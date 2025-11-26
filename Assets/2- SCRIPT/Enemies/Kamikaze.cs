@@ -19,9 +19,11 @@ public class Kamikaze : MonoBehaviour
     [SerializeField] private GameObject colliderDanio;
     [SerializeField] private GameObject enemy;
 
-
+    [SerializeField] private float distanciaExplosion = 0.5f;
     private Vector3 posTarget;
     private bool estaActivo = false;
+    private float distanciaRecorridaTotal = 0f;
+    private float distanciaMaxima = 0f;
 
     void Start()
     {
@@ -42,8 +44,11 @@ public class Kamikaze : MonoBehaviour
         enemy.gameObject.SetActive(true);
         estaActivo = true;
 
-        float angulo = Mathf.Atan2((posTarget - enemy.transform.position).normalized.y, (posTarget - enemy.transform.position).normalized.x) * Mathf.Rad2Deg;
+        // Calcular distancia máxima al inicio
+        distanciaMaxima = Vector3.Distance(enemy.transform.position, posTarget);
+        distanciaRecorridaTotal = 0f;
 
+        float angulo = Mathf.Atan2((posTarget - enemy.transform.position).normalized.y, (posTarget - enemy.transform.position).normalized.x) * Mathf.Rad2Deg;
         enemy.transform.rotation = Quaternion.Euler(0, 0, angulo - 90);
 
         StartCoroutine(Move());
@@ -64,6 +69,7 @@ public class Kamikaze : MonoBehaviour
     {
         estaActivo = false;
         enemy.gameObject.SetActive(false);
+        distanciaRecorridaTotal = 0f;
     }
 
     void ShowWarning()
@@ -78,7 +84,7 @@ public class Kamikaze : MonoBehaviour
     {
         StartCoroutine(KamikazeAttack());
 
-        int time = Random.Range(minCooldownAttack, maxCooldownAttack );
+        int time = Random.Range(minCooldownAttack, maxCooldownAttack);
         yield return new WaitForSeconds(time);
 
         StartCoroutine(CooldownAttack());
@@ -103,19 +109,32 @@ public class Kamikaze : MonoBehaviour
 
     IEnumerator Move()
     {
-        float distanciaObjetivo = 0.5f;
-        float distanciaObjetivoCuadrada = distanciaObjetivo * distanciaObjetivo;
-
         while (estaActivo)
         {
-            float distanciaCuadrada = (enemy.transform.position - posTarget).sqrMagnitude;
+            float distanciaActual = Vector3.Distance(enemy.transform.position, posTarget);
 
-            if (distanciaCuadrada < distanciaObjetivoCuadrada)
+            // Triple verificación para asegurar la explosión en móviles
+            if (distanciaActual < distanciaExplosion ||
+                distanciaRecorridaTotal >= distanciaMaxima ||
+                distanciaActual > distanciaMaxima) // Si se pasó del objetivo
             {
                 Explotar();
                 yield break;
             }
 
+            Vector3 direction = (posTarget - enemy.transform.position).normalized;
+            float movimiento = velocidad * Time.deltaTime;
+
+            // Limitar movimiento para no pasar el objetivo
+            if (movimiento > distanciaActual)
+            {
+                movimiento = distanciaActual;
+            }
+
+            enemy.transform.position += direction * movimiento;
+            distanciaRecorridaTotal += movimiento;
+
+            // Verificación de distancia máxima del jugador
             if (Vector3.Distance(enemy.transform.position, player.position) > 30f)
             {
                 Desactivar();

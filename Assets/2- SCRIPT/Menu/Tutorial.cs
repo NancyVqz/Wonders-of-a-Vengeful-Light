@@ -11,8 +11,11 @@ public class Tutorial : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(StartTuto());
-        UpdateSlide(0);
+        if (!GameManager.instance.tutoAppeared)
+        {
+            StartCoroutine(StartTuto());
+            UpdateSlide(0);
+        }
     }
 
     public void NextSlide()
@@ -49,5 +52,7 @@ public class Tutorial : MonoBehaviour
         tuto.SetActive(false);
         yield return new WaitForSeconds(1);
         tuto.SetActive(true);
+        GameManager.instance.tutoAppeared = true;
     }
+
 }

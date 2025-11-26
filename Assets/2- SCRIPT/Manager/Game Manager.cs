@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     public int energy;
 
     public string nivelSiguiente;
+    public bool tutoAppeared = false;
 
     void Awake()
     {
