@@ -4,31 +4,17 @@ using System.Collections;
 public class LaserDamage : MonoBehaviour
 {
     public int damage = 1;
-    private DamagePlayerVfx damageEffectScript;
+    private PlayerMovement playerMovement;
 
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
 
         if (other.CompareTag("Player"))
         {
-            AudioManager.instance.Play("prota damage");
-            Handheld.Vibrate();
-            damageEffectScript.TriggerDamageFlash();
-            StartCoroutine(SoundTime());
+            playerMovement.DanioProta();
 
         }
-    }
-
-    private IEnumerator SoundTime()
-    {
-        yield return new WaitForSeconds(0f);
-
-        Debug.Log("Se daño al jugador");
-        CameraShake.instance.Shake();
-        GameManager.instance.playerHealth -= 1;
-        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
     }
 }

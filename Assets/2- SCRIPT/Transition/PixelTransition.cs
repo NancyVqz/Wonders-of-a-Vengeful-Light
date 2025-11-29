@@ -11,7 +11,6 @@ public class PixelTransition : MonoBehaviour
     [SerializeField] private float transitionDuration = 1f; 
 
     private float originalScale = 1;
-    private float t = 0f;
     private bool isTransitioning = false;
 
     void Awake()

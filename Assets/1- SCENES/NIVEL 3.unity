@@ -2584,7 +2584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageBoss
   vidaBoss: 100
-  damageBoss: 2
+  damageBoss: 1.7
   vidaUi: {fileID: 1489651749}
   waitFadeTime: 3
   onBossDead:
@@ -2992,6 +2992,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2100156657282333752}
+        m_TargetAssemblyTypeName: Kamikaze, Assembly-CSharp
+        m_MethodName: DetenerKamikaze
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &1579373641
 Transform:
   m_ObjectHideFlags: 0
@@ -3037,8 +3049,9 @@ MonoBehaviour:
   newEnemiesContinue: 35
   newEnemiesContinue2: 45
   damageBossScript: {fileID: 1202660702}
-  newDamageBoss: 1.1
-  newDamageBoss2: 0.8
+  newDamageBoss: 1.4
+  newDamageBoss2: 0.9
+  newDamageBoss3: 0.6
 --- !u!1 &1590964639
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3334,119 @@ MonoBehaviour:
   initialPoolSize: 20
   maxPoolSize: 50
   bulletLifetime: 5
+--- !u!1 &1827100523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1827100526}
+  - component: {fileID: 1827100525}
+  - component: {fileID: 1827100524}
+  m_Layer: 0
+  m_Name: Directional Alert Sign
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!95 &1827100524
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827100523}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c903f507e767c24ca8c9a89c0bb382c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &1827100525
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827100523}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: -476957921
+  m_SortingLayer: 5
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 2e57a98d75f46824ba79702dd23bc136, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 119.03232, y: 106.420006}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1827100526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827100523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2547196096844168096}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828246719
 GameObject:
   m_ObjectHideFlags: 0
@@ -20070,22 +20196,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2515139118487998063}
   m_CullTransparentMesh: 1
---- !u!114 &1479140023342488787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7137440464909356530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e04a2f4723868c14d9418cbe7adc93f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DamageEnemy
-  damage: 50
-  deadVfx: {fileID: 2686075577645646414, guid: 1aad77b939f611c44a655ed12c970d47, type: 3}
-  normalPoints: 10
-  comboPoints: 20
 --- !u!1 &1483447137513608603
 GameObject:
   m_ObjectHideFlags: 0
@@ -20611,8 +20721,9 @@ MonoBehaviour:
   - {fileID: 6368314020596865930}
   alertSign: {fileID: 3706191094837152847}
   explosionVfx: {fileID: 8370938717837682663}
-  minCooldownAttack: 17
-  maxCooldownAttack: 19
+  directionAlertSign: {fileID: 1827100523}
+  minCooldownAttack: 20
+  maxCooldownAttack: 22
   minTimeAlert: 3
   maxTimeAlert: 6
   timeToAttack: 0.2
@@ -20620,6 +20731,7 @@ MonoBehaviour:
   explosionTime: 0.4
   colliderDanio: {fileID: 5702317291239078831}
   enemy: {fileID: 7137440464909356530}
+  margenDesdeBorde: 0.5
   distanciaExplosion: 0.5
 --- !u!222 &2139950723867047980
 CanvasRenderer:
@@ -20865,7 +20977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282.7, y: 476.3}
+  m_AnchoredPosition: {x: 280, y: 475}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2515139118487998063
@@ -20912,6 +21024,7 @@ Transform:
   - {fileID: 691679699998417139}
   - {fileID: 1613127824610691111}
   - {fileID: 6156000462736641933}
+  - {fileID: 1827100526}
   - {fileID: 7632063977628197714}
   - {fileID: 5793757023406923625}
   - {fileID: 198600206032347826}
@@ -29049,7 +29162,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraShake
   shakeDuration: 0.06
   shakeMagnitude: 0.3
-  dampingSpeed: 1
   shakeDuration2: 0.4
   shakeMagnitude2: 0.3
 --- !u!222 &7128852164584820707
@@ -29072,7 +29184,6 @@ GameObject:
   - component: {fileID: 859444341782254528}
   - component: {fileID: 5273415063041744736}
   - component: {fileID: 2549500153626759155}
-  - component: {fileID: 1479140023342488787}
   - component: {fileID: 6658162082331837898}
   m_Layer: 0
   m_Name: Enemy

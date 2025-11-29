@@ -33,6 +33,7 @@ public class DifficultyManager : MonoBehaviour
     [SerializeField] DamageBoss damageBossScript;
     [SerializeField] float newDamageBoss;
     [SerializeField] float newDamageBoss2;
+    [SerializeField] float newDamageBoss3;
 
     private void Start()
     {
@@ -55,6 +56,10 @@ public class DifficultyManager : MonoBehaviour
         else if (GameManager.instance.shootLvl == 3 || GameManager.instance.shieldLvl == 3)
         {
             ValueChange3();
+        }
+        else if (GameManager.instance.shootLvl == 4 || GameManager.instance.shieldLvl == 4)
+        {
+            ValueChange4();
         }
     }
 
@@ -116,5 +121,10 @@ public class DifficultyManager : MonoBehaviour
             enemySpawnScript3.minTimeBetweenSpawns = newMinTimeBetweenSpawns3_2;
             enemySpawnScript3.maxTimeBetweenSpawns = newMaxTimeBetweenSpawns3_2;
         }
+    }
+
+    private void ValueChange4()
+    {
+        damageBossScript.damageBoss = newDamageBoss3;
     }
 }

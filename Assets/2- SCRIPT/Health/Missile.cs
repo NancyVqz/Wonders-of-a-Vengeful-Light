@@ -20,8 +20,7 @@ public class Missile : MonoBehaviour
     private bool hasExploded = false;
     private bool isExplosionBullet = false;
     private SpriteRenderer spriteRenderer;
-
-    private DamagePlayerVfx damageEffectScript;
+    private PlayerMovement playerMovement;
 
     private void Awake()
     {
@@ -30,7 +29,7 @@ public class Missile : MonoBehaviour
 
     private void OnEnable()
     {
-        damageEffectScript= FindAnyObjectByType<DamagePlayerVfx>();
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
         startPosition = transform.position;
         hasExploded = false;
         isExplosionBullet = false;
@@ -129,22 +128,8 @@ public class Missile : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            AudioManager.instance.Play("prota damage");
-            Handheld.Vibrate();
-            damageEffectScript.TriggerDamageFlash();
-            StartCoroutine(SoundTime());
+            playerMovement.DanioProta();
+            BossBulletPool.instance.ReturnBullet(gameObject);
         }
-    }
-
-    private IEnumerator SoundTime()
-    {
-        yield return new WaitForSeconds(0f);
-
-        CameraShake.instance.Shake();
-        GameManager.instance.playerHealth -= 1;
-        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
-
-        BossBulletPool.instance.ReturnBullet(gameObject);
     }
 }

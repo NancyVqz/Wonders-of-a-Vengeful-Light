@@ -755,15 +755,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.25397348, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 6de26cd634655fc4bb7d12d765a631da, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3929,15 +3929,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.14420894, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0d384e3f11cfd214b9b86eba9f03188e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4854,15 +4854,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.25397348, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c39838a442ecd494495e89bdfa319dcf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4954,13 +4954,13 @@ MonoBehaviour:
 
 
 
-    
 
-    Boss:
-    Este grandullon , es el Jefe , derrotalo en cada nivel para seguir avanzando
-    !! Aparecera despuea de derrotar a cierta cantidad de sus secuaces , su vida
-    saldra a la derecha de la pantalla derrotalo para pasar al siguiente nivel!!
-    Cuenta con 3 fases , vada nivel que pases se ara mas fuerte!!'
+
+    Boss: Este
+    grandullon , es el Jefe , derrotalo en cada nivel para seguir avanzando !! Aparecera
+    despuea de derrotar a cierta cantidad de sus secuaces , su vida saldra a la derecha
+    de la pantalla derrotalo para pasar al siguiente nivel!! Cuenta con 3 fases ,
+    vada nivel que pases se ara mas fuerte!!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}
   m_sharedMaterial: {fileID: 6485713966002849761, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}

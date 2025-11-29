@@ -9,7 +9,6 @@ public class CameraShake : MonoBehaviour
     [Header("Shake Damage Player")]
     [SerializeField] private float shakeDuration = 0.2f;
     [SerializeField] private float shakeMagnitude = 0.3f;
-    [SerializeField] private float dampingSpeed = 1.0f;
 
     [Header("Shake Explosion Kamikaze")]
     [SerializeField] private float shakeDuration2 = 0.2f;

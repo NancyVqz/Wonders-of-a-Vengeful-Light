@@ -3,30 +3,16 @@ using System.Collections;
 
 public class CollisionPlayer : MonoBehaviour
 {
-    private DamagePlayerVfx damageEffectScript;
+    private PlayerMovement playerMovement;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
+            playerMovement = FindAnyObjectByType<PlayerMovement>();
 
-            AudioManager.instance.Play("prota damage");
-            Handheld.Vibrate();
-            damageEffectScript.TriggerDamageFlash();
-            StartCoroutine(SoundTime());
+            playerMovement.DanioProta();
 
         }
-    }
-
-    private IEnumerator SoundTime()
-    {
-        yield return new WaitForSeconds(0f);
-
-        CameraShake.instance.Shake();
-        GameManager.instance.playerHealth -= 1;
-
-        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
     }
 }

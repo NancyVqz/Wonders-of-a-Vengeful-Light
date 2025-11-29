@@ -4,6 +4,7 @@ using UnityEngine;
 public class DamageEnemy : MonoBehaviour
 {
     [SerializeField] private int damage;
+    [SerializeField] private int kamikazeDamage;
     [SerializeField] private GameObject deadVfx;
 
     [Header("Score points")]
@@ -29,6 +30,18 @@ public class DamageEnemy : MonoBehaviour
     public void TakeDamage()
     {
         health -= damage;
+        anim.SetBool("damage", true);
+
+        if (health <= 0)
+        {
+            AudioManager.instance.Play("enemy death");
+            StartCoroutine(SoundTime());
+        }
+    }
+
+    public void KamikazeDamage()
+    {
+        health -= kamikazeDamage;
         anim.SetBool("damage", true);
 
         if (health <= 0)

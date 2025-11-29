@@ -20,6 +20,11 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         AudioManager.instance.StopAll();
         SceneManager.LoadScene("MENU");
+        GameManager.instance.energy = 0;
+        GameManager.instance.score = 0;
+        GameManager.instance.shootLvl = 1;
+        GameManager.instance.shieldLvl = 1;
+        GameManager.instance.dashLvl = 1;
     }
 
     public void Nivel1()

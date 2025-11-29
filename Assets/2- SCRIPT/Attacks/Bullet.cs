@@ -13,18 +13,14 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            //devuelve al enemigo
             DamageEnemy enemyScript = other.GetComponent<DamageEnemy>();
             if (enemyScript != null)
             {
-                // Llamar el método que aplica daño
-                enemyScript.TakeDamage(); // <- este es el método que tú creaste
+                enemyScript.TakeDamage(); 
             }
 
-            // Devolver la bala al pool
             if (shootScript != null)
             {
-                //danio a enemigo
                 shootScript.OnBulletHit(this.gameObject);
             }
         }

@@ -14,7 +14,7 @@ public class MissileBoss : MonoBehaviour
     private Transform player;
     private Vector3 posPlayer;
     private LaserAttack laserAttack;
-    private DamagePlayerVfx damageEffectScript;
+    private PlayerMovement playerMovement;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class MissileBoss : MonoBehaviour
     private void Start()
     {
         laserAttack = FindAnyObjectByType<LaserAttack>();
-        damageEffectScript = FindAnyObjectByType<DamagePlayerVfx>();
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
     }
 
     private void OnEnable()
@@ -76,24 +76,7 @@ public class MissileBoss : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-
-            AudioManager.instance.Play("prota damage");
-            Handheld.Vibrate();
-            damageEffectScript.TriggerDamageFlash();
-            StartCoroutine(SoundTime());
-
+            playerMovement.DanioProta();
         }
-    }
-
-    private IEnumerator SoundTime()
-    {
-        yield return new WaitForSeconds(0f);
-
-        CameraShake.instance.Shake();
-        GameManager.instance.playerHealth -= 1;
-        UIPlayerHealth uiScript = FindAnyObjectByType<UIPlayerHealth>();
-        uiScript.UpdateHealthDisplay(GameManager.instance.playerHealth);
-
-        BossBulletPool.instance.ReturnBullet(gameObject);
     }
 }
