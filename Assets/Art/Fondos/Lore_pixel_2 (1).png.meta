@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2e52c49db45a89d4bacb0880e113ec54
+guid: d2ecee7fc24e7af47b123321e8119f2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7387337399281285150
-    second: Lore_pixel_1_0
+      213: -698600815941172440
+    second: Lore_pixel_2 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lore_pixel_1_0
+      name: Lore_pixel_2 (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 874
+        y: 437
         width: 638
-        height: 441
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e781ef66c7ea7990800000000000000
-      internalID: -7387337399281285150
+      spriteID: 823470e52421e46f0800000000000000
+      internalID: -698600815941172440
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lore_pixel_1_0: -7387337399281285150
+      Lore_pixel_2 (1)_0: -698600815941172440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
