@@ -50,7 +50,7 @@ public class Tutorial : MonoBehaviour
     IEnumerator StartTuto()
     {
         tuto.SetActive(false);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(13);
         tuto.SetActive(true);
         GameManager.instance.tutoAppeared = true;
     }

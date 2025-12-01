@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     public string nivelSiguiente;
     public bool tutoAppeared = false;
+    public bool introAppeared = false;
 
     void Awake()
     {
