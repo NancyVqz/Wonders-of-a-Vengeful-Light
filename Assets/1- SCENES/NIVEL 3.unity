@@ -485,7 +485,7 @@ MonoBehaviour:
   maxTimeBetweenSpawns: 6
   avoidOverlappingSpawns: 0
   enemiesInScene: 0
-  maxEnemiesCountInScene: 3
+  maxEnemiesCountInScene: 2
 --- !u!4 &341394561
 Transform:
   m_ObjectHideFlags: 0
@@ -1568,11 +1568,11 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 8412070799988526792, guid: 48001a52062eac544995420bd87b404f, type: 3}
   maxEnemiesInstanceInQueue: 6
-  minTimeBetweenSpawns: 5
-  maxTimeBetweenSpawns: 8
+  minTimeBetweenSpawns: 3
+  maxTimeBetweenSpawns: 4
   avoidOverlappingSpawns: 1
   enemiesInScene: 0
-  maxEnemiesCountInScene: 2
+  maxEnemiesCountInScene: 3
 --- !u!4 &890070380
 Transform:
   m_ObjectHideFlags: 0
@@ -2123,11 +2123,11 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 1845051837788292519, guid: fc14d9d7d5c46894eb1fa6ab946ac15b, type: 3}
   maxEnemiesInstanceInQueue: 5
-  minTimeBetweenSpawns: 6
-  maxTimeBetweenSpawns: 10
+  minTimeBetweenSpawns: 3
+  maxTimeBetweenSpawns: 5
   avoidOverlappingSpawns: 0
   enemiesInScene: 0
-  maxEnemiesCountInScene: 3
+  maxEnemiesCountInScene: 1
 --- !u!4 &1126211401
 Transform:
   m_ObjectHideFlags: 0
@@ -2400,7 +2400,7 @@ SpriteRenderer:
   m_SortingLayerID: 649278123
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: -1962866664087908080, guid: d81bf4e72d55fa24b8194d1af845c1a4, type: 3}
+  m_Sprite: {fileID: -5338051651969608744, guid: dea41b90ed092934b8c39d32ebefe013, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2563,7 +2563,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.52, y: 6.4}
+    oldSize: {x: 11.52, y: 7.94}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3032,22 +3032,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
   enemySpawnScript1: {fileID: 890070379}
-  newMinTimeBetweenSpawns1: 3
+  newMinTimeBetweenSpawns1: 4
   newMaxTimeBetweenSpawns1: 5
-  newMinTimeBetweenSpawns1_2: 2
-  newMaxTimeBetweenSpawns1_2: 3
+  newMinTimeBetweenSpawns1_2: 4
+  newMaxTimeBetweenSpawns1_2: 5
   enemySpawnScript2: {fileID: 341394560}
-  newMinTimeBetweenSpawns2: 3
-  newMaxTimeBetweenSpawns2: 4
-  newMinTimeBetweenSpawns2_2: 1.5
-  newMaxTimeBetweenSpawns2_2: 2
+  newMinTimeBetweenSpawns2: 5
+  newMaxTimeBetweenSpawns2: 7
+  newMinTimeBetweenSpawns2_2: 5
+  newMaxTimeBetweenSpawns2_2: 7
   enemySpawnScript3: {fileID: 1126211400}
-  newMinTimeBetweenSpawns3: 3
-  newMaxTimeBetweenSpawns3: 5
-  newMinTimeBetweenSpawns3_2: 2
-  newMaxTimeBetweenSpawns3_2: 3
+  newMinTimeBetweenSpawns3: 5
+  newMaxTimeBetweenSpawns3: 7
+  newMinTimeBetweenSpawns3_2: 4
+  newMaxTimeBetweenSpawns3_2: 6
   newEnemiesContinue: 35
-  newEnemiesContinue2: 45
+  newEnemiesContinue2: 38
   damageBossScript: {fileID: 1202660702}
   newDamageBoss: 1.4
   newDamageBoss2: 0.9
@@ -22229,7 +22229,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
+      propertyPath: dashLvl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
       propertyPath: shootLvl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
+      propertyPath: shieldLvl
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

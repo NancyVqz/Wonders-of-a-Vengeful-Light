@@ -1,160 +1,160 @@
 fileFormatVersion: 2
-guid: d81bf4e72d55fa24b8194d1af845c1a4
+guid: 170d2fb848d8cf14ca89a69e877ddc3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1962866664087908080
-    second: SBoss1_0
+      213: -1146446130492060733
+    second: idle_Boss1_0
   - first:
-      213: 5478935927248966482
-    second: SBoss1_1
+      213: -8623338472307749963
+    second: idle_Boss1_1
   - first:
-      213: 1830346811791919888
-    second: SBoss1_2
+      213: -714130232295604015
+    second: idle_Boss1_2
   - first:
-      213: -1736175150855878604
-    second: SBoss1_3
+      213: -5515459638514033186
+    second: idle_Boss1_3
   - first:
-      213: 201639557695114834
-    second: SBoss1_4
+      213: -2560745451869491775
+    second: idle_Boss1_4
   - first:
-      213: -2646037921841031073
-    second: SBoss1_5
+      213: -8834230612220114736
+    second: idle_Boss1_5
   - first:
-      213: 1690414614899080147
-    second: SBoss1_6
+      213: -5306863478231624911
+    second: idle_Boss1_6
   - first:
-      213: -6377677118751243084
-    second: SBoss1_7
+      213: -6407514141864748920
+    second: idle_Boss1_7
   - first:
-      213: -3927036548008359158
-    second: SBoss1_8
+      213: 8220414771491771840
+    second: idle_Boss1_8
   - first:
-      213: 7946295577919099053
-    second: SBoss1_9
+      213: 3686023600639345663
+    second: idle_Boss1_9
   - first:
-      213: 4544007884304581130
-    second: SBoss1_10
+      213: -2907604219728974393
+    second: idle_Boss1_10
   - first:
-      213: -2090437769457521930
-    second: SBoss1_11
+      213: -7810207125431477648
+    second: idle_Boss1_11
   - first:
-      213: 1087468030575208006
-    second: SBoss1_12
+      213: -695532932739489759
+    second: idle_Boss1_12
   - first:
-      213: -8093313124093006461
-    second: SBoss1_13
+      213: 5289773936001999409
+    second: idle_Boss1_13
   - first:
-      213: 4286736094353734037
-    second: SBoss1_14
+      213: 7650068934422282510
+    second: idle_Boss1_14
   - first:
-      213: -8614564287845557271
-    second: SBoss1_15
+      213: 4484172668947402777
+    second: idle_Boss1_15
   - first:
-      213: -2614043433221390107
-    second: SBoss1_16
+      213: -6035002684096576327
+    second: idle_Boss1_16
   - first:
-      213: 5944664040999497084
-    second: SBoss1_17
+      213: -4068788902492225697
+    second: idle_Boss1_17
   - first:
-      213: -8378472195020290864
-    second: SBoss1_18
+      213: 7780019945092444266
+    second: idle_Boss1_18
   - first:
-      213: 8615797073163567096
-    second: SBoss1_19
+      213: -829289947527332451
+    second: idle_Boss1_19
   - first:
-      213: 5525245916278786279
-    second: SBoss1_20
+      213: 9041136285219230338
+    second: idle_Boss1_20
   - first:
-      213: -6976583210545542786
-    second: SBoss1_21
+      213: -8563062286783330431
+    second: idle_Boss1_21
   - first:
-      213: -4443004017171033521
-    second: SBoss1_22
+      213: -2933318856351531251
+    second: idle_Boss1_22
   - first:
-      213: 2439681908945297845
-    second: SBoss1_23
+      213: -3927481005521029080
+    second: idle_Boss1_23
   - first:
-      213: 2005589894666716977
-    second: SBoss1_24
+      213: -6768463298225181426
+    second: idle_Boss1_24
   - first:
-      213: -4013076912588440396
-    second: SBoss1_25
+      213: -8624664899142558450
+    second: idle_Boss1_25
   - first:
-      213: 3443952403448156458
-    second: SBoss1_26
+      213: -4974403122022131117
+    second: idle_Boss1_26
   - first:
-      213: 1893454254858701871
-    second: SBoss1_27
+      213: 1923044928978452015
+    second: idle_Boss1_27
   - first:
-      213: -8726525926678200246
-    second: SBoss1_28
+      213: -7497225550253609873
+    second: idle_Boss1_28
   - first:
-      213: 1677510798125207828
-    second: SBoss1_29
+      213: 4657470862554120434
+    second: idle_Boss1_29
   - first:
-      213: 4734750845163667680
-    second: SBoss1_30
+      213: 5018610772508076961
+    second: idle_Boss1_30
   - first:
-      213: 6029637640204864328
-    second: SBoss1_31
+      213: -8204738236488099953
+    second: idle_Boss1_31
   - first:
-      213: 7390113929438930248
-    second: SBoss1_32
+      213: 8349603710751207968
+    second: idle_Boss1_32
   - first:
-      213: 4696363187174214923
-    second: SBoss1_33
+      213: 6229764429624675440
+    second: idle_Boss1_33
   - first:
-      213: 5327842890766009898
-    second: SBoss1_34
+      213: 438618898148184513
+    second: idle_Boss1_34
   - first:
-      213: -9096544489500337267
-    second: SBoss1_35
+      213: 5900266246485689836
+    second: idle_Boss1_35
   - first:
-      213: 7218240037734060162
-    second: SBoss1_36
+      213: -1271576393594810710
+    second: idle_Boss1_36
   - first:
-      213: 5946186092408688442
-    second: SBoss1_37
+      213: 4422526809922528459
+    second: idle_Boss1_37
   - first:
-      213: -241402204902746552
-    second: SBoss1_38
+      213: -8458673972930909178
+    second: idle_Boss1_38
   - first:
-      213: -1936490436483572261
-    second: SBoss1_39
+      213: 8549303673693871362
+    second: idle_Boss1_39
   - first:
-      213: 4781201301744432139
-    second: SBoss1_40
+      213: -1337663514204936055
+    second: idle_Boss1_40
   - first:
-      213: 6245894646452476683
-    second: SBoss1_41
+      213: 6988234376583849361
+    second: idle_Boss1_41
   - first:
-      213: 5986016425081501445
-    second: SBoss1_42
+      213: -7968218552483123915
+    second: idle_Boss1_42
   - first:
-      213: -1763920065931749002
-    second: SBoss1_43
+      213: -7957147109076390612
+    second: idle_Boss1_43
   - first:
-      213: -3064697277735684493
-    second: SBoss1_44
+      213: -1530466982575300382
+    second: idle_Boss1_44
   - first:
-      213: -6093092350750253146
-    second: SBoss1_45
+      213: -6428605296785107230
+    second: idle_Boss1_45
   - first:
-      213: 2074928585596378494
-    second: SBoss1_46
+      213: -8283380715531770329
+    second: idle_Boss1_46
   - first:
-      213: -2704022634347629934
-    second: SBoss1_47
+      213: -853844311537905600
+    second: idle_Boss1_47
   - first:
-      213: 3364057903332099695
-    second: SBoss1_48
+      213: 2297436753698670089
+    second: idle_Boss1_48
   - first:
-      213: 4440868543737454333
-    second: SBoss1_49
+      213: -2261639792922363746
+    second: idle_Boss1_49
   - first:
-      213: 6865938469421793053
-    second: SBoss1_50
+      213: 6019402361836763994
+    second: idle_Boss1_50
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -250,7 +250,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SBoss1_0
+      name: idle_Boss1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01195913b2f72c4e0800000000000000
-      internalID: -1962866664087908080
+      spriteID: 3cb46e581510710f0800000000000000
+      internalID: -1146446130492060733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_1
+      name: idle_Boss1_1
       rect:
         serializedVersion: 2
         x: 576
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 253dcca7237190c40800000000000000
-      internalID: 5478935927248966482
+      spriteID: 5bb032c095fb35880800000000000000
+      internalID: -8623338472307749963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_2
+      name: idle_Boss1_2
       rect:
         serializedVersion: 2
         x: 1152
@@ -309,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01b40ac4ab2b66910800000000000000
-      internalID: 1830346811791919888
+      spriteID: 1d047ac5656e616f0800000000000000
+      internalID: -714130232295604015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_3
+      name: idle_Boss1_3
       rect:
         serializedVersion: 2
         x: 1728
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 438006126edd7e7e0800000000000000
-      internalID: -1736175150855878604
+      spriteID: edddd515ea62573b0800000000000000
+      internalID: -5515459638514033186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_4
+      name: idle_Boss1_4
       rect:
         serializedVersion: 2
         x: 2304
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25e85110c1e5cc200800000000000000
-      internalID: 201639557695114834
+      spriteID: 1cd2f153497667cd0800000000000000
+      internalID: -2560745451869491775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_5
+      name: idle_Boss1_5
       rect:
         serializedVersion: 2
         x: 2880
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f58d3768782674bd0800000000000000
-      internalID: -2646037921841031073
+      spriteID: 0d80dbe5012866580800000000000000
+      internalID: -8834230612220114736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_6
+      name: idle_Boss1_6
       rect:
         serializedVersion: 2
         x: 3456
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3db3034d22f857710800000000000000
-      internalID: 1690414614899080147
+      spriteID: 133928498cb3a56b0800000000000000
+      internalID: -5306863478231624911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SBoss1_7
+      name: idle_Boss1_7
       rect:
         serializedVersion: 2
         x: 4032
@@ -419,8 +419,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b402bc6370fd77a0800000000000000
-      internalID: -6377677118751243084
+      spriteID: 8881cd026dfe317a0800000000000000
+      internalID: -6407514141864748920
       vertices: []
       indices: 
       edges: []
@@ -429,7 +429,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e68d00a3f7e5244e9cf22d1dec2f640
+    spriteID: f7aa7a34834b00a46887c8d6373d1231
     internalID: 0
     vertices: []
     indices: 
@@ -441,14 +441,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":320.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      SBoss1_0: -1962866664087908080
-      SBoss1_1: 5478935927248966482
-      SBoss1_2: 1830346811791919888
-      SBoss1_3: -1736175150855878604
-      SBoss1_4: 201639557695114834
-      SBoss1_5: -2646037921841031073
-      SBoss1_6: 1690414614899080147
-      SBoss1_7: -6377677118751243084
+      idle_Boss1_0: -1146446130492060733
+      idle_Boss1_1: -8623338472307749963
+      idle_Boss1_2: -714130232295604015
+      idle_Boss1_3: -5515459638514033186
+      idle_Boss1_4: -2560745451869491775
+      idle_Boss1_5: -8834230612220114736
+      idle_Boss1_6: -5306863478231624911
+      idle_Boss1_7: -6407514141864748920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

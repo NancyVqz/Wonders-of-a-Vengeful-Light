@@ -625,8 +625,8 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 7586454167340609145, guid: c7de2437196ec4d499ff337740c4ca26, type: 3}
   maxEnemiesInstanceInQueue: 5
-  minTimeBetweenSpawns: 5
-  maxTimeBetweenSpawns: 7
+  minTimeBetweenSpawns: 2
+  maxTimeBetweenSpawns: 4
   avoidOverlappingSpawns: 0
   enemiesInScene: 0
   maxEnemiesCountInScene: 3
@@ -1608,8 +1608,8 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 8412070799988526792, guid: c1cdf645806d3d8448fa69495957ee26, type: 3}
   maxEnemiesInstanceInQueue: 6
-  minTimeBetweenSpawns: 4
-  maxTimeBetweenSpawns: 6
+  minTimeBetweenSpawns: 2
+  maxTimeBetweenSpawns: 4
   avoidOverlappingSpawns: 1
   enemiesInScene: 0
   maxEnemiesCountInScene: 3
@@ -2598,12 +2598,12 @@ SpriteRenderer:
   m_SortingLayerID: 649278123
   m_SortingLayer: 4
   m_SortingOrder: 5
-  m_Sprite: {fileID: -1962866664087908080, guid: d81bf4e72d55fa24b8194d1af845c1a4, type: 3}
+  m_Sprite: {fileID: -8005260085787753512, guid: 87462dd39c0a9e34a86d618c62dec2ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 11.52, y: 6.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2762,7 +2762,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 11.52, y: 6.4}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 11.52, y: 6.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -3292,22 +3292,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
   enemySpawnScript1: {fileID: 890070379}
-  newMinTimeBetweenSpawns1: 2
+  newMinTimeBetweenSpawns1: 3
   newMaxTimeBetweenSpawns1: 4
-  newMinTimeBetweenSpawns1_2: 1
-  newMaxTimeBetweenSpawns1_2: 3
+  newMinTimeBetweenSpawns1_2: 2.5
+  newMaxTimeBetweenSpawns1_2: 3.5
   enemySpawnScript2: {fileID: 341394560}
-  newMinTimeBetweenSpawns2: 3
-  newMaxTimeBetweenSpawns2: 4
-  newMinTimeBetweenSpawns2_2: 2
-  newMaxTimeBetweenSpawns2_2: 3
+  newMinTimeBetweenSpawns2: 4
+  newMaxTimeBetweenSpawns2: 5
+  newMinTimeBetweenSpawns2_2: 3
+  newMaxTimeBetweenSpawns2_2: 4
   enemySpawnScript3: {fileID: 0}
   newMinTimeBetweenSpawns3: 0
   newMaxTimeBetweenSpawns3: 0
   newMinTimeBetweenSpawns3_2: 0
   newMaxTimeBetweenSpawns3_2: 0
   newEnemiesContinue: 30
-  newEnemiesContinue2: 40
+  newEnemiesContinue2: 35
   damageBossScript: {fileID: 1202660702}
   newDamageBoss: 1.7
   newDamageBoss2: 1.3
@@ -17212,6 +17212,18 @@ PrefabInstance:
     - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
       propertyPath: energy
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
+      propertyPath: dashLvl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
+      propertyPath: shootLvl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101396252491496279, guid: 6b39301d69b4e3f408c47bd85476d5b4, type: 3}
+      propertyPath: shieldLvl
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

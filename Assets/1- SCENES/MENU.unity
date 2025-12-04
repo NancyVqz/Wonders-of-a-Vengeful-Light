@@ -2355,10 +2355,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n\n\nDash : Este icono sirve para hacer un movimiento rapido hacia donde
-    estas apuntando con el Joystick para evitar ataques o alcanzar esa energia que
-    esta muy lejos!! \n\n\n\n\n\n\r\n\n\n\n\n\n\n\n\r\nAtaque: Este icono es tu Ataque
-    basico!! Si lo mantienes pulsado podras disparar continuamente mientras te mueves
-    !!"
+    estas apuntando con el Joystick para evitar ataques, recibir da\xF1o o alcanzar
+    esa energia que esta muy lejos!! \n\n\n\n\n\n\r\n\n\n\n\n\n\n\n\r\nAtaque: Este
+    icono es tu ataque basico!! Si lo mantienes pulsado podras disparar continuamente
+    mientras te mueves !!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}
   m_sharedMaterial: {fileID: 6485713966002849761, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}
@@ -2645,8 +2645,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\n\nTienda: Este icono aparece debajo de el boton de pausa despues de
-    derrotar cierta cantidad de enemigos  para poder acceder a la tienda antes de
-    terminar el nivel, igualmente podras acceder a ella tras completar el nivel!\n\n\n\n
+    derrotar cierta cantidad de enemigos para poder acceder a la tienda antes de
+    terminar el nivel, igualmente podras acceder a ella tras completarlo!\n\n\n\n
     \n\n\n\n\n\n\n\r\nIconos :Estos iconos respresentan cada tipo de habilidad ,
     pulsa encima del recuadro grande para que te aparezca su descripcion y en el
     cuadro  de debajo para confirmar su compra!! Armate hasta los dientes!!"
@@ -5165,9 +5165,9 @@ MonoBehaviour:
 
 
 
-    Enemigos: Estos bichitos raros , son los secuaces de el jefe
-    , eliminalos para conseguir energuia para la tienda y evita sus ataques!! Cada
-    uno te atacara de formas distintas , ten cuidado!!!
+    Enemigos: Estos bichitos raros , son los secuaces de el jefe,
+    eliminalos para conseguir energia para la tienda y evita sus ataques!! Cada uno
+    te atacara de formas distintas , ten cuidado!!!
 
 
 
@@ -5179,11 +5179,11 @@ MonoBehaviour:
 
 
 
-    Boss: Este
-    grandullon , es el Jefe , derrotalo en cada nivel para seguir avanzando !! Aparecera
-    despuea de derrotar a cierta cantidad de sus secuaces , su vida saldra a la derecha
-    de la pantalla derrotalo para pasar al siguiente nivel!! Cuenta con 3 fases ,
-    vada nivel que pases se ara mas fuerte!!'
+    Boss: Este grandulon,
+    es el Jefe, derrotalo en cada nivel para seguir avanzando !! Aparecera despues
+    de derrotar a cierta cantidad de sus secuaces, su vida saldra a la derecha de
+    la pantalla. Derrotalo para pasar al siguiente nivel!! Cuenta con 3 fases, cada
+    nivel que pases se hara mas fuerte!!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}
   m_sharedMaterial: {fileID: 6485713966002849761, guid: efa9bf6d6266c6945afb6c7008f8e08d, type: 2}

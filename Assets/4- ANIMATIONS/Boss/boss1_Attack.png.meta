@@ -1,379 +1,382 @@
 fileFormatVersion: 2
-guid: d10c50b37fd3fdf4692f5fea0803abcd
+guid: 7940655838bb2254e82aacbe5f87aa5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3616065521735883074
-    second: Boss_fase_1 1_0
+      213: 5317063450619260072
+    second: boss1_ataque_0
   - first:
-      213: -582860464861662863
-    second: Boss_fase_1 1_1
+      213: -6065455794555852427
+    second: boss1_ataque_1
   - first:
-      213: 8893046876717115351
-    second: Boss_fase_1 1_2
+      213: 8223732065929848247
+    second: boss1_ataque_2
   - first:
-      213: -5695879881342033896
-    second: Boss_fase_1 1_3
+      213: 9104261164820482015
+    second: boss1_ataque_3
   - first:
-      213: -6472971419674912587
-    second: Boss_fase_1 1_4
+      213: 1526757363684182905
+    second: boss1_ataque_4
   - first:
-      213: 6838118005679606618
-    second: Boss_fase_1 1_5
+      213: -5390813172168112839
+    second: boss1_ataque_5
   - first:
-      213: -6864985559525237962
-    second: Boss_fase_1 1_6
+      213: -8994348616274416494
+    second: boss1_ataque_6
   - first:
-      213: 6778149974681078223
-    second: Boss_fase_1 1_7
+      213: 8811316817237160326
+    second: boss1_ataque_7
   - first:
-      213: 6568206425499676263
-    second: Boss_fase_1 1_8
+      213: -2967415299625402645
+    second: boss1_ataque_8
   - first:
-      213: 7463484910800141218
-    second: Boss_fase_1 1_9
+      213: -6923769464004254220
+    second: boss1_ataque_9
   - first:
-      213: -3317245785865795318
-    second: Boss_fase_1 1_10
+      213: 7023401257781355783
+    second: boss1_ataque_10
   - first:
-      213: 5576702504662479080
-    second: Boss_fase_1 1_11
+      213: 5583427926866664832
+    second: boss1_ataque_11
   - first:
-      213: -8403258712887231315
-    second: Boss_fase_1 1_12
+      213: -2483650231999447221
+    second: boss1_ataque_12
   - first:
-      213: 1502447146269144816
-    second: Boss_fase_1 1_13
+      213: 3888250915498643458
+    second: boss1_ataque_13
   - first:
-      213: -4393087465480800705
-    second: Boss_fase_1 1_14
+      213: 6936226942178803297
+    second: boss1_ataque_14
   - first:
-      213: -9038816737915252235
-    second: Boss_fase_1 1_15
+      213: 3628512685660576790
+    second: boss1_ataque_15
   - first:
-      213: -8459934698148627902
-    second: Boss_fase_1 1_16
+      213: -8708877900361924429
+    second: boss1_ataque_16
   - first:
-      213: 1917532404492571083
-    second: Boss_fase_1 1_17
+      213: 1749522101940651685
+    second: boss1_ataque_17
   - first:
-      213: -4969992231511136144
-    second: Boss_fase_1 1_18
+      213: 5407927560751646633
+    second: boss1_ataque_18
   - first:
-      213: -9051704058174612234
-    second: Boss_fase_1 1_19
+      213: 3161181704815269831
+    second: boss1_ataque_19
   - first:
-      213: -3181956534674606
-    second: Boss_fase_1 1_20
+      213: -7719141383707568
+    second: boss1_ataque_20
   - first:
-      213: 3129193475070991002
-    second: Boss_fase_1 1_21
+      213: -5348915544917248132
+    second: boss1_ataque_21
   - first:
-      213: -6451166613087484962
-    second: Boss_fase_1 1_22
+      213: 6956542710955147053
+    second: boss1_ataque_22
   - first:
-      213: -7060011487693584296
-    second: Boss_fase_1 1_23
+      213: -1467323654998716705
+    second: boss1_ataque_23
   - first:
-      213: 8091215005509638851
-    second: Boss_fase_1 1_24
+      213: 7974914449529262662
+    second: boss1_ataque_24
   - first:
-      213: -4980978313085375603
-    second: Boss_fase_1 1_25
+      213: 6460559987250602719
+    second: boss1_ataque_25
   - first:
-      213: -5829910383324391207
-    second: Boss_fase_1 1_26
+      213: -4745005686967976115
+    second: boss1_ataque_26
   - first:
-      213: 6253154418079406518
-    second: Boss_fase_1 1_27
+      213: 7935334218631361249
+    second: boss1_ataque_27
   - first:
-      213: -6865032733156684992
-    second: Boss_fase_1 1_28
+      213: 6682116767153313398
+    second: boss1_ataque_28
   - first:
-      213: 9049415492218131582
-    second: Boss_fase_1 1_29
+      213: 8006243677644222801
+    second: boss1_ataque_29
   - first:
-      213: 5465684247488895063
-    second: Boss_fase_1 1_30
+      213: 7336193268078967166
+    second: boss1_ataque_30
   - first:
-      213: 1488109902454110508
-    second: Boss_fase_1 1_31
+      213: -8459359205922231018
+    second: boss1_ataque_31
   - first:
-      213: -2701986231258685034
-    second: Boss_fase_1 1_32
+      213: -7036551483380295723
+    second: boss1_ataque_32
   - first:
-      213: 8724294595319244128
-    second: Boss_fase_1 1_33
+      213: 2884853523999901741
+    second: boss1_ataque_33
   - first:
-      213: -5474161302597892346
-    second: Boss_fase_1 1_34
+      213: 2858874990718853825
+    second: boss1_ataque_34
   - first:
-      213: -3457803239261781446
-    second: Boss_fase_1 1_35
+      213: 4047725803765604540
+    second: boss1_ataque_35
   - first:
-      213: -4915155466690355911
-    second: Boss_fase_1 1_36
+      213: 6027258307567483149
+    second: boss1_ataque_36
   - first:
-      213: -7041843813557799759
-    second: Boss_fase_1 1_37
+      213: -7187254441698891438
+    second: boss1_ataque_37
   - first:
-      213: 2730449916646588838
-    second: Boss_fase_1 1_38
+      213: 4757381906677913840
+    second: boss1_ataque_38
   - first:
-      213: -6860195009944363161
-    second: Boss_fase_1 1_39
+      213: -221935980655109794
+    second: boss1_ataque_39
   - first:
-      213: -4915131475374305170
-    second: Boss_fase_1 1_40
+      213: -8574411967431071780
+    second: boss1_ataque_40
   - first:
-      213: 4165226506239658987
-    second: Boss_fase_1 1_41
+      213: -1690789626140098574
+    second: boss1_ataque_41
   - first:
-      213: -7079845397940994198
-    second: Boss_fase_1 1_42
+      213: -8706020509704832874
+    second: boss1_ataque_42
   - first:
-      213: -5665365633341202726
-    second: Boss_fase_1 1_43
+      213: 5483691928120358360
+    second: boss1_ataque_43
   - first:
-      213: -9043716860679868596
-    second: Boss_fase_1 1_44
+      213: 828914125370957167
+    second: boss1_ataque_44
   - first:
-      213: -4272320052471726182
-    second: Boss_fase_1 1_45
+      213: 6949268931701282571
+    second: boss1_ataque_45
   - first:
-      213: 8892831716868062705
-    second: Boss_fase_1 1_46
+      213: -7937119212580017456
+    second: boss1_ataque_46
   - first:
-      213: -3042132374259276819
-    second: Boss_fase_1 1_47
+      213: -4044166677988022928
+    second: boss1_ataque_47
   - first:
-      213: 258614426948743790
-    second: Boss_fase_1 1_48
+      213: 3481955920750278558
+    second: boss1_ataque_48
   - first:
-      213: 5129195126671807132
-    second: Boss_fase_1 1_49
+      213: 5883382932987141263
+    second: boss1_ataque_49
   - first:
-      213: 1712067971806018222
-    second: Boss_fase_1 1_50
+      213: 3336450572493488583
+    second: boss1_ataque_50
   - first:
-      213: 9151667221538239330
-    second: Boss_fase_1 1_51
+      213: 4132461653966497481
+    second: boss1_ataque_51
   - first:
-      213: 7708639044129610287
-    second: Boss_fase_1 1_52
+      213: -6440851783447505631
+    second: boss1_ataque_52
   - first:
-      213: -8845165049980918195
-    second: Boss_fase_1 1_53
+      213: 1313293187472692026
+    second: boss1_ataque_53
   - first:
-      213: -76906514084410831
-    second: Boss_fase_1 1_54
+      213: -2962636962654210183
+    second: boss1_ataque_54
   - first:
-      213: 6953714886525463236
-    second: Boss_fase_1 1_55
+      213: -2408280135162837247
+    second: boss1_ataque_55
   - first:
-      213: 5979509304577421658
-    second: Boss_fase_1 1_56
+      213: 4561210849448259648
+    second: boss1_ataque_56
   - first:
-      213: -3652675236462026683
-    second: Boss_fase_1 1_57
+      213: -8629209511488073935
+    second: boss1_ataque_57
   - first:
-      213: -5916562454089561664
-    second: Boss_fase_1 1_58
+      213: -1754578071473942151
+    second: boss1_ataque_58
   - first:
-      213: 6053897269656707569
-    second: Boss_fase_1 1_59
+      213: -6903985656505319964
+    second: boss1_ataque_59
   - first:
-      213: 6396010581982144731
-    second: Boss_fase_1 1_60
+      213: 437104231302210350
+    second: boss1_ataque_60
   - first:
-      213: -8099570602691280441
-    second: Boss_fase_1 1_61
+      213: 3773852399231674780
+    second: boss1_ataque_61
   - first:
-      213: -3354114098645681949
-    second: Boss_fase_1 1_62
+      213: 191248098131489070
+    second: boss1_ataque_62
   - first:
-      213: 8230281389117407853
-    second: Boss_fase_1 1_63
+      213: -4039998776150775441
+    second: boss1_ataque_63
   - first:
-      213: -1895836532738788788
-    second: Boss_fase_1 1_64
+      213: -3006662738579162067
+    second: boss1_ataque_64
   - first:
-      213: -5739700222366807412
-    second: Boss_fase_1 1_65
+      213: -2236970625442465623
+    second: boss1_ataque_65
   - first:
-      213: 342490391075533620
-    second: Boss_fase_1 1_66
+      213: -5903218683722977440
+    second: boss1_ataque_66
   - first:
-      213: 4530223454833508198
-    second: Boss_fase_1 1_67
+      213: -2898106711922890900
+    second: boss1_ataque_67
   - first:
-      213: -8912022063709018500
-    second: Boss_fase_1 1_68
+      213: -883512676223071986
+    second: boss1_ataque_68
   - first:
-      213: -4329168333846604264
-    second: Boss_fase_1 1_69
+      213: 6298170482633173379
+    second: boss1_ataque_69
   - first:
-      213: -1090025713217268667
-    second: Boss_fase_1 1_70
+      213: -8873111059575975270
+    second: boss1_ataque_70
   - first:
-      213: -8549317270108762322
-    second: Boss_fase_1 1_71
+      213: -8326998287467014158
+    second: boss1_ataque_71
   - first:
-      213: 7647335496975964437
-    second: Boss_fase_1 1_72
+      213: 2260831008962406181
+    second: boss1_ataque_72
   - first:
-      213: -6729096286098827277
-    second: Boss_fase_1 1_73
+      213: -7667380401091160993
+    second: boss1_ataque_73
   - first:
-      213: -6856994634530238770
-    second: Boss_fase_1 1_74
+      213: -4483221136782108147
+    second: boss1_ataque_74
   - first:
-      213: 4738582771991819549
-    second: Boss_fase_1 1_75
+      213: -8703210204117568272
+    second: boss1_ataque_75
   - first:
-      213: -7139901449153885038
-    second: Boss_fase_1 1_76
+      213: -3381593443397435514
+    second: boss1_ataque_76
   - first:
-      213: 443189190379977645
-    second: Boss_fase_1 1_77
+      213: 8523552295124724371
+    second: boss1_ataque_77
   - first:
-      213: -4943232501056834306
-    second: Boss_fase_1 1_78
+      213: -7829155671881610256
+    second: boss1_ataque_78
   - first:
-      213: 337870509711223545
-    second: Boss_fase_1 1_79
+      213: -6797355130087489488
+    second: boss1_ataque_79
   - first:
-      213: 2622660904036311497
-    second: Boss_fase_1 1_80
+      213: 2730805628244371596
+    second: boss1_ataque_80
   - first:
-      213: 1070067645871726141
-    second: Boss_fase_1 1_81
+      213: 3998462870452015625
+    second: boss1_ataque_81
   - first:
-      213: 6672422546574506812
-    second: Boss_fase_1 1_82
+      213: -8251344551267427998
+    second: boss1_ataque_82
   - first:
-      213: 3784152273999547364
-    second: Boss_fase_1 1_83
+      213: -5002699615778161520
+    second: boss1_ataque_83
   - first:
-      213: -8633449806663218261
-    second: Boss_fase_1 1_84
+      213: 5406704625326504136
+    second: boss1_ataque_84
   - first:
-      213: 917296368849196942
-    second: Boss_fase_1 1_85
+      213: -5833129108034653073
+    second: boss1_ataque_85
   - first:
-      213: 2126259707327904518
-    second: Boss_fase_1 1_86
+      213: 8783402547477143118
+    second: boss1_ataque_86
   - first:
-      213: 7686700732035342510
-    second: Boss_fase_1 1_87
+      213: -846472929815252319
+    second: boss1_ataque_87
   - first:
-      213: 9149915824324629306
-    second: Boss_fase_1 1_88
+      213: 6839938740103888157
+    second: boss1_ataque_88
   - first:
-      213: 5270631632359111439
-    second: Boss_fase_1 1_89
+      213: 8559697340044630012
+    second: boss1_ataque_89
   - first:
-      213: 3209845800244146021
-    second: Boss_fase_1 1_90
+      213: -8933123206527390475
+    second: boss1_ataque_90
   - first:
-      213: 3672928256661367276
-    second: Boss_fase_1 1_91
+      213: -8678402519249332668
+    second: boss1_ataque_91
   - first:
-      213: 1249294370414362706
-    second: Boss_fase_1 1_92
+      213: 2812532791184986949
+    second: boss1_ataque_92
   - first:
-      213: 2689281623713989822
-    second: Boss_fase_1 1_93
+      213: 478657320448127140
+    second: boss1_ataque_93
   - first:
-      213: -5141482421810116007
-    second: Boss_fase_1 1_94
+      213: 394170783237732313
+    second: boss1_ataque_94
   - first:
-      213: 3024269735159192961
-    second: Boss_fase_1 1_95
+      213: -2319466884169366759
+    second: boss1_ataque_95
   - first:
-      213: -6247168737299807888
-    second: Boss_fase_1 1_96
+      213: -7951318964612666827
+    second: boss1_ataque_96
   - first:
-      213: 6346034699106866771
-    second: Boss_fase_1 1_97
+      213: 7005124518460015985
+    second: boss1_ataque_97
   - first:
-      213: -6920629622596297294
-    second: Boss_fase_1 1_98
+      213: -7446904474073513149
+    second: boss1_ataque_98
   - first:
-      213: -7292265065285359060
-    second: Boss_fase_1 1_99
+      213: 2257491633291256636
+    second: boss1_ataque_99
   - first:
-      213: -2591888857269861476
-    second: Boss_fase_1 1_100
+      213: -6595228787664558293
+    second: boss1_ataque_100
   - first:
-      213: -5312111324186460049
-    second: Boss_fase_1 1_101
+      213: -1974307847741803872
+    second: boss1_ataque_101
   - first:
-      213: 6683754103091592222
-    second: Boss_fase_1 1_102
+      213: -7545393092414008456
+    second: boss1_ataque_102
   - first:
-      213: 2436556695099502953
-    second: Boss_fase_1 1_103
+      213: 9041078048157241975
+    second: boss1_ataque_103
   - first:
-      213: 2892936736905496709
-    second: Boss_fase_1 1_104
+      213: -869355981168818180
+    second: boss1_ataque_104
   - first:
-      213: 3660781235139958719
-    second: Boss_fase_1 1_105
+      213: 449926518283770106
+    second: boss1_ataque_105
   - first:
-      213: -3666449552880945081
-    second: Boss_fase_1 1_106
+      213: 6302877882176878766
+    second: boss1_ataque_106
   - first:
-      213: -8548338569208570821
-    second: Boss_fase_1 1_107
+      213: -4708210126556974282
+    second: boss1_ataque_107
   - first:
-      213: -1298159350171707934
-    second: Boss_fase_1 1_108
+      213: 1901251488238238214
+    second: boss1_ataque_108
   - first:
-      213: 1423428075874013648
-    second: Boss_fase_1 1_109
+      213: 6066187425170858778
+    second: boss1_ataque_109
   - first:
-      213: 5529574429287734542
-    second: Boss_fase_1 1_110
+      213: 281972801300526037
+    second: boss1_ataque_110
   - first:
-      213: -1952318579463986197
-    second: Boss_fase_1 1_111
+      213: 6702121189295544346
+    second: boss1_ataque_111
   - first:
-      213: 7734401762946694177
-    second: Boss_fase_1 1_112
+      213: 2831504645675797315
+    second: boss1_ataque_112
   - first:
-      213: 5860409666286414475
-    second: Boss_fase_1 1_113
+      213: -1695863644791111538
+    second: boss1_ataque_113
   - first:
-      213: 6794882809039525496
-    second: Boss_fase_1 1_114
+      213: -6494181375769754304
+    second: boss1_ataque_114
   - first:
-      213: 5400948074273797634
-    second: Boss_fase_1 1_115
+      213: -118016665050246339
+    second: boss1_ataque_115
   - first:
-      213: 2085758035780104134
-    second: Boss_fase_1 1_116
+      213: -5019833901054423817
+    second: boss1_ataque_116
   - first:
-      213: 5187172737725641789
-    second: Boss_fase_1 1_117
+      213: 3971493772883690193
+    second: boss1_ataque_117
   - first:
-      213: 5944565238274622996
-    second: Boss_fase_1 1_118
+      213: 7385749785371643753
+    second: boss1_ataque_118
   - first:
-      213: 9120301983323757865
-    second: Boss_fase_1 1_119
+      213: -8496870064259272371
+    second: boss1_ataque_119
   - first:
-      213: 7119919754452167920
-    second: Boss_fase_1 1_120
+      213: 6029206438860582981
+    second: boss1_ataque_120
   - first:
-      213: 735521019941190153
-    second: Boss_fase_1 1_121
+      213: 8382093599635392458
+    second: boss1_ataque_121
   - first:
-      213: -4879298419253474402
-    second: Boss_fase_1 1_122
+      213: 873130711722281286
+    second: boss1_ataque_122
   - first:
-      213: -126798019010947478
-    second: Boss_fase_1 1_123
+      213: -2252049918367966618
+    second: boss1_ataque_123
+  - first:
+      213: -1544060229625216553
+    second: boss1_ataque_124
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -469,7 +472,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_fase_1 1_0
+      name: boss1_Attack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -482,16 +485,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 249da9bee68de2230800000000000000
-      internalID: 3616065521735883074
+      spriteID: adf36601a29037445907eedc3d80486a
+      internalID: -1488971334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_1
+      name: boss1_Attack_1
       rect:
         serializedVersion: 2
         x: 576
@@ -504,16 +507,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1713d4ece7349e7f0800000000000000
-      internalID: -582860464861662863
+      spriteID: ba3d9a9fec1a00e4d958bc4b9f438589
+      internalID: -625918647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_2
+      name: boss1_Attack_2
       rect:
         serializedVersion: 2
         x: 1152
@@ -526,16 +529,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d7ee9954037a6b70800000000000000
-      internalID: 8893046876717115351
+      spriteID: 104115657b3188943bc231822f57871b
+      internalID: 94828095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_3
+      name: boss1_Attack_3
       rect:
         serializedVersion: 2
         x: 1728
@@ -548,16 +551,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 810605d0d6b24f0b0800000000000000
-      internalID: -5695879881342033896
+      spriteID: 5de15a39166a7ec4ab6d2ca96216c5d9
+      internalID: 162160228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_4
+      name: boss1_Attack_4
       rect:
         serializedVersion: 2
         x: 2304
@@ -570,16 +573,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b855010ac26b26a0800000000000000
-      internalID: -6472971419674912587
+      spriteID: bfa7a15ba7d85674b9067a7f54b5358d
+      internalID: -192357225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_5
+      name: boss1_Attack_5
       rect:
         serializedVersion: 2
         x: 2880
@@ -592,16 +595,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5b4cb4a810e5ee50800000000000000
-      internalID: 6838118005679606618
+      spriteID: 2f276635b3ee7d74f9c1459f56d8631b
+      internalID: 1299135583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_6
+      name: boss1_Attack_6
       rect:
         serializedVersion: 2
         x: 3456
@@ -614,16 +617,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63bdf40810caab0a0800000000000000
-      internalID: -6864985559525237962
+      spriteID: 06bba5c894560c94ba4027dc2c808982
+      internalID: 336572004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_7
+      name: boss1_Attack_7
       rect:
         serializedVersion: 2
         x: 4032
@@ -636,16 +639,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc940336d73d01e50800000000000000
-      internalID: 6778149974681078223
+      spriteID: bdc466a8183b2854fa376dd8cae553b0
+      internalID: 1385646649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_8
+      name: boss1_Attack_8
       rect:
         serializedVersion: 2
         x: 4608
@@ -658,16 +661,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76ea853b1f4f62b50800000000000000
-      internalID: 6568206425499676263
+      spriteID: 3457a9ea3fe69cd49964d7e135ed8c36
+      internalID: -1761932246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_9
+      name: boss1_Attack_9
       rect:
         serializedVersion: 2
         x: 5184
@@ -680,16 +683,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2abfabeabff939760800000000000000
-      internalID: 7463484910800141218
+      spriteID: 7e64e4a104d322e4fa525c5fdc6b5451
+      internalID: 1090568221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_10
+      name: boss1_Attack_10
       rect:
         serializedVersion: 2
         x: 5760
@@ -702,16 +705,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a09cec48886c6f1d0800000000000000
-      internalID: -3317245785865795318
+      spriteID: bfa9d420b0da5624cbb87fe63d3d3490
+      internalID: 701254123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_11
+      name: boss1_Attack_11
       rect:
         serializedVersion: 2
         x: 6336
@@ -724,16 +727,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e03070a16d646d40800000000000000
-      internalID: 5576702504662479080
+      spriteID: 39f91fab8b93eb94e8073c7d19a0403d
+      internalID: -2104903752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_12
+      name: boss1_Attack_12
       rect:
         serializedVersion: 2
         x: 6912
@@ -746,16 +749,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dac76a619b0a16b80800000000000000
-      internalID: -8403258712887231315
+      spriteID: 66ca8fd7cdc330349bf0944bc8326cab
+      internalID: -918472357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_13
+      name: boss1_Attack_13
       rect:
         serializedVersion: 2
         x: 7488
@@ -768,16 +771,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f6fb2f18b3c9d410800000000000000
-      internalID: 1502447146269144816
+      spriteID: 49495bacfc186964f8601062f89bfee1
+      internalID: 760259151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_14
+      name: boss1_Attack_14
       rect:
         serializedVersion: 2
         x: 8064
@@ -790,16 +793,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f36bbc8c93e9803c0800000000000000
-      internalID: -4393087465480800705
+      spriteID: 4545d6f967beb174c96c2cf841b88908
+      internalID: 1612593418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_15
+      name: boss1_Attack_15
       rect:
         serializedVersion: 2
         x: 8640
@@ -812,16 +815,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f1d4ba011caf8280800000000000000
-      internalID: -9038816737915252235
+      spriteID: 6680c170618b09846853fcb06c0b88db
+      internalID: -1160448512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_16
+      name: boss1_Attack_16
       rect:
         serializedVersion: 2
         x: 9216
@@ -834,16 +837,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24a79d5f636489a80800000000000000
-      internalID: -8459934698148627902
+      spriteID: 75f1c1cec7c860d4db06b7a652bdb301
+      internalID: -718725957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_17
+      name: boss1_Attack_17
       rect:
         serializedVersion: 2
         x: 9792
@@ -856,16 +859,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc19417ff817c9a10800000000000000
-      internalID: 1917532404492571083
+      spriteID: eeef636c6a797bc46b29711912bd23bf
+      internalID: -2056053329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_fase_1 1_18
+      name: boss1_Attack_18
       rect:
         serializedVersion: 2
         x: 10368
@@ -878,10 +881,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 078e358c56a070bb0800000000000000
-      internalID: -4969992231511136144
+      spriteID: 0abfd9bf166543a46937b528791cdbc8
+      internalID: -677640568
       vertices: []
       indices: 
       edges: []
@@ -890,7 +893,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: be667b30ef52e1b4b90e0b3fd2bb78cf
+    spriteID: 49eecfa057f1dc64e9cfbe097269c415
     internalID: 0
     vertices: []
     indices: 
@@ -902,25 +905,25 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":19.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":397.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Boss_fase_1 1_0: 3616065521735883074
-      Boss_fase_1 1_1: -582860464861662863
-      Boss_fase_1 1_10: -3317245785865795318
-      Boss_fase_1 1_11: 5576702504662479080
-      Boss_fase_1 1_12: -8403258712887231315
-      Boss_fase_1 1_13: 1502447146269144816
-      Boss_fase_1 1_14: -4393087465480800705
-      Boss_fase_1 1_15: -9038816737915252235
-      Boss_fase_1 1_16: -8459934698148627902
-      Boss_fase_1 1_17: 1917532404492571083
-      Boss_fase_1 1_18: -4969992231511136144
-      Boss_fase_1 1_2: 8893046876717115351
-      Boss_fase_1 1_3: -5695879881342033896
-      Boss_fase_1 1_4: -6472971419674912587
-      Boss_fase_1 1_5: 6838118005679606618
-      Boss_fase_1 1_6: -6864985559525237962
-      Boss_fase_1 1_7: 6778149974681078223
-      Boss_fase_1 1_8: 6568206425499676263
-      Boss_fase_1 1_9: 7463484910800141218
+      boss1_Attack_0: -1488971334
+      boss1_Attack_1: -625918647
+      boss1_Attack_10: 701254123
+      boss1_Attack_11: -2104903752
+      boss1_Attack_12: -918472357
+      boss1_Attack_13: 760259151
+      boss1_Attack_14: 1612593418
+      boss1_Attack_15: -1160448512
+      boss1_Attack_16: -718725957
+      boss1_Attack_17: -2056053329
+      boss1_Attack_18: -677640568
+      boss1_Attack_2: 94828095
+      boss1_Attack_3: 162160228
+      boss1_Attack_4: -192357225
+      boss1_Attack_5: 1299135583
+      boss1_Attack_6: 336572004
+      boss1_Attack_7: 1385646649
+      boss1_Attack_8: -1761932246
+      boss1_Attack_9: 1090568221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

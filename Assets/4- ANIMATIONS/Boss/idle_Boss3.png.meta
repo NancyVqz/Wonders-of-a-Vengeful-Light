@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: be32ee4716f21164eb8898da8289bda1
+guid: dea41b90ed092934b8c39d32ebefe013
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -242,6 +242,30 @@ TextureImporter:
   - first:
       213: 6918374142414559024
     second: idle_Boss3_79
+  - first:
+      213: -463088313774054965
+    second: idle_Boss3_80
+  - first:
+      213: 4592858661356290237
+    second: idle_Boss3_81
+  - first:
+      213: 2732488721855558626
+    second: idle_Boss3_82
+  - first:
+      213: -4032931172485170162
+    second: idle_Boss3_83
+  - first:
+      213: -4230397651316947671
+    second: idle_Boss3_84
+  - first:
+      213: 3772743959310352841
+    second: idle_Boss3_85
+  - first:
+      213: -6014820286200279422
+    second: idle_Boss3_86
+  - first:
+      213: -52629485972092422
+    second: idle_Boss3_87
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -337,7 +361,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss3_0
+      name: idle_Boss3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -350,16 +374,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ebb6973150f85484dad78db1e36dba55
-      internalID: 1770646876
+      spriteID: 8d31aa30e4e6be5b0800000000000000
+      internalID: -5338051651969608744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_1
+      name: idle_Boss3_1
       rect:
         serializedVersion: 2
         x: 576
@@ -372,16 +396,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9fc666abdfedef74dab56e9c00a40173
-      internalID: -2125103407
+      spriteID: f82a93b0ee84af310800000000000000
+      internalID: 1439543218126037647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_2
+      name: idle_Boss3_2
       rect:
         serializedVersion: 2
         x: 1152
@@ -394,16 +418,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 696f8a6b0c4dd60468e45ff6a28cf142
-      internalID: -2032698262
+      spriteID: 6b8d00c0a8a299760800000000000000
+      internalID: 7465044629738543286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_3
+      name: idle_Boss3_3
       rect:
         serializedVersion: 2
         x: 1728
@@ -416,16 +440,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f026e0835b73d7049a33577bf8a89db3
-      internalID: -1632743452
+      spriteID: 1a0de42d798927b50800000000000000
+      internalID: 6589496982632321185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_4
+      name: idle_Boss3_4
       rect:
         serializedVersion: 2
         x: 2304
@@ -438,16 +462,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 95b388fae50ed5c4eb4dd6aa378aed80
-      internalID: -1864032290
+      spriteID: f81825c88500d7c20800000000000000
+      internalID: 3205718890069000591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_5
+      name: idle_Boss3_5
       rect:
         serializedVersion: 2
         x: 2880
@@ -460,16 +484,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 613070f2fc5cd894eaa23f2f3ff659b1
-      internalID: 1982150756
+      spriteID: d0c223fbe3b5e85c0800000000000000
+      internalID: -4211328276490998771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_6
+      name: idle_Boss3_6
       rect:
         serializedVersion: 2
         x: 3456
@@ -482,16 +506,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 96c18c36e5c8c624f8672a10b6cdf021
-      internalID: -586872981
+      spriteID: 41126b85b243092f0800000000000000
+      internalID: -968216559108087532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss3_7
+      name: idle_Boss3_7
       rect:
         serializedVersion: 2
         x: 4032
@@ -504,10 +528,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7b825ae0f8678ad4da26187a01ec103c
-      internalID: -502069611
+      spriteID: 9bc30aefa4cf95810800000000000000
+      internalID: 1754710928867212473
       vertices: []
       indices: 
       edges: []
@@ -516,7 +540,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a1a2f7e1455f6c948b85739296e75aa9
+    spriteID: 0de67e4cf7a1554469e3ca4a2d119ec7
     internalID: 0
     vertices: []
     indices: 
@@ -528,14 +552,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":515.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      boss3_0: 1770646876
-      boss3_1: -2125103407
-      boss3_2: -2032698262
-      boss3_3: -1632743452
-      boss3_4: -1864032290
-      boss3_5: 1982150756
-      boss3_6: -586872981
-      boss3_7: -502069611
+      idle_Boss3_0: -5338051651969608744
+      idle_Boss3_1: 1439543218126037647
+      idle_Boss3_2: 7465044629738543286
+      idle_Boss3_3: 6589496982632321185
+      idle_Boss3_4: 3205718890069000591
+      idle_Boss3_5: -4211328276490998771
+      idle_Boss3_6: -968216559108087532
+      idle_Boss3_7: 1754710928867212473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 public class MissileBoss : MonoBehaviour
 {
@@ -58,7 +57,7 @@ public class MissileBoss : MonoBehaviour
 
     private void Explotar()
     {
-        
+
         laserAttack.SpawnBeamAtPosition(posPlayer, beamDuration);
 
         BossBulletPool.instance.ReturnBullet(gameObject);

@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: dcbc39bc3fa142347a81d6627623020d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7382344877626738692
+    second: boss3_ataque 1_0
+  - first:
+      213: 8353337219127771607
+    second: boss3_ataque 1_1
+  - first:
+      213: -7348974365344880415
+    second: boss3_ataque 1_2
+  - first:
+      213: -7026344153034762323
+    second: boss3_ataque 1_3
+  - first:
+      213: 7018664060395587985
+    second: boss3_ataque 1_4
+  - first:
+      213: 7645821315796923015
+    second: boss3_ataque 1_5
+  - first:
+      213: 5448421177868335954
+    second: boss3_ataque 1_6
+  - first:
+      213: -4122788735115737174
+    second: boss3_ataque 1_7
+  - first:
+      213: -2076900036438253510
+    second: boss3_ataque 1_8
+  - first:
+      213: -3634361514468763215
+    second: boss3_ataque 1_9
+  - first:
+      213: 86267882500880036
+    second: boss3_ataque 1_10
+  - first:
+      213: -6278721514177891894
+    second: boss3_ataque 1_11
+  - first:
+      213: 7495853661962432970
+    second: boss3_ataque 1_12
+  - first:
+      213: -3611364750973000000
+    second: boss3_ataque 1_13
+  - first:
+      213: -6723494736324915294
+    second: boss3_ataque 1_14
+  - first:
+      213: 1061228095114032286
+    second: boss3_ataque 1_15
+  - first:
+      213: -2770878030016993886
+    second: boss3_ataque 1_16
+  - first:
+      213: 147868816907549845
+    second: boss3_ataque 1_17
+  - first:
+      213: -1047798593595665510
+    second: boss3_ataque 1_18
+  - first:
+      213: -7433555981975286893
+    second: boss3_ataque 1_19
+  - first:
+      213: -3731992528038515439
+    second: boss3_ataque 1_20
+  - first:
+      213: -6684017504910792384
+    second: boss3_ataque 1_21
+  - first:
+      213: 352510139205231226
+    second: boss3_ataque 1_22
+  - first:
+      213: 1009284629901072512
+    second: boss3_ataque 1_23
+  - first:
+      213: -8056210052953984740
+    second: boss3_ataque 1_24
+  - first:
+      213: 4741738878959798820
+    second: boss3_ataque 1_25
+  - first:
+      213: -1850677743015403685
+    second: boss3_ataque 1_26
+  - first:
+      213: -3336659323642122362
+    second: boss3_ataque 1_27
+  - first:
+      213: -1981782679627319136
+    second: boss3_ataque 1_28
+  - first:
+      213: 2699688666075038847
+    second: boss3_ataque 1_29
+  - first:
+      213: 9150963099769770994
+    second: boss3_ataque 1_30
+  - first:
+      213: 6281520742141483967
+    second: boss3_ataque 1_31
+  - first:
+      213: 1971868047085905791
+    second: boss3_ataque 1_32
+  - first:
+      213: 8166590628669652276
+    second: boss3_ataque 1_33
+  - first:
+      213: -5338621244880843498
+    second: boss3_ataque 1_34
+  - first:
+      213: -9125939379712539356
+    second: boss3_ataque 1_35
+  - first:
+      213: -2877471184528647548
+    second: boss3_ataque 1_36
+  - first:
+      213: 2279363099608893801
+    second: boss3_ataque 1_37
+  - first:
+      213: 902890230417752615
+    second: boss3_ataque 1_38
+  - first:
+      213: 2644965513415735095
+    second: boss3_ataque 1_39
+  - first:
+      213: 5783116725101813951
+    second: boss3_ataque 1_40
+  - first:
+      213: 1902210732602737737
+    second: boss3_ataque 1_41
+  - first:
+      213: -8823329143928866573
+    second: boss3_ataque 1_42
+  - first:
+      213: -428906447625917010
+    second: boss3_ataque 1_43
+  - first:
+      213: 5611611831695840551
+    second: boss3_ataque 1_44
+  - first:
+      213: 1032514443615035335
+    second: boss3_ataque 1_45
+  - first:
+      213: 5653592411462681911
+    second: boss3_ataque 1_46
+  - first:
+      213: 38505436097352009
+    second: boss3_ataque 1_47
+  - first:
+      213: 8620823900275289363
+    second: boss3_ataque 1_48
+  - first:
+      213: 2905833729871361180
+    second: boss3_ataque 1_49
+  - first:
+      213: 1522497572912350819
+    second: boss3_ataque 1_50
+  - first:
+      213: 681390651768267388
+    second: boss3_ataque 1_51
+  - first:
+      213: -4014026171215485963
+    second: boss3_ataque 1_52
+  - first:
+      213: 7712903830798335237
+    second: boss3_ataque 1_53
+  - first:
+      213: 2529127389374120729
+    second: boss3_ataque 1_54
+  - first:
+      213: 4031623038116203605
+    second: boss3_ataque 1_55
+  - first:
+      213: 4358850886204852819
+    second: boss3_ataque 1_56
+  - first:
+      213: 7792035938245864088
+    second: boss3_ataque 1_57
+  - first:
+      213: 4652698495497024265
+    second: boss3_ataque 1_58
+  - first:
+      213: 4321724523486687182
+    second: boss3_ataque 1_59
+  - first:
+      213: 8397129110211452583
+    second: boss3_ataque 1_60
+  - first:
+      213: -2318658470570156064
+    second: boss3_ataque 1_61
+  - first:
+      213: 6095647872911055151
+    second: boss3_ataque 1_62
+  - first:
+      213: 8613670314701518597
+    second: boss3_ataque 1_63
+  - first:
+      213: -5519857022180731660
+    second: boss3_ataque 1_64
+  - first:
+      213: 1168554149058848890
+    second: boss3_ataque 1_65
+  - first:
+      213: -1194461904375454633
+    second: boss3_ataque 1_66
+  - first:
+      213: -9064643945677030263
+    second: boss3_ataque 1_67
+  - first:
+      213: -8378048512493000964
+    second: boss3_ataque 1_68
+  - first:
+      213: 3294624511180004632
+    second: boss3_ataque 1_69
+  - first:
+      213: -282393400641994440
+    second: boss3_ataque 1_70
+  - first:
+      213: 1184221398012934220
+    second: boss3_ataque 1_71
+  - first:
+      213: -6870395283587476898
+    second: boss3_ataque 1_72
+  - first:
+      213: 4034241930359488850
+    second: boss3_ataque 1_73
+  - first:
+      213: 7841703132116775904
+    second: boss3_ataque 1_74
+  - first:
+      213: -8153543501576189103
+    second: boss3_ataque 1_75
+  - first:
+      213: 6566381359564226555
+    second: boss3_ataque 1_76
+  - first:
+      213: -6066542481282074028
+    second: boss3_ataque 1_77
+  - first:
+      213: 372406099856138113
+    second: boss3_ataque 1_78
+  - first:
+      213: 7015054197599436761
+    second: boss3_ataque 1_79
+  - first:
+      213: 6814485845259211105
+    second: boss3_ataque 1_80
+  - first:
+      213: -2813097869112985975
+    second: boss3_ataque 1_81
+  - first:
+      213: -2719724347506876011
+    second: boss3_ataque 1_82
+  - first:
+      213: 2456879824168209883
+    second: boss3_ataque 1_83
+  - first:
+      213: -4952783808198080683
+    second: boss3_ataque 1_84
+  - first:
+      213: 8315299070724334767
+    second: boss3_ataque 1_85
+  - first:
+      213: 3205775259483053944
+    second: boss3_ataque 1_86
+  - first:
+      213: 9013060060667516617
+    second: boss3_ataque 1_87
+  - first:
+      213: 4496801267598713448
+    second: boss3_ataque 1_88
+  - first:
+      213: -5062763808601667099
+    second: boss3_ataque 1_89
+  - first:
+      213: -3728428979814142872
+    second: boss3_ataque 1_90
+  - first:
+      213: -9086404780238680646
+    second: boss3_ataque 1_91
+  - first:
+      213: -7065611548700682224
+    second: boss3_ataque 1_92
+  - first:
+      213: -6582345956158898944
+    second: boss3_ataque 1_93
+  - first:
+      213: 8955956127229788940
+    second: boss3_ataque 1_94
+  - first:
+      213: -469865496134755436
+    second: boss3_ataque 1_95
+  - first:
+      213: -2482164380947742297
+    second: boss3_ataque 1_96
+  - first:
+      213: -2467363279921309926
+    second: boss3_ataque 1_97
+  - first:
+      213: -5071285891607973740
+    second: boss3_ataque 1_98
+  - first:
+      213: -6328102947426042259
+    second: boss3_ataque 1_99
+  - first:
+      213: 5533556670846938596
+    second: boss3_ataque 1_100
+  - first:
+      213: -6248262517847040141
+    second: boss3_ataque 1_101
+  - first:
+      213: -4232717326798923942
+    second: boss3_ataque 1_102
+  - first:
+      213: -7705470524207287545
+    second: boss3_ataque 1_103
+  - first:
+      213: 3615184688102555875
+    second: boss3_ataque 1_104
+  - first:
+      213: 6443999611988601359
+    second: boss3_ataque 1_105
+  - first:
+      213: 5261822719590769784
+    second: boss3_ataque 1_106
+  - first:
+      213: -1587802319329556662
+    second: boss3_ataque 1_107
+  - first:
+      213: -3980182676649492312
+    second: boss3_ataque 1_108
+  - first:
+      213: -3059217365041494456
+    second: boss3_ataque 1_109
+  - first:
+      213: 3490210542434881346
+    second: boss3_ataque 1_110
+  - first:
+      213: 7469164132353631865
+    second: boss3_ataque 1_111
+  - first:
+      213: 6766300504897797522
+    second: boss3_ataque 1_112
+  - first:
+      213: 9137362959928889229
+    second: boss3_ataque 1_113
+  - first:
+      213: -1126077823830787727
+    second: boss3_ataque 1_114
+  - first:
+      213: -1373250424073582702
+    second: boss3_ataque 1_115
+  - first:
+      213: -4151869093593765982
+    second: boss3_ataque 1_116
+  - first:
+      213: -2994443937117538971
+    second: boss3_ataque 1_117
+  - first:
+      213: -3081905853180628261
+    second: boss3_ataque 1_118
+  - first:
+      213: 3705383635720750279
+    second: boss3_ataque 1_119
+  - first:
+      213: 3714756325980633628
+    second: boss3_ataque 1_120
+  - first:
+      213: 8481605113709769541
+    second: boss3_ataque 1_121
+  - first:
+      213: -1006675054581791318
+    second: boss3_ataque 1_122
+  - first:
+      213: -7047685259451136530
+    second: boss3_ataque 1_123
+  - first:
+      213: 642412074734566267
+    second: boss3_ataque 1_124
+  - first:
+      213: -4327552037512753337
+    second: boss3_ataque 1_125
+  - first:
+      213: -7711334368056312272
+    second: boss3_ataque 1_126
+  - first:
+      213: 3223135171988345029
+    second: boss3_ataque 1_127
+  - first:
+      213: 1001886718112823135
+    second: boss3_ataque 1_128
+  - first:
+      213: 1069032968387305033
+    second: boss3_ataque 1_129
+  - first:
+      213: -6236668933593784986
+    second: boss3_ataque 1_130
+  - first:
+      213: -8881093643530594617
+    second: boss3_ataque 1_131
+  - first:
+      213: 7573884464363531680
+    second: boss3_ataque 1_132
+  - first:
+      213: 689625062527516535
+    second: boss3_ataque 1_133
+  - first:
+      213: 7709621253686040158
+    second: boss3_ataque 1_134
+  - first:
+      213: 338032307280534378
+    second: boss3_ataque 1_135
+  - first:
+      213: 790333535280066203
+    second: boss3_ataque 1_136
+  - first:
+      213: -2105317649468316355
+    second: boss3_ataque 1_137
+  - first:
+      213: 307118463741676371
+    second: boss3_ataque 1_138
+  - first:
+      213: 8741841722314475778
+    second: boss3_ataque 1_139
+  - first:
+      213: -2573759929066278186
+    second: boss3_ataque 1_140
+  - first:
+      213: 8774787993092752697
+    second: boss3_ataque 1_141
+  - first:
+      213: -1343275313519528416
+    second: boss3_ataque 1_142
+  - first:
+      213: 6455323592935946027
+    second: boss3_ataque 1_143
+  - first:
+      213: -6454441394832850568
+    second: boss3_ataque 1_144
+  - first:
+      213: -7958163087863082460
+    second: boss3_ataque 1_145
+  - first:
+      213: 3265393554408555530
+    second: boss3_ataque 1_146
+  - first:
+      213: 7196533630418001636
+    second: boss3_ataque 1_147
+  - first:
+      213: 7922809081473976031
+    second: boss3_ataque 1_148
+  - first:
+      213: -474968840520735314
+    second: boss3_ataque 1_149
+  - first:
+      213: 2047373442558337346
+    second: boss3_ataque 1_150
+  - first:
+      213: -3200654802332025894
+    second: boss3_ataque 1_151
+  - first:
+      213: -8995586626949814936
+    second: boss3_ataque 1_152
+  - first:
+      213: 2971834137139351433
+    second: boss3_ataque 1_153
+  - first:
+      213: -2024508744149648206
+    second: boss3_ataque 1_154
+  - first:
+      213: -7549860418983549349
+    second: boss3_ataque 1_155
+  - first:
+      213: -6857134781839494561
+    second: boss3_ataque 1_156
+  - first:
+      213: -567752114846598873
+    second: boss3_ataque 1_157
+  - first:
+      213: 8800038461517649046
+    second: boss3_ataque 1_158
+  - first:
+      213: -7351531342330319676
+    second: boss3_ataque 1_159
+  - first:
+      213: -4405842235136600254
+    second: boss3_ataque 1_160
+  - first:
+      213: -8969013555651289399
+    second: boss3_ataque 1_161
+  - first:
+      213: 1906664468265965025
+    second: boss3_ataque 1_162
+  - first:
+      213: 293748151838811249
+    second: boss3_ataque 1_163
+  - first:
+      213: -7997973937130006163
+    second: boss3_ataque 1_164
+  - first:
+      213: 6182010493054164012
+    second: boss3_ataque 1_165
+  - first:
+      213: -2435316597157594042
+    second: boss3_ataque 1_166
+  - first:
+      213: -1385140806275876330
+    second: boss3_ataque 1_167
+  - first:
+      213: -8934307445569573245
+    second: boss3_ataque 1_168
+  - first:
+      213: 3904813225804663023
+    second: boss3_ataque 1_169
+  - first:
+      213: -2954894685033760846
+    second: boss3_ataque 1_170
+  - first:
+      213: 7586576057630413582
+    second: boss3_ataque 1_171
+  - first:
+      213: 4112071561353066373
+    second: boss3_ataque 1_172
+  - first:
+      213: 4783998257986402407
+    second: boss3_ataque 1_173
+  - first:
+      213: -4496487982116430205
+    second: boss3_ataque 1_174
+  - first:
+      213: -2725250248770599788
+    second: boss3_ataque 1_175
+  - first:
+      213: 6468986347925536999
+    second: boss3_ataque 1_176
+  - first:
+      213: 6209944813319415278
+    second: boss3_ataque 1_177
+  - first:
+      213: 2159237180506457509
+    second: boss3_ataque 1_178
+  - first:
+      213: 4046499754534290010
+    second: boss3_ataque 1_179
+  - first:
+      213: -5039511253787086025
+    second: boss3_ataque 1_180
+  - first:
+      213: -1074241716160435694
+    second: boss3_ataque 1_181
+  - first:
+      213: -7562372683024562706
+    second: boss3_ataque 1_182
+  - first:
+      213: 450552613561422075
+    second: boss3_ataque 1_183
+  - first:
+      213: -2754447297619786843
+    second: boss3_ataque 1_184
+  - first:
+      213: 2022140377364768027
+    second: boss3_ataque 1_185
+  - first:
+      213: 2008157519307004488
+    second: boss3_ataque 1_186
+  - first:
+      213: 5961939897042309400
+    second: boss3_ataque 1_187
+  - first:
+      213: -7444761621201015666
+    second: boss3_ataque 1_188
+  - first:
+      213: -6743754473078689859
+    second: boss3_ataque 1_189
+  - first:
+      213: -4979197932851094225
+    second: boss3_ataque 1_190
+  - first:
+      213: -7110218925688974722
+    second: boss3_ataque 1_191
+  - first:
+      213: 6347762544069479291
+    second: boss3_ataque 1_192
+  - first:
+      213: -6234728199332723033
+    second: boss3_ataque 1_193
+  - first:
+      213: 4466273967282100487
+    second: boss3_ataque 1_194
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss3_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db2f4651ad270499bc7905ac62a1eb
+      internalID: 1119205177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da1516a004c0f43b751a05a9a42c1d
+      internalID: 54961045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88d28571986e5488ee0419371eee92
+      internalID: -800472194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751f1c043efb76d4cbfe71ce0eeda31f
+      internalID: 252005668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8af323826e7434baa487fc57d28423
+      internalID: 2042355296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5cbaa91146be6488ab4ecb9f1a6d85
+      internalID: 990212468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995ba10916ee3e04a87a2c2b6eb110cb
+      internalID: 894421536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6285ca05a45e1d41997783279297750
+      internalID: 838582724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f55679169be2154693a924313bfcdaa
+      internalID: -1462677000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0f136e2d159184fb69053615711286
+      internalID: 5463042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263b7f2c73dd1a34d9133c6e9dab0269
+      internalID: 750759485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435253fa3c859a04f9767319fb56af98
+      internalID: 1843743595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c56c260b29f7924eb869864829a6828
+      internalID: 45905520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eadae7e16cc13f4686be445e22dda2f
+      internalID: 2003297067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6c8218fc7b473469c7a7a898237953
+      internalID: 1366320126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aba3d1225240d44d8feff16fb09932e
+      internalID: 422506302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b5b7bbd543344ea3fb45a9be4d81d
+      internalID: -646802484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 9792
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e423a335cf00de64c892fb1618af2f57
+      internalID: 1663430455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss3_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b3c4def50578d4abc447d9d5b412e7
+      internalID: -1102161636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 36df139544e34714daf57ca1d50cafe5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":19.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":397.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      boss3_Attack_0: 1119205177
+      boss3_Attack_1: 54961045
+      boss3_Attack_10: 750759485
+      boss3_Attack_11: 1843743595
+      boss3_Attack_12: 45905520
+      boss3_Attack_13: 2003297067
+      boss3_Attack_14: 1366320126
+      boss3_Attack_15: 422506302
+      boss3_Attack_16: -646802484
+      boss3_Attack_17: 1663430455
+      boss3_Attack_18: -1102161636
+      boss3_Attack_2: -800472194
+      boss3_Attack_3: 252005668
+      boss3_Attack_4: 2042355296
+      boss3_Attack_5: 990212468
+      boss3_Attack_6: 894421536
+      boss3_Attack_7: 838582724
+      boss3_Attack_8: -1462677000
+      boss3_Attack_9: 5463042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
