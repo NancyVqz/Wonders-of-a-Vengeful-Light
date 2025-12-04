@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7ba88146ec27a4a43abfc0e03de1f289
+guid: 3dbcb7b133b65f14da86bdae6c854f53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2889948971117178105
-    second: nubes_nuevas_atras3_0
+      213: 6042648116756701947
+    second: nubes_finales_atras_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nubes_nuevas_atras3_0
+      name: nubes_finales_atras_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fce17217492b1820800000000000000
-      internalID: 2889948971117178105
+      spriteID: bf267f5627ccbd350800000000000000
+      internalID: 6042648116756701947
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nubes_nuevas_atras3_0: 2889948971117178105
+      nubes_finales_atras_0: 6042648116756701947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
