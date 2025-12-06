@@ -173,9 +173,8 @@ MonoBehaviour:
   speed: 5
   distanceBeforeExplosion: 6
   numberOfBullets: 6
-  explosionBulletSpeed: 300
+  explosionBulletSpeed: 3
   explosionBulletScale: 0.7
-  explosionEffectPrefab: {fileID: 0}
 --- !u!95 &-2643793999521166360
 Animator:
   serializedVersion: 7

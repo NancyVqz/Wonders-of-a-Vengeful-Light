@@ -1397,8 +1397,9 @@ MonoBehaviour:
   prefabEnemigo: {fileID: 8412070799988526792, guid: 8395a2887a8ece54384d653745820770, type: 3}
   maxEnemiesInstanceInQueue: 6
   minTimeBetweenSpawns: 1.5
-  maxTimeBetweenSpawns: 4
+  maxTimeBetweenSpawns: 3
   avoidOverlappingSpawns: 1
+  inicioDesfaceSpawn: 0
   enemiesInScene: 0
   maxEnemiesCountInScene: 4
 --- !u!4 &890070380
@@ -2820,9 +2821,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
   enemySpawnScript1: {fileID: 890070379}
   newMinTimeBetweenSpawns1: 1
-  newMaxTimeBetweenSpawns1: 3.5
+  newMaxTimeBetweenSpawns1: 3
   newMinTimeBetweenSpawns1_2: 0.5
-  newMaxTimeBetweenSpawns1_2: 3
+  newMaxTimeBetweenSpawns1_2: 2
   enemySpawnScript2: {fileID: 0}
   newMinTimeBetweenSpawns2: 0
   newMaxTimeBetweenSpawns2: 0

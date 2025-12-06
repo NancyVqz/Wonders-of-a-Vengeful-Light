@@ -18,21 +18,48 @@ public class MissileBoss : MonoBehaviour
     private void Awake()
     {
         spriteAnim = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
+
     private void Start()
     {
-        laserAttack = FindAnyObjectByType<LaserAttack>();
-        playerMovement = FindAnyObjectByType<PlayerMovement>();
+        CacheReferences();
     }
 
     private void OnEnable()
     {
         canExplode = false;
         direction = Vector2.zero;
-        posPlayer = player.position;
+
+        // Cachear referencias cada vez que se activa (importante para pooling)
+        CacheReferences();
+
+        // Solo guardar posición si player existe
+        if (player != null)
+        {
+            posPlayer = player.position;
+        }
     }
 
+
+    private void CacheReferences()
+    {
+        // Buscar player si aún no está asignado o si es null
+        if (player == null)
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+            {
+                player = playerObj.transform;
+                playerMovement = playerObj.GetComponent<PlayerMovement>();
+            }
+        }
+
+        // Buscar laserAttack si es null
+        if (laserAttack == null)
+        {
+            laserAttack = FindAnyObjectByType<LaserAttack>();
+        }
+    }
 
     public void SetDirection(Vector2 dir)
     {
@@ -46,21 +73,30 @@ public class MissileBoss : MonoBehaviour
         if (canExplode)
         {
             float distanceToPlayer = Vector3.Distance(transform.position, posPlayer);
-
             if (distanceToPlayer <= distanceBeforeExplosion)
             {
                 Explotar();
             }
         }
-
     }
 
     private void Explotar()
     {
+        // Verificar que laserAttack existe antes de usarlo
+        if (laserAttack != null)
+        {
+            laserAttack.SpawnBeamAtPosition(posPlayer, beamDuration);
+        }
+        else
+        {
+            Debug.LogWarning("LaserAttack no encontrado al explotar el misil");
+        }
 
-        laserAttack.SpawnBeamAtPosition(posPlayer, beamDuration);
-
-        BossBulletPool.instance.ReturnBullet(gameObject);
+        // Verificar que BossBulletPool existe antes de retornar
+        if (BossBulletPool.instance != null)
+        {
+            BossBulletPool.instance.ReturnBullet(gameObject);
+        }
     }
 
     public void SetAnimatorController(RuntimeAnimatorController controller)
@@ -71,9 +107,21 @@ public class MissileBoss : MonoBehaviour
         }
     }
 
+    public void ResetMissile()
+    {
+        canExplode = false;
+        direction = Vector2.zero;
+
+        // Resetear al animator por defecto (puedes asignar uno en el inspector)
+        if (spriteAnim != null)
+        {
+            spriteAnim.runtimeAnimatorController = null;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && playerMovement != null)
         {
             playerMovement.DanioProta();
         }

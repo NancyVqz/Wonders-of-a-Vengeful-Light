@@ -11,6 +11,7 @@ public class EnemySpawn : MonoBehaviour
     public float minTimeBetweenSpawns = 2f; 
     public float maxTimeBetweenSpawns = 5f;
     [SerializeField] private bool avoidOverlappingSpawns;
+    [SerializeField] private int inicioDesfaceSpawn;
 
     [SerializeField] Queue<GameObject> enemyQueue;
     [SerializeField] private int enemiesInScene = 0;  //cuantos hay en escena
@@ -29,6 +30,12 @@ public class EnemySpawn : MonoBehaviour
             }
         }
 
+        StartCoroutine(DesfaceInicial());
+    }
+
+    private IEnumerator DesfaceInicial()
+    {
+        yield return new WaitForSeconds(inicioDesfaceSpawn);
         StartPool();
     }
 
@@ -144,7 +151,14 @@ public class EnemySpawn : MonoBehaviour
         }
 
         EnergyDrop dropManager = FindAnyObjectByType<EnergyDrop>();
-        dropManager.SpawnDrop(killedEnemy.transform.position);
+        if (dropManager != null)
+        {
+            dropManager.SpawnDrop(killedEnemy.transform.position);
+        }
+        else
+        {
+            Debug.LogWarning("EnergyDrop no encontrado en la escena");
+        }
 
         killedEnemy.SetActive(false);
         enemyQueue.Enqueue(killedEnemy);
@@ -159,7 +173,6 @@ public class EnemySpawn : MonoBehaviour
 
     private void OnDestroy()
     {
-        // Limpiar los spawnpoints ocupados cuando se destruye el spawner
         if (avoidOverlappingSpawns)
         {
             foreach (GameObject spawnpoint in spawnpoints)
@@ -173,7 +186,6 @@ public class EnemySpawn : MonoBehaviour
     }
 }
 
-// Clase auxiliar para trackear el spawnpoint asignado a cada enemigo
 public class EnemySpawnTracker : MonoBehaviour
 {
     public GameObject assignedSpawnpoint;

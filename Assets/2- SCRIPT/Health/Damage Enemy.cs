@@ -15,7 +15,7 @@ public class DamageEnemy : MonoBehaviour
     private int health;
 
     private EnemySpawn enemySpawnScript;
-
+    private bool isDead = false;
     private void Start()
     {
         enemySpawnScript = FindAnyObjectByType<EnemySpawn>();
@@ -25,35 +25,79 @@ public class DamageEnemy : MonoBehaviour
     private void OnEnable()
     {
         health = 100;
+        isDead = false;
+
+        if (anim != null)
+        {
+            anim.SetBool("damage", false);
+            anim.Rebind(); // Resetea completamente el Animator
+            anim.Update(0f); // Fuerza una actualización
+        }
     }
 
     public void TakeDamage()
     {
+        if (isDead) return; 
+
         health -= damage;
         anim.SetBool("damage", true);
 
         if (health <= 0)
         {
-            AudioManager.instance.Play("enemy death");
-            StartCoroutine(SoundTime());
+            isDead = true;
+            Die();
+        }
+        else
+        {
+            StartCoroutine(ResetDamageAnimation());
         }
     }
 
     public void KamikazeDamage()
     {
+        if (isDead) return;
+
         health -= kamikazeDamage;
         anim.SetBool("damage", true);
 
         if (health <= 0)
         {
-            AudioManager.instance.Play("enemy death");
-            StartCoroutine(SoundTime());
+            isDead = true;
+            Die();
+        }
+        else
+        {
+           
+            StartCoroutine(ResetDamageAnimation());
+        }
+    }
+    private IEnumerator ResetDamageAnimation()
+    {
+        yield return new WaitForSeconds(0.3f); 
+
+        if (!isDead && anim != null)
+        {
+            anim.SetBool("damage", false);
         }
     }
 
     public void EndDamage()
     {
-        anim.SetBool("damage", false);
+        if (!isDead && anim != null)
+        {
+            anim.SetBool("damage", false);
+        }
+    }
+    private void Die()
+    {
+        AudioManager.instance.Play("enemy death");
+
+        if (anim != null)
+        {
+            anim.SetBool("damage", false);
+        }
+
+        StartCoroutine(SoundTime());
     }
 
     private IEnumerator SoundTime()
@@ -61,7 +105,7 @@ public class DamageEnemy : MonoBehaviour
         yield return new WaitForSeconds(0f);
 
         LevelManager.instance.allEnemiesKilled++;
-        //particula de score
+  
         if (ScoreCount.instance.timeElapsed > ScoreCount.instance.comboTime)
         {
             GameManager.instance.score += normalPoints;

@@ -114,6 +114,12 @@ public class BossBulletPool : MonoBehaviour
             rb.angularVelocity = 0f;
         }
 
+        MissileBoss missileScript = bullet.GetComponent<MissileBoss>();
+        if (missileScript != null)
+        {
+            missileScript.ResetMissile();
+        }
+
         bullet.SetActive(false);
         bulletPool.Enqueue(bullet);
         activeBullets.Remove(bullet);

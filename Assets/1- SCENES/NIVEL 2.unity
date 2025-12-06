@@ -625,9 +625,10 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 7586454167340609145, guid: c7de2437196ec4d499ff337740c4ca26, type: 3}
   maxEnemiesInstanceInQueue: 5
-  minTimeBetweenSpawns: 2
-  maxTimeBetweenSpawns: 4
+  minTimeBetweenSpawns: 3
+  maxTimeBetweenSpawns: 5
   avoidOverlappingSpawns: 0
+  inicioDesfaceSpawn: 5
   enemiesInScene: 0
   maxEnemiesCountInScene: 3
 --- !u!4 &341394561
@@ -1611,6 +1612,7 @@ MonoBehaviour:
   minTimeBetweenSpawns: 2
   maxTimeBetweenSpawns: 4
   avoidOverlappingSpawns: 1
+  inicioDesfaceSpawn: 1
   enemiesInScene: 0
   maxEnemiesCountInScene: 3
 --- !u!4 &890070380
@@ -3292,15 +3294,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
   enemySpawnScript1: {fileID: 890070379}
-  newMinTimeBetweenSpawns1: 3
-  newMaxTimeBetweenSpawns1: 4
-  newMinTimeBetweenSpawns1_2: 2.5
-  newMaxTimeBetweenSpawns1_2: 3.5
+  newMinTimeBetweenSpawns1: 4
+  newMaxTimeBetweenSpawns1: 5
+  newMinTimeBetweenSpawns1_2: 3
+  newMaxTimeBetweenSpawns1_2: 4
   enemySpawnScript2: {fileID: 341394560}
-  newMinTimeBetweenSpawns2: 4
-  newMaxTimeBetweenSpawns2: 5
-  newMinTimeBetweenSpawns2_2: 3
-  newMaxTimeBetweenSpawns2_2: 4
+  newMinTimeBetweenSpawns2: 5
+  newMaxTimeBetweenSpawns2: 6
+  newMinTimeBetweenSpawns2_2: 4
+  newMaxTimeBetweenSpawns2_2: 5
   enemySpawnScript3: {fileID: 0}
   newMinTimeBetweenSpawns3: 0
   newMaxTimeBetweenSpawns3: 0

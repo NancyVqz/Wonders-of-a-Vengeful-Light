@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 public class Missile : MonoBehaviour
 {
@@ -11,9 +10,6 @@ public class Missile : MonoBehaviour
     [SerializeField] private int numberOfBullets = 5;
     [SerializeField] private float explosionBulletSpeed = 300f;
     [SerializeField] private float explosionBulletScale = 0.5f;
-
-    [Header("Opcional")]
-    [SerializeField] private GameObject explosionEffectPrefab;
 
     private Vector2 direction;
     private Vector3 startPosition;
@@ -71,10 +67,6 @@ public class Missile : MonoBehaviour
     {
         hasExploded = true;
 
-        if (explosionEffectPrefab != null)
-        {
-            Instantiate(explosionEffectPrefab, transform.position, Quaternion.identity);
-        }
 
         if (BossBulletPool.instance == null)
         {
@@ -93,7 +85,7 @@ public class Missile : MonoBehaviour
             float spriteAngle = Mathf.Atan2(bulletDirection.y, bulletDirection.x) * Mathf.Rad2Deg;
             Quaternion bulletRotation = Quaternion.Euler(0, 0, spriteAngle - 90);
 
-            GameObject bullet = BossBulletPool.instance.GetBullet(transform.position, bulletRotation, bulletDirection * explosionBulletSpeed);
+            GameObject bullet = EnemyBulletPool3.instance.GetBullet(transform.position, bulletRotation, bulletDirection * explosionBulletSpeed);
 
             if (bullet != null)
             {
@@ -109,11 +101,11 @@ public class Missile : MonoBehaviour
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {
-                    rb.linearVelocity = bulletDirection * explosionBulletSpeed * Time.deltaTime;
+                    rb.linearVelocity = bulletDirection * explosionBulletSpeed;
                 }
             }
         }
-        BossBulletPool.instance.ReturnBullet(gameObject);
+        EnemyBulletPool3.instance.ReturnBullet(gameObject);
     }
 
     public void SetSprite(Sprite newSprite)
@@ -129,7 +121,7 @@ public class Missile : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             playerMovement.DanioProta();
-            BossBulletPool.instance.ReturnBullet(gameObject);
+            EnemyBulletPool3.instance.ReturnBullet(gameObject);
         }
     }
 }

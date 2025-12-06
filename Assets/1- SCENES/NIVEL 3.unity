@@ -481,9 +481,10 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 7586454167340609145, guid: fc74ca00317599649a513c9f0d9d60f8, type: 3}
   maxEnemiesInstanceInQueue: 5
-  minTimeBetweenSpawns: 4
-  maxTimeBetweenSpawns: 6
+  minTimeBetweenSpawns: 2
+  maxTimeBetweenSpawns: 4
   avoidOverlappingSpawns: 0
+  inicioDesfaceSpawn: 2
   enemiesInScene: 0
   maxEnemiesCountInScene: 2
 --- !u!4 &341394561
@@ -1568,9 +1569,10 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 8412070799988526792, guid: 48001a52062eac544995420bd87b404f, type: 3}
   maxEnemiesInstanceInQueue: 6
-  minTimeBetweenSpawns: 3
-  maxTimeBetweenSpawns: 4
+  minTimeBetweenSpawns: 2
+  maxTimeBetweenSpawns: 3
   avoidOverlappingSpawns: 1
+  inicioDesfaceSpawn: 0
   enemiesInScene: 0
   maxEnemiesCountInScene: 3
 --- !u!4 &890070380
@@ -2123,9 +2125,10 @@ MonoBehaviour:
   - {fileID: 1426047934}
   prefabEnemigo: {fileID: 1845051837788292519, guid: fc14d9d7d5c46894eb1fa6ab946ac15b, type: 3}
   maxEnemiesInstanceInQueue: 5
-  minTimeBetweenSpawns: 3
-  maxTimeBetweenSpawns: 5
+  minTimeBetweenSpawns: 2
+  maxTimeBetweenSpawns: 3
   avoidOverlappingSpawns: 0
+  inicioDesfaceSpawn: 5
   enemiesInScene: 0
   maxEnemiesCountInScene: 1
 --- !u!4 &1126211401
@@ -2586,7 +2589,7 @@ MonoBehaviour:
   vidaBoss: 100
   damageBoss: 1.7
   vidaUi: {fileID: 1489651749}
-  waitFadeTime: 3
+  waitFadeTime: 0
   onBossDead:
     m_PersistentCalls:
       m_Calls:
@@ -3033,19 +3036,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DifficultyManager
   enemySpawnScript1: {fileID: 890070379}
   newMinTimeBetweenSpawns1: 4
-  newMaxTimeBetweenSpawns1: 5
-  newMinTimeBetweenSpawns1_2: 4
-  newMaxTimeBetweenSpawns1_2: 5
+  newMaxTimeBetweenSpawns1: 6
+  newMinTimeBetweenSpawns1_2: 3
+  newMaxTimeBetweenSpawns1_2: 4
   enemySpawnScript2: {fileID: 341394560}
-  newMinTimeBetweenSpawns2: 5
-  newMaxTimeBetweenSpawns2: 7
-  newMinTimeBetweenSpawns2_2: 5
-  newMaxTimeBetweenSpawns2_2: 7
+  newMinTimeBetweenSpawns2: 4
+  newMaxTimeBetweenSpawns2: 5
+  newMinTimeBetweenSpawns2_2: 3
+  newMaxTimeBetweenSpawns2_2: 4
   enemySpawnScript3: {fileID: 1126211400}
-  newMinTimeBetweenSpawns3: 5
-  newMaxTimeBetweenSpawns3: 7
-  newMinTimeBetweenSpawns3_2: 4
-  newMaxTimeBetweenSpawns3_2: 6
+  newMinTimeBetweenSpawns3: 3
+  newMaxTimeBetweenSpawns3: 5
+  newMinTimeBetweenSpawns3_2: 2
+  newMaxTimeBetweenSpawns3_2: 4
   newEnemiesContinue: 35
   newEnemiesContinue2: 38
   damageBossScript: {fileID: 1202660702}
@@ -24195,28 +24198,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!95 &6658162082331837898
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7137440464909356530}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a4d3b09b4baa86443b6ffd28fd284169, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6740028011374215808
 GameObject:
   m_ObjectHideFlags: 0
@@ -29337,7 +29318,6 @@ GameObject:
   - component: {fileID: 859444341782254528}
   - component: {fileID: 5273415063041744736}
   - component: {fileID: 2549500153626759155}
-  - component: {fileID: 6658162082331837898}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
